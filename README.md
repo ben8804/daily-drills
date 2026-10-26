@@ -1,6 +1,8 @@
 # 小学日练（GitHub Pages）
 
-每天的四年级语数英日练 HTML，手机浏览器直接打开即可。
+- **今日最新（固定链接）**：https://ben8804.github.io/daily-drills/
+- **历史目录**：https://ben8804.github.io/daily-drills/history.html
+- **某一天**：https://ben8804.github.io/daily-drills/d/YYYY-MM-DD.html  
+  例：https://ben8804.github.io/daily-drills/d/2026-10-26.html
 
-- 首页样例：[index.html](./index.html)
-- 正式日练文件会按日期追加，例如 `grade4-2026-10-27.html`
+每天 19:00 会更新首页为最新卷，并在 `d/` 留下当日归档。
