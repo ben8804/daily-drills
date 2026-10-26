@@ -280,19 +280,37 @@
     }
     header.sheet-head,
     section.block {
-      border: 1px solid #999;
+      border: none !important;
       border-radius: 0;
       box-shadow: none;
-      margin: 0 0 8mm;
-      padding: 6mm 5mm;
+      margin: 0 0 6mm;
+      padding: 0;
       background: #fff !important;
       break-inside: auto;
     }
-    header.sheet-head { break-after: avoid-page; }
+    header.sheet-head {
+      break-after: avoid;
+      margin-bottom: 4mm;
+      padding-bottom: 2mm;
+      border-bottom: none !important;
+    }
+    header.sheet-head h1 { display: none !important; }
+    header.sheet-head .meta {
+      font-size: 11pt;
+      color: #000;
+      gap: 10px 16px;
+    }
+    header.sheet-head .meta span::before { content: ""; }
+    header.sheet-head .meta span + span::before {
+      content: "· ";
+      color: #666;
+    }
     section.block h2 {
       break-after: avoid;
-      border-bottom-color: #999;
+      border-bottom: none;
       color: #000;
+      padding-bottom: 2mm;
+      margin-bottom: 3mm;
     }
     h3 { break-after: avoid; color: #000; }
     .q,
@@ -309,6 +327,33 @@
     .work-item, .work-box { break-inside: avoid; page-break-inside: avoid; }
     .hint { color: #333; }
     a { text-decoration: none; color: inherit; }
+
+    /* ink-saving: no fills; keep colored text */
+    .q,
+    .word-card,
+    .passage,
+    .tip-box,
+    header.sheet-head,
+    section.block,
+    .write-box,
+    .work-box,
+    details.answer {
+      background: transparent !important;
+      background-image: none !important;
+    }
+    .q { border-left-color: #9db4ce; }
+    .write-box,
+    .work-box {
+      border-color: #999;
+      /* keep light guide lines only, no gray fill bands that waste ink */
+      background-image: repeating-linear-gradient(
+        transparent,
+        transparent 27px,
+        #ccc 27px,
+        #ccc 28px
+      ) !important;
+    }
+
     footer.note { display: none !important; }
   }
   @media (max-width: 480px) {
@@ -321,11 +366,11 @@
 <div class="wrap">
 
 <header class="sheet-head">
-  <h1>小学四年级日练 · 样例</h1>
+  <h1 class="no-print">小学四年级日练 · 样例</h1>
   <div class="meta">
     <span>日期 2026-10-26</span>
     <span>建议用时约 30 分钟</span>
-    <span>螺旋复习 · 不绑某一课</span>
+    <span class="no-print">螺旋复习 · 不绑某一课</span>
   </div>
   <div class="toolbar no-print">
     <button class="btn" type="button" onclick="window.print()">🖨️ 打印本页</button>
