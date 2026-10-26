@@ -155,6 +155,46 @@
     );
     background-origin: content-box;
   }
+  .work-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    margin-top: 10px;
+  }
+  .work-item {
+    flex: 1 1 140px;
+    min-width: 140px;
+  }
+  .work-item .lab {
+    font-size: 0.92rem;
+    margin-bottom: 4px;
+    color: #333;
+  }
+  .work-box {
+    border: 1.5px solid #b8c0cc;
+    border-radius: 8px;
+    background: #fff;
+    background-image: repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      #e8ecf1 27px,
+      #e8ecf1 28px
+    );
+    margin-top: 4px;
+  }
+  .work-box.vert {
+    min-height: 150px;
+    width: 100%;
+    max-width: 200px;
+  }
+  .work-box.steps {
+    min-height: 120px;
+    width: 100%;
+  }
+  .work-box.short {
+    min-height: 90px;
+    width: 100%;
+  }
   .phon {
     font-family: "Segoe UI", "Lucida Grande", Arial, sans-serif;
     color: #444;
@@ -263,6 +303,10 @@
       page-break-inside: avoid;
     }
     .write-box { min-height: 28mm; }
+    .work-box.vert { min-height: 42mm; max-width: 48mm; }
+    .work-box.steps { min-height: 36mm; }
+    .work-box.short { min-height: 28mm; }
+    .work-item, .work-box { break-inside: avoid; page-break-inside: avoid; }
     .hint { color: #333; }
     a { text-decoration: none; color: inherit; }
     footer.note { display: none !important; }
@@ -311,30 +355,37 @@
   </div>
 
   <div class="q">
-    <div><span class="q-num">2.</span>竖式计算（写出竖式）：</div>
-    <div style="margin-top:6px">
-      （1）438 × 6 = <span class="blank blank-lg"></span>&emsp;
-      （2）952 ÷ 7 = <span class="blank blank-lg"></span>
+    <div><span class="q-num">2.</span>竖式计算（在方框里写出竖式）：</div>
+    <div class="work-row">
+      <div class="work-item">
+        <div class="lab">（1）438 × 6</div>
+        <div class="work-box vert" aria-label="竖式书写区1"></div>
+      </div>
+      <div class="work-item">
+        <div class="lab">（2）952 ÷ 7</div>
+        <div class="work-box vert" aria-label="竖式书写区2"></div>
+      </div>
     </div>
     <div class="hint">💡 验算提示：乘完用估算粗查（438≈400，400×6=2400，结果应接近）；除法用乘法验算。</div>
   </div>
 
   <div class="q">
-    <div><span class="q-num">3.</span>脱式计算（要写步骤）：</div>
-    <div style="margin-top:6px">
-      （1）48 + 36 ÷ 6 × 5&nbsp;=&nbsp;<span class="blank blank-lg"></span>
+    <div><span class="q-num">3.</span>脱式计算（在横线格里写出完整步骤）：</div>
+    <div style="margin-top:8px">
+      <div class="lab">（1）48 + 36 ÷ 6 × 5</div>
+      <div class="work-box steps" aria-label="脱式书写区1"></div>
     </div>
-    <div style="margin-top:6px">
-      （2）(125 − 25) × 4 ÷ 8&nbsp;=&nbsp;<span class="blank blank-lg"></span>
+    <div style="margin-top:10px">
+      <div class="lab">（2）(125 − 25) × 4 ÷ 8</div>
+      <div class="work-box steps" aria-label="脱式书写区2"></div>
     </div>
     <div class="hint">💡 验算提示：先圈出「先算谁」——有括号先括号；同级从左到右；乘除优先于加减。</div>
   </div>
 
   <div class="q">
-    <div><span class="q-num">4.</span>用简便方法计算（写出用了什么运算律）：</div>
-    <div style="margin-top:6px">
-      25 × 48 × 4&nbsp;=&nbsp;<span class="blank blank-lg"></span>
-    </div>
+    <div><span class="q-num">4.</span>用简便方法计算（写出步骤，并注明用了什么运算律）：</div>
+    <div style="margin-top:6px">25 × 48 × 4</div>
+    <div class="work-box short" aria-label="简便计算书写区"></div>
     <div class="hint">💡 提示：找「凑整」——25 和 4 可以先乘。</div>
   </div>
 
@@ -342,14 +393,21 @@
 
   <div class="q">
     <div><span class="q-num">5.</span>一块长方形草地长 12 米、宽 8 米。</div>
-    <div style="margin-top:4px">（1）周长是多少米？<span class="blank blank-lg"></span></div>
-    <div>（2）面积是多少平方米？<span class="blank blank-lg"></span></div>
+    <div style="margin-top:8px">
+      <div class="lab">（1）周长是多少米？（列式并计算）</div>
+      <div class="work-box short" aria-label="周长书写区"></div>
+    </div>
+    <div style="margin-top:10px">
+      <div class="lab">（2）面积是多少平方米？（列式并计算）</div>
+      <div class="work-box short" aria-label="面积书写区"></div>
+    </div>
     <div class="hint">💡 别混：周长用「(长+宽)×2」；面积用「长×宽」。单位也不一样！</div>
   </div>
 
   <div class="q">
     <div><span class="q-num">6.</span>小明买了 3 本同样的练习本，付出 20 元，找回 5 元。每本练习本多少元？</div>
-    <div style="margin-top:6px">列式并计算：<span class="blank blank-lg"></span></div>
+    <div style="margin-top:6px" class="lab">列式并计算：</div>
+    <div class="work-box short" aria-label="应用题书写区"></div>
   </div>
 
   <details class="answer">
