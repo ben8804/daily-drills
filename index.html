@@ -217,23 +217,55 @@
     font-size: 0.82rem;
     margin-top: 8px;
   }
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
   @media print {
-    body { background: #fff; font-size: 12pt; }
-    .wrap { max-width: none; padding: 0; }
-    .toolbar, .no-print { display: none !important; }
-    header.sheet-head, section.block {
+    html { font-size: 11pt; }
+    body {
+      background: #fff !important;
+      color: #000;
+      line-height: 1.45;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .wrap { max-width: none; margin: 0; padding: 0; }
+    .toolbar,
+    .no-print,
+    .tip-box,
+    details.answer,
+    .btn {
+      display: none !important;
+    }
+    header.sheet-head,
+    section.block {
       border: 1px solid #999;
       border-radius: 0;
-      break-inside: avoid;
       box-shadow: none;
-      margin-bottom: 10px;
-      padding: 10px 12px;
+      margin: 0 0 8mm;
+      padding: 6mm 5mm;
+      background: #fff !important;
+      break-inside: auto;
     }
-    details.answer { border-color: #999; background: #fff; }
-    details.answer > summary { color: #000; }
-    .write-box { min-height: 90px; }
-    .btn { display: none; }
+    header.sheet-head { break-after: avoid-page; }
+    section.block h2 {
+      break-after: avoid;
+      border-bottom-color: #999;
+      color: #000;
+    }
+    h3 { break-after: avoid; color: #000; }
+    .q,
+    .word-card,
+    .passage,
+    .write-box {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .write-box { min-height: 28mm; }
+    .hint { color: #333; }
     a { text-decoration: none; color: inherit; }
+    footer.note { display: none !important; }
   }
   @media (max-width: 480px) {
     html { font-size: 16px; }
@@ -255,7 +287,7 @@
     <button class="btn" type="button" onclick="window.print()">🖨️ 打印本页</button>
     <button class="btn btn-ghost" type="button" onclick="document.querySelectorAll('details.answer').forEach(d=>d.open=false)">收起全部答案</button>
   </div>
-  <div class="tip-box">
+  <div class="tip-box no-print">
     <strong>给家长：</strong>先让孩子独立完成，再展开下方「家长对答案」。本卷按四年级常见知识要点自编练习，非学校原题。学渣家长也完全能对——答案里写了步骤要点和常见错因。
   </div>
 </header>
