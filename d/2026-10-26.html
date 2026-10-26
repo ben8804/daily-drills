@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>小学四年级日练 · 样例 · 2026-10-26</title>
+<title>小学四年级日练 · 2026-10-26</title>
 <style>
   :root {
     --ink: #1a1a1a;
@@ -187,6 +187,16 @@
     width: 100%;
     max-width: 200px;
   }
+  .work-box.vert.big {
+    min-height: 210px;
+    max-width: 260px;
+  }
+  .work-box.steps.big {
+    min-height: 168px;
+  }
+  .write-box.roomy {
+    min-height: 176px;
+  }
   .work-box.steps {
     min-height: 120px;
     width: 100%;
@@ -322,8 +332,11 @@
     }
     .write-box { min-height: 28mm; }
     .work-box.vert { min-height: 42mm; max-width: 48mm; }
+    .work-box.vert.big { min-height: 58mm; max-width: 64mm; }
     .work-box.steps { min-height: 36mm; }
+    .work-box.steps.big { min-height: 48mm; }
     .work-box.short { min-height: 28mm; }
+    .write-box.roomy { min-height: 50mm; }
     .work-item, .work-box { break-inside: avoid; page-break-inside: avoid; }
     .hint { color: #333; }
     a { text-decoration: none; color: inherit; }
@@ -366,11 +379,11 @@
 <div class="wrap">
 
 <header class="sheet-head">
-  <h1 class="no-print">小学四年级日练 · 样例</h1>
+  <h1 class="no-print">小学四年级日练</h1>
   <div class="meta">
     <span>日期 2026-10-26</span>
-    <span>建议用时约 30 分钟</span>
-    <span class="no-print">螺旋复习 · 不绑某一课</span>
+    <span>建议用时约 30～40 分钟</span>
+    <span class="no-print">语 15～20 · 数约 8 · 英 8～10</span>
   </div>
   <div class="toolbar no-print">
     <button class="btn" type="button" onclick="window.print()">🖨️ 打印本页</button>
@@ -378,224 +391,105 @@
     <a class="btn btn-ghost" href="../history.html" style="display:inline-flex;align-items:center;justify-content:center;text-decoration:none">历史日练</a>
   </div>
   <div class="tip-box no-print">
-    <strong>给家长：</strong>先让孩子独立完成，再展开下方「家长对答案」。本卷按四年级常见知识要点自编练习，非学校原题。学渣家长也完全能对——答案里写了步骤要点和常见错因。
+    <strong>给家长：</strong>先让孩子独立完成，再展开下方「家长对答案」。字词听写请家长报词，孩子写在格里；不会写的先空着，写完再对。
   </div>
 </header>
 
-<!-- ========== 数学 ========== -->
-<section class="block" id="math">
-  <h2>一、数学（约 12～15 分钟）</h2>
-  <p class="subhead">计算巩固 + 小应用 · 四年级要点：四则运算顺序、运算律、长方形/正方形周长与面积</p>
-
-  <h3>A. 计算巩固（口算 / 竖式 / 脱式混合）</h3>
-
-  <div class="q">
-    <div><span class="q-num">1.</span>口算：<span class="blank"></span></div>
-    <div style="margin-top:6px">
-      （1）25 × 4 = <span class="blank"></span>&emsp;
-      （2）720 ÷ 8 = <span class="blank"></span>&emsp;
-      （3）36 × 5 = <span class="blank"></span>
-    </div>
-    <div class="hint">💡 验算提示：乘法可用交换因数再乘一遍；除法用「商 × 除数」还原。</div>
-  </div>
-
-  <div class="q">
-    <div><span class="q-num">2.</span>竖式计算（在方框里写出竖式）：</div>
-    <div class="work-row">
-      <div class="work-item">
-        <div class="lab">（1）438 × 6</div>
-        <div class="work-box vert" aria-label="竖式书写区1"></div>
-      </div>
-      <div class="work-item">
-        <div class="lab">（2）952 ÷ 7</div>
-        <div class="work-box vert" aria-label="竖式书写区2"></div>
-      </div>
-    </div>
-    <div class="hint">💡 验算提示：乘完用估算粗查（438≈400，400×6=2400，结果应接近）；除法用乘法验算。</div>
-  </div>
-
-  <div class="q">
-    <div><span class="q-num">3.</span>脱式计算（在横线格里写出完整步骤）：</div>
-    <div style="margin-top:8px">
-      <div class="lab">（1）48 + 36 ÷ 6 × 5</div>
-      <div class="work-box steps" aria-label="脱式书写区1"></div>
-    </div>
-    <div style="margin-top:10px">
-      <div class="lab">（2）(125 − 25) × 4 ÷ 8</div>
-      <div class="work-box steps" aria-label="脱式书写区2"></div>
-    </div>
-    <div class="hint">💡 验算提示：先圈出「先算谁」——有括号先括号；同级从左到右；乘除优先于加减。</div>
-  </div>
-
-  <div class="q">
-    <div><span class="q-num">4.</span>用简便方法计算（写出步骤，并注明用了什么运算律）：</div>
-    <div style="margin-top:6px">25 × 48 × 4</div>
-    <div class="work-box short" aria-label="简便计算书写区"></div>
-    <div class="hint">💡 提示：找「凑整」——25 和 4 可以先乘。</div>
-  </div>
-
-  <h3>B. 小应用（四年级要点）</h3>
-
-  <div class="q">
-    <div><span class="q-num">5.</span>一块长方形草地长 12 米、宽 8 米。</div>
-    <div style="margin-top:8px">
-      <div class="lab">（1）周长是多少米？（列式并计算）</div>
-      <div class="work-box short" aria-label="周长书写区"></div>
-    </div>
-    <div style="margin-top:10px">
-      <div class="lab">（2）面积是多少平方米？（列式并计算）</div>
-      <div class="work-box short" aria-label="面积书写区"></div>
-    </div>
-    <div class="hint">💡 别混：周长用「(长+宽)×2」；面积用「长×宽」。单位也不一样！</div>
-  </div>
-
-  <div class="q">
-    <div><span class="q-num">6.</span>小明买了 3 本同样的练习本，付出 20 元，找回 5 元。每本练习本多少元？</div>
-    <div style="margin-top:6px" class="lab">列式并计算：</div>
-    <div class="work-box short" aria-label="应用题书写区"></div>
-  </div>
-
-  <details class="answer">
-    <summary>家长对答案（先让孩子做完）· 数学</summary>
-    <div class="ans-body">
-      <p><strong>1. 口算</strong></p>
-      <ul>
-        <li>（1）100 &nbsp;（2）90 &nbsp;（3）180</li>
-      </ul>
-      <p class="err-tip">常见错因：25×4 写成 90；720÷8 商漏写 0。验算：100÷4=25；90×8=720；180÷5=36。</p>
-
-      <p><strong>2. 竖式</strong></p>
-      <ul>
-        <li>（1）438×6 = 2628</li>
-        <li>（2）952÷7 = 136</li>
-      </ul>
-      <p class="err-tip">常见错因：×6 时个位 8×6=48 进 4 忘加；除法中间余数没对齐。验算：2628÷6=438；136×7=952。</p>
-
-      <p><strong>3. 脱式</strong></p>
-      <ul>
-        <li>（1）48 + 36 ÷ 6 × 5 = 48 + 6 × 5 = 48 + 30 = 78<br>
-          （先乘除后加减；乘除同级从左到右）</li>
-        <li>（2）(125 − 25) × 4 ÷ 8 = 100 × 4 ÷ 8 = 400 ÷ 8 = 50</li>
-      </ul>
-      <p class="err-tip">常见错因：（1）先算 48+36；或把 ÷6×5 当成 ÷(6×5)。</p>
-
-      <p><strong>4. 简便计算</strong></p>
-      <ul>
-        <li>25 × 48 × 4 = 25 × 4 × 48 = 100 × 48 = 4800<br>
-          （乘法交换律、结合律）</li>
-      </ul>
-
-      <p><strong>5. 周长与面积</strong></p>
-      <ul>
-        <li>（1）周长：(12+8)×2 = 40（米）</li>
-        <li>（2）面积：12×8 = 96（平方米）</li>
-      </ul>
-      <p class="err-tip">常见错因：周长写成 12×8；面积用了 (12+8)×2；单位混用。</p>
-
-      <p><strong>6. 应用题</strong></p>
-      <ul>
-        <li>(20 − 5) ÷ 3 = 15 ÷ 3 = 5（元）</li>
-        <li>或：付出 − 找回 = 总价，再除以本数。</li>
-      </ul>
-      <p class="err-tip">常见错因：直接 20÷3；或忘了先减找回的 5 元。</p>
-    </div>
-  </details>
-</section>
-
 <!-- ========== 语文 ========== -->
 <section class="block" id="chinese">
-  <h2>二、语文（约 10～12 分钟）</h2>
-  <p class="subhead">字词巩固 + 短文一问 + 习作只练一个点（把事情写清楚的开头）</p>
+  <h2>一、语文（约 15～20 分钟）</h2>
+  <p class="subhead">薄弱：习作抓重点、避免流水账</p>
 
-  <h3>A. 字词（音 / 形 / 义）</h3>
-
+  <h3>【一、字词听写】（约5分钟）</h3>
   <div class="q">
-    <div><span class="q-num">1.</span>给加点字选正确读音，打「√」。</div>
-    <div style="margin-top:6px">
-      （1）处理（ &nbsp;chǔ &nbsp;/&nbsp; chù &nbsp;）这件事要慎重。<br>
-      （2）好像（ &nbsp;xiàng &nbsp;/&nbsp; hǎo xiāng &nbsp;）要下雨了。（选「好像」的「好」读音：hǎo / hào）
-    </div>
-    <p style="margin:6px 0 0;color:var(--muted);font-size:0.88rem">说明：第（2）题选「好」的读音即可。</p>
+    <div>请家长报词，孩子听写；不会写的先空着，写完再对。</div>
+    <ol style="margin:8px 0 0;padding-left:1.4em">
+      <li>羡慕</li>
+      <li>炫耀</li>
+      <li>精致</li>
+      <li>沉甸甸</li>
+      <li>香甜</li>
+    </ol>
+    <div style="margin-top:8px">听写书写区</div>
+    <div class="write-box roomy" aria-label="听写书写区"></div>
   </div>
 
-  <div class="q">
-    <div><span class="q-num">2.</span>形近字组词。</div>
-    <div style="margin-top:6px">
-      辨（<span class="blank"></span>）&emsp;辩（<span class="blank"></span>）&emsp;辫（<span class="blank"></span>）
-    </div>
-  </div>
-
-  <div class="q">
-    <div><span class="q-num">3.</span>写出下列词语的近义词和反义词。</div>
-    <div style="margin-top:6px">
-      （1）仔细 —— 近义：<span class="blank"></span>；反义：<span class="blank"></span><br>
-      （2）高兴 —— 近义：<span class="blank"></span>；反义：<span class="blank"></span>
-    </div>
-  </div>
-
-  <div class="q">
-    <div><span class="q-num">4.</span>选词填空：<strong>平静 / 宁静</strong></div>
-    <div style="margin-top:6px">
-      （1）傍晚的小湖十分<span class="blank"></span>。<br>
-      （2）听完解释，他的心情渐渐<span class="blank"></span>下来。
-    </div>
-  </div>
-
-  <h3>B. 短文阅读（1 小问）</h3>
+  <h3>【二、阅读一小问】（约5～8分钟）</h3>
   <div class="passage">
-    放学路上，叶子看见一位老奶奶提着沉重的菜篮走得很慢。她跑上前说：「奶奶，我来帮您拿吧！」老奶奶笑着把篮子递给她。到了路口，老奶奶连声道谢。叶子摆摆手说：「这是我应该做的。」她心里暖暖的，脚步也轻快了许多。
+    放学后，小明回到家。院子里晾着衣服，风把衣角吹得轻轻晃。妈妈在厨房忙晚饭，爸爸还没回来。小明放下书包，看见墙角那盆草莓结了好几颗红果子，他小心地摘下两颗，洗干净，留了一颗给妈妈，自己吃了一颗——又酸又甜。
   </div>
   <div class="q">
-    <div><span class="q-num">5.</span>短文主要写了一件什么事？用一句话概括。<span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
+    <div>这段话里，院子里「最主要」发生了什么事？（用一句话写出重点，不要把放学、衣服、晚饭全写进去。）</div>
+    <div style="margin-top:8px">答：</div>
+    <div class="work-box short" aria-label="阅读作答区"></div>
   </div>
 
-  <h3>C. 习作小练笔（只练一个点）</h3>
+  <h3>【三、习作一点练】（约8～10分钟｜只练一个点，不写全文）</h3>
   <div class="q">
-    <div><span class="q-num">6.</span>习作点：<strong>把事情写清楚的开头</strong>（谁 + 什么时候 + 在哪里 + 做什么）。</div>
-    <div style="margin-top:6px">请用 2～4 句话写一个开头，题目自拟小事即可，例如「一次帮忙」或「课间趣事」。不要写完整作文。</div>
-    <div class="write-box" aria-label="习作书写区"></div>
+    <div>练习点：抓重点——删掉流水账</div>
+    <p style="margin:8px 0">下面这段话太像流水账。请改写成 2～3 句，只保留「最重要的事」，删掉可有可无的过程。</p>
+    <div class="passage" style="margin-top:0">
+      原句：早上我起床，刷牙洗脸，吃早饭，背书包，出门，走到校门口，进教室，坐下，等上课。后来老师让我们做手工，我用彩纸折了一只小鸟，旁边的同学还夸奖了我。
+    </div>
+    <div>要求：改写后要让人一眼看出「今天最值得写的是什么」。</div>
+    <div style="margin-top:8px">改写：</div>
+    <div class="write-box roomy" aria-label="习作改写区"></div>
   </div>
 
   <details class="answer">
     <summary>家长对答案（先让孩子做完）· 语文</summary>
     <div class="ans-body">
-      <p><strong>1. 读音</strong></p>
-      <ul>
-        <li>（1）chǔ（处理事务读 chǔ；处所才读 chù）</li>
-        <li>（2）hǎo（「好像」的「好」读三声 hǎo）</li>
-      </ul>
-      <p class="err-tip">错因提示：多音字先想词义再选音，不要凭感觉。</p>
+      <p><strong>【字词】</strong>羡慕（xiàn mù）、炫耀（xuàn yào）、精致（jīng zhì）、沉甸甸（chén diān diān）、香甜（xiāng tián）</p>
+      <p><strong>【阅读】</strong>要点：小明摘了草莓，洗干净后和妈妈分着吃（或：摘草莓分给妈妈吃）。</p>
+      <p><strong>【习作】</strong>示例：今天手工课上，我用彩纸折了一只小鸟，同学还夸奖了我。（只保留折小鸟+被夸奖）</p>
+    </div>
+  </details>
+</section>
 
-      <p><strong>2. 形近字（示例，合理即可）</strong></p>
-      <ul>
-        <li>辨——辨别 / 分辨；辩——辩论 / 争辩；辫——辫子 / 发辫</li>
-      </ul>
-      <p class="err-tip">错因：部件记混——「辨」中间是「丨」点撇，「辩」中间是「讠」，「辫」中间是「纟」。</p>
+<!-- ========== 数学 ========== -->
+<section class="block" id="math">
+  <h2>二、数学（约8分钟）</h2>
+  <p class="subhead">计算巩固｜四则运算+运算律+防粗心</p>
 
-      <p><strong>3. 近反义（合理即可）</strong></p>
-      <ul>
-        <li>（1）仔细：近义——认真、细心；反义——马虎、粗心</li>
-        <li>（2）高兴：近义——快乐、愉快；反义——难过、伤心</li>
-      </ul>
+  <div class="q">
+    <div><span class="q-num">1.</span>口算：</div>
+    <div style="margin-top:6px">
+      7200÷80=<span class="blank"></span>&emsp;
+      36×30=<span class="blank"></span>&emsp;
+      250+750=<span class="blank"></span>
+    </div>
+  </div>
 
-      <p><strong>4. 选词</strong></p>
-      <ul>
-        <li>（1）宁静（多形容环境安静）</li>
-        <li>（2）平静（多形容心情、水面等状态恢复平稳）</li>
-      </ul>
+  <div class="q">
+    <div><span class="q-num">2.</span>竖式：408×26</div>
+    <div class="work-box vert big" aria-label="竖式书写区"></div>
+  </div>
 
-      <p><strong>5. 概括（意思对即可）</strong></p>
-      <ul>
-        <li>示例：叶子在放学路上帮助老奶奶提菜篮。</li>
-      </ul>
-      <p class="err-tip">错因：只写「叶子很善良」而没写清「做了什么事」——概括要抓住主要事件。</p>
+  <div class="q">
+    <div><span class="q-num">3.</span>脱式：560÷(28-21)+15</div>
+    <div class="work-box steps big" aria-label="脱式书写区"></div>
+  </div>
 
-      <p><strong>6. 习作开头评分要点（家长可对照）</strong></p>
-      <ul>
-        <li>有没有写出：谁、什么时候、在哪里、做什么？</li>
-        <li>示例：昨天下午放学后，我在校门口看见同桌的书包带子断了，就立刻停下来帮他。</li>
-        <li>不必要求文采；把四要素说清楚就算达标。</li>
-      </ul>
+  <div class="q">
+    <div><span class="q-num">4.</span>简便：（能用运算律就用）25×16×4</div>
+    <div class="work-box short" aria-label="简便计算书写区"></div>
+  </div>
+
+  <div class="q">
+    <div><span class="q-num">5.</span>判对错并改：一个正方形边长 9 cm，周长是 36 cm。（先写公式再核对）</div>
+    <div class="work-box short" aria-label="判对错书写区"></div>
+  </div>
+
+  <details class="answer">
+    <summary>家长对答案（先让孩子做完）· 数学</summary>
+    <div class="ans-body">
+      <ol>
+        <li>90；1080；1000（逆运算：90×80=7200）</li>
+        <li>10608（可拆：408×20+408×6）</li>
+        <li>95（先括号 7，再 560÷7=80，再 80+15）</li>
+        <li>1600（25×4×16=100×16）</li>
+        <li>对（9×4=36；若写成面积 81 就是概念串了）</li>
+      </ol>
     </div>
   </details>
 </section>
@@ -603,106 +497,77 @@
 <!-- ========== 英语 ========== -->
 <section class="block" id="english">
   <h2>三、英语（约 8～10 分钟）</h2>
-  <p class="subhead">Vocabulary + Sentence pattern + Short reading · 四年级常用话题：学校生活 / 日常活动</p>
+  <p class="subhead">天气与季节</p>
 
-  <h3>A. Words（5 个词：音标 + 中英例句）</h3>
+  <h3>A. Words（5 个词：音标 + 中英例句）+ 跟读</h3>
 
   <div class="word-card">
-    <strong class="en">1. library</strong> <span class="phon">/ˈlaɪbrəri/</span> n. 图书馆<br>
-    <span class="en">I borrow books from the library.</span><br>
-    我从图书馆借书。
+    <strong class="en">1. sunny</strong> <span class="phon">/ˈsʌni/</span> adj. 晴朗的 — <span class="en">It is sunny today.</span> 今天天气晴朗。
   </div>
   <div class="word-card">
-    <strong class="en">2. homework</strong> <span class="phon">/ˈhəʊmwɜːk/</span> n. 家庭作业<br>
-    <span class="en">Please finish your homework first.</span><br>
-    请先完成你的家庭作业。
+    <strong class="en">2. rainy</strong> <span class="phon">/ˈreɪni/</span> adj. 下雨的 — <span class="en">Take an umbrella on rainy days.</span> 下雨天要带伞。
   </div>
   <div class="word-card">
-    <strong class="en">3. Monday</strong> <span class="phon">/ˈmʌndeɪ/</span> n. 星期一<br>
-    <span class="en">We have PE on Monday.</span><br>
-    我们星期一有体育课。
+    <strong class="en">3. cold</strong> <span class="phon">/kəʊld/</span> adj. 寒冷的 — <span class="en">It is cold in winter.</span> 冬天很冷。
   </div>
   <div class="word-card">
-    <strong class="en">4. hungry</strong> <span class="phon">/ˈhʌŋɡri/</span> adj. 饥饿的<br>
-    <span class="en">I am hungry after school.</span><br>
-    放学后我饿了。
+    <strong class="en">4. weather</strong> <span class="phon">/ˈweðə(r)/</span> n. 天气 — <span class="en">How is the weather today?</span> 今天天气怎么样？
   </div>
   <div class="word-card">
-    <strong class="en">5. playground</strong> <span class="phon">/ˈpleɪɡraʊnd/</span> n. 操场<br>
-    <span class="en">Children play in the playground.</span><br>
-    孩子们在操场上玩。
+    <strong class="en">5. season</strong> <span class="phon">/ˈsiːzn/</span> n. 季节 — <span class="en">Spring is my favourite season.</span> 春天是我最喜欢的季节。
   </div>
 
   <div class="q">
-    <div><span class="q-num">默写自测（可选）：</span>盖住上面，试着写出中文意思或拼写。</div>
-    <div style="margin-top:6px">
-      library <span class="blank"></span>&nbsp;
-      homework <span class="blank"></span>&nbsp;
-      Monday <span class="blank"></span><br>
-      hungry <span class="blank"></span>&nbsp;
-      playground <span class="blank"></span>
-    </div>
-  </div>
-
-  <h3>B. 句型替换（3 句）</h3>
-  <div class="q">
-    <div>句型：<strong class="en">I often ______ on ______.</strong>（我经常在……做……）</div>
-    <div style="margin-top:6px">仿照例子写 3 句（可用上面的词）：</div>
-    <div style="margin-top:6px" class="en">例：I often read in the library on Monday.</div>
+    <div>默写自测（可选）：sunny &nbsp; rainy &nbsp; cold &nbsp; weather &nbsp; season</div>
     <div style="margin-top:8px">
-      （1）<span class="blank blank-lg"></span><span class="blank blank-lg"></span><br>
-      （2）<span class="blank blank-lg"></span><span class="blank blank-lg"></span><br>
-      （3）<span class="blank blank-lg"></span><span class="blank blank-lg"></span>
+      （1）<span class="blank blank-lg"></span>&emsp;
+      （2）<span class="blank blank-lg"></span>&emsp;
+      （3）<span class="blank blank-lg"></span>&emsp;
+      （4）<span class="blank blank-lg"></span>&emsp;
+      （5）<span class="blank blank-lg"></span>
     </div>
-    <p style="margin:6px 0 0;font-size:0.88rem;color:var(--muted)">中英对照提示：often=经常；on Monday=在星期一；in the library=在图书馆。</p>
   </div>
 
-  <h3>C. 短文 + 细节题</h3>
+  <h3>B. 句型替换</h3>
+  <div class="q">
+    <div>句型：<strong class="en">It is ______ today. I can ______.</strong>（今天……。我可以……。）</div>
+    <div style="margin-top:6px">可替换：sunny / rainy / cold；play outside / stay at home / wear a coat</div>
+    <div style="margin-top:6px" class="en">例：It is sunny today. I can play outside.</div>
+    <div style="margin-top:8px">仿写：</div>
+    <div style="margin-top:6px">（1）<span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
+    <div style="margin-top:6px">（2）<span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
+  </div>
+
+  <h3>C. 短文 + 细节题（3 问）</h3>
   <div class="passage en">
-    Hi! My name is Tom. I am a Grade 4 student. On Monday, I go to the library after school. I read books and do my homework there. Sometimes I feel hungry, so I eat an apple. Then I play with my friends in the playground. I love my school days!
-  </div>
-  <p style="font-size:0.88rem;color:var(--muted);margin:-4px 0 10px">（大意：汤姆四年级。星期一放学后去图书馆看书、写作业；有时饿了吃苹果；然后在操场和朋友玩。）</p>
-
-  <div class="q">
-    <div><span class="q-num">1.</span> What grade is Tom in?</div>
-    <div>答：<span class="blank blank-lg"></span></div>
+    Hello! My name is Lily. I like sunny days. On sunny days, I play in the park with my friends. Today is rainy. I stay at home and read a book. In winter, it is cold. I wear a coat. Spring is my favourite season because the weather is warm.
   </div>
   <div class="q">
-    <div><span class="q-num">2.</span> Where does Tom go after school on Monday?</div>
-    <div>答：<span class="blank blank-lg"></span></div>
+    <div><span class="q-num">1.</span> What days does Lily like?</div>
+    <div>答：<span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
   </div>
   <div class="q">
-    <div><span class="q-num">3.</span> Where does Tom play with his friends?</div>
-    <div>答：<span class="blank blank-lg"></span></div>
+    <div><span class="q-num">2.</span> What does Lily do today?</div>
+    <div>答：<span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
+  </div>
+  <div class="q">
+    <div><span class="q-num">3.</span> Why is spring Lily's favourite season?</div>
+    <div>答：<span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
   </div>
 
   <details class="answer">
     <summary>家长对答案（先让孩子做完）· 英语</summary>
     <div class="ans-body">
-      <p><strong>单词中文</strong>：library 图书馆；homework 家庭作业；Monday 星期一；hungry 饥饿的；playground 操场。</p>
-
-      <p><strong>句型替换（示例，合理即可）</strong></p>
-      <ol>
-        <li class="en">I often do homework in the library on Monday.</li>
-        <li class="en">I often play in the playground on Monday.</li>
-        <li class="en">I often read books in the library on Monday.</li>
-      </ol>
-      <p class="err-tip">错因：漏介词 on/in；Monday 大小写；often 位置放错（常放在实义动词前）。</p>
-
-      <p><strong>阅读细节</strong></p>
-      <ol>
-        <li>Grade 4 / He is in Grade 4.（四年级）</li>
-        <li>The library / He goes to the library.（图书馆）</li>
-        <li>In the playground / the playground.（操场）</li>
-      </ol>
-      <p class="err-tip">提示：答案可在短文中直接找到，鼓励孩子用手指指读再答题。</p>
+      <p>单词：sunny 晴朗的；rainy 下雨的；cold 寒冷的；weather 天气；season 季节。</p>
+      <p class="en">句型示例：It is rainy today. I can stay at home. / It is cold today. I can wear a coat.</p>
+      <p>阅读：1. Sunny days / She likes sunny days.　2. She stays at home and reads a book.　3. Because the weather is warm.</p>
     </div>
   </details>
 </section>
 
 <footer class="note">
-  小学四年级日练样例 · 2026-10-26 · 自编螺旋复习 · 建议总用时约 30 分钟（可按孩子情况 ±5 分钟）<br>
-  完成顺序建议：数学 → 语文 → 英语；或先做孩子最有把握的一科建立信心。
+  小学四年级日练 · 2026-10-26 · 建议总用时约 30～40 分钟（语 15～20 + 数约 8 + 英 8～10）<br>
+  完成顺序：语文 → 数学 → 英语。先独立完成，再对答案。
 </footer>
 
 </div>
