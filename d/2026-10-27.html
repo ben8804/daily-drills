@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小学四年级日练 · 2026-10-27</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --line: #d0d4da;
+    --soft: #f6f7f9;
+    --accent: #1f4e79;
+    --ok: #2d6a4f;
+    --warn: #9a3412;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+                 "Noto Sans SC", "Source Han Sans SC", sans-serif;
+    color: var(--ink);
+    background: #eef1f5;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 16px 14px 48px;
+  }
+  header.sheet-head {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 18px 14px;
+    margin-bottom: 14px;
+  }
+  header.sheet-head h1 {
+    margin: 0 0 6px;
+    font-size: 1.35rem;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .meta span::before {
+    content: "· ";
+    color: #aaa;
+  }
+  .meta span:first-child::before { content: ""; }
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 0 4px;
+  }
+  .btn {
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: var(--accent);
+    color: #fff;
+    min-height: 48px;
+    min-width: 120px;
+  }
+  .btn:active { opacity: 0.9; }
+  .btn-ghost {
+    background: #fff;
+    color: var(--accent);
+    border: 1.5px solid var(--accent);
+  }
+  .tip-box {
+    background: #fff8e8;
+    border: 1px solid #f0d9a0;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    color: #6b4e16;
+    margin-top: 10px;
+  }
+  section.block {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 16px 12px;
+    margin-bottom: 14px;
+  }
+  section.block h2 {
+    margin: 0 0 4px;
+    font-size: 1.15rem;
+    color: var(--accent);
+    border-bottom: 2px solid #e3e8ef;
+    padding-bottom: 8px;
+  }
+  .subhead {
+    color: var(--muted);
+    font-size: 0.88rem;
+    margin: 0 0 12px;
+  }
+  h3 {
+    margin: 16px 0 8px;
+    font-size: 1.02rem;
+    color: #243447;
+  }
+  .q {
+    margin: 0 0 14px;
+    padding: 10px 12px;
+    background: var(--soft);
+    border-radius: 8px;
+    border-left: 3px solid #9db4ce;
+  }
+  .q-num {
+    font-weight: 700;
+    color: var(--accent);
+    margin-right: 4px;
+  }
+  .blank {
+    display: inline-block;
+    min-width: 2.2em;
+    border-bottom: 1.5px solid #666;
+    margin: 0 2px;
+    height: 1.1em;
+    vertical-align: baseline;
+  }
+  .blank-lg {
+    min-width: 4.5em;
+  }
+  .hint {
+    margin-top: 6px;
+    font-size: 0.86rem;
+    color: var(--warn);
+  }
+  .write-box {
+    border: 1.5px dashed #b8c0cc;
+    border-radius: 8px;
+    min-height: 110px;
+    margin-top: 8px;
+    background: repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      #e8ecf1 27px,
+      #e8ecf1 28px
+    );
+    background-origin: content-box;
+  }
+  .work-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    margin-top: 10px;
+  }
+  .work-item {
+    flex: 1 1 140px;
+    min-width: 140px;
+  }
+  .work-item .lab {
+    font-size: 0.92rem;
+    margin-bottom: 4px;
+    color: #333;
+  }
+  .work-box {
+    border: 1.5px solid #b8c0cc;
+    border-radius: 8px;
+    background: #fff;
+    background-image: repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      #e8ecf1 27px,
+      #e8ecf1 28px
+    );
+    margin-top: 4px;
+  }
+  .work-box.vert {
+    min-height: 150px;
+    width: 100%;
+    max-width: 200px;
+  }
+  .work-box.vert.big {
+    min-height: 210px;
+    max-width: 260px;
+  }
+  .work-box.steps.big {
+    min-height: 168px;
+  }
+  .write-box.roomy {
+    min-height: 176px;
+  }
+  .work-box.steps {
+    min-height: 120px;
+    width: 100%;
+  }
+  .work-box.short {
+    min-height: 90px;
+    width: 100%;
+  }
+  .phon {
+    font-family: "Segoe UI", "Lucida Grande", Arial, sans-serif;
+    color: #444;
+    font-size: 0.92em;
+  }
+  .en { font-family: Georgia, "Times New Roman", serif; }
+  .word-card {
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background: var(--soft);
+    border-radius: 8px;
+  }
+  .word-card strong { color: var(--accent); }
+  .passage {
+    background: #f9fafb;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 8px 0 12px;
+  }
+  details.answer {
+    margin-top: 10px;
+    border: 1.5px solid #c5ddd0;
+    border-radius: 10px;
+    background: #f3faf6;
+    overflow: hidden;
+  }
+  details.answer > summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    font-weight: 700;
+    color: var(--ok);
+    list-style: none;
+    user-select: none;
+  }
+  details.answer > summary::-webkit-details-marker { display: none; }
+  details.answer > summary::before {
+    content: "▸ ";
+    display: inline-block;
+    transition: transform 0.15s;
+  }
+  details.answer[open] > summary::before {
+    content: "▾ ";
+  }
+  .ans-body {
+    padding: 0 14px 14px;
+    border-top: 1px solid #d4e8dc;
+    font-size: 0.95rem;
+  }
+  .ans-body ol, .ans-body ul { padding-left: 1.3em; margin: 6px 0; }
+  .ans-body li { margin: 4px 0; }
+  .err-tip {
+    color: var(--warn);
+    font-size: 0.88rem;
+    margin-top: 4px;
+  }
+  footer.note {
+    text-align: center;
+    color: #888;
+    font-size: 0.82rem;
+    margin-top: 8px;
+  }
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+  @media print {
+    html { font-size: 11pt; }
+    body {
+      background: #fff !important;
+      color: #000;
+      line-height: 1.45;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .wrap { max-width: none; margin: 0; padding: 0; }
+    .toolbar,
+    .no-print,
+    .tip-box,
+    details.answer,
+    .btn {
+      display: none !important;
+    }
+    header.sheet-head,
+    section.block {
+      border: none !important;
+      border-radius: 0;
+      box-shadow: none;
+      margin: 0 0 6mm;
+      padding: 0;
+      background: #fff !important;
+      break-inside: auto;
+    }
+    header.sheet-head {
+      break-after: avoid;
+      margin-bottom: 4mm;
+      padding-bottom: 2mm;
+      border-bottom: none !important;
+    }
+    header.sheet-head h1 { display: none !important; }
+    header.sheet-head .meta {
+      font-size: 11pt;
+      color: #000;
+      gap: 10px 16px;
+    }
+    header.sheet-head .meta span::before { content: ""; }
+    header.sheet-head .meta span + span::before {
+      content: "· ";
+      color: #666;
+    }
+    section.block h2 {
+      break-after: avoid;
+      border-bottom: none;
+      color: #000;
+      padding-bottom: 2mm;
+      margin-bottom: 3mm;
+    }
+    h3 { break-after: avoid; color: #000; }
+    .q,
+    .word-card,
+    .passage,
+    .write-box {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .write-box { min-height: 28mm; }
+    .work-box.vert { min-height: 42mm; max-width: 48mm; }
+    .work-box.vert.big { min-height: 58mm; max-width: 64mm; }
+    .work-box.steps { min-height: 36mm; }
+    .work-box.steps.big { min-height: 48mm; }
+    .work-box.short { min-height: 28mm; }
+    .write-box.roomy { min-height: 50mm; }
+    .work-item, .work-box { break-inside: avoid; page-break-inside: avoid; }
+    .hint { color: #333; }
+    a { text-decoration: none; color: inherit; }
+
+    /* ink-saving: no fills; keep colored text */
+    .q,
+    .word-card,
+    .passage,
+    .tip-box,
+    header.sheet-head,
+    section.block,
+    .write-box,
+    .work-box,
+    details.answer {
+      background: transparent !important;
+      background-image: none !important;
+    }
+    .q { border-left-color: #9db4ce; }
+    .write-box,
+    .work-box {
+      border-color: #999;
+      background-image: repeating-linear-gradient(
+        transparent,
+        transparent 27px,
+        #ccc 27px,
+        #ccc 28px
+      ) !important;
+    }
+
+    footer.note { display: none !important; }
+  }
+  @media (max-width: 480px) {
+    html { font-size: 16px; }
+    .btn { width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="sheet-head">
+  <h1 class="no-print">小学四年级日练</h1>
+  <div class="meta">
+    <span>日期 2026-10-27</span>
+    <span>建议用时约 30～40 分钟</span>
+    <span class="no-print">语 15～20 · 数约 8 · 英 8～10</span>
+  </div>
+  <div class="toolbar no-print">
+    <button class="btn" type="button" onclick="window.print()">🖨️ 打印本页</button>
+    <button class="btn btn-ghost" type="button" onclick="document.querySelectorAll('details.answer').forEach(d=>d.open=false)">收起全部答案</button>
+    <a class="btn btn-ghost" href="../history.html" style="display:inline-flex;align-items:center;justify-content:center;text-decoration:none">历史日练</a>
+    <a class="btn btn-ghost no-print" href="../junior1/" style="display:inline-flex;align-items:center;justify-content:center;text-decoration:none">初一日练</a>
+  </div>
+  <div class="tip-box no-print">
+    <strong>给家长：</strong>先让孩子独立完成，再展开下方「家长对答案」。字词听写请家长报词，孩子写在格里；不会写的先空着，写完再对。
+  </div>
+</header>
+
+<!-- ========== 语文 ========== -->
+<section class="block" id="chinese">
+  <h2>一、语文（约 15～20 分钟）</h2>
+  <p class="subhead">薄弱：把人物动作写具体</p>
+
+  <h3>【一、字词听写】（约5分钟）</h3>
+  <div class="q">
+    <div>请家长报词，孩子听写；不会写的先空着，写完再对。</div>
+    <ol style="margin:8px 0 0;padding-left:1.4em">
+      <li>观察</li>
+      <li>仔细</li>
+      <li>诚实</li>
+      <li>鼓励</li>
+      <li>进步</li>
+    </ol>
+    <div style="margin-top:8px">听写书写区</div>
+    <div class="write-box roomy" aria-label="听写书写区"></div>
+  </div>
+
+  <h3>【二、阅读一小问】（约5～8分钟）</h3>
+  <div class="passage">
+    课间，小华看见同桌的橡皮滚到了课桌底下。他蹲下身子，伸手去够，够不着，又趴到地上，用手指一点一点往外拨。终于拨出来了。他拍了拍橡皮上的灰，轻轻放回同桌桌上。同桌回来后说了声「谢谢」，小华只笑了笑，又去玩跳绳了。
+  </div>
+  <div class="q">
+    <div>这段话写小华帮同桌捡橡皮，哪几处动作写得很具体？请从文中找出两个动作词（或短语）写下来。</div>
+    <div style="margin-top:8px">答：</div>
+    <div class="work-box short" aria-label="阅读作答区"></div>
+  </div>
+
+  <h3>【三、习作一点练】（约8～10分钟｜只练一个点，不写全文）</h3>
+  <div class="q">
+    <div>练习点：把笼统说法改成具体动作</div>
+    <p style="margin:8px 0">下面的句子太笼统。请改写成 2～3 句，写出「怎么做」的动作，让人好像能看见。</p>
+    <div class="passage" style="margin-top:0">
+      原句：今天我帮妈妈做家务，干得很认真。
+    </div>
+    <div>要求：不要只写「认真」「帮忙」，要写出至少两个具体动作（如擦桌子、叠被子、洗碗等怎么做）。</div>
+    <div style="margin-top:8px">改写：</div>
+    <div class="write-box roomy" aria-label="习作改写区"></div>
+  </div>
+
+  <details class="answer">
+    <summary>家长对答案（先让孩子做完）· 语文</summary>
+    <div class="ans-body">
+      <p><strong>【字词】</strong>观察（guān chá）、仔细（zǐ xì）、诚实（chéng shí）、鼓励（gǔ lì）、进步（jìn bù）</p>
+      <p class="err-tip">易错：「励」右半不是「力」；「察」下面是「示」不是「木」；「诚」左边是言字旁。</p>
+      <p><strong>【阅读】</strong>示例：蹲下身子、伸手去够、趴到地上、一点一点往外拨、拍了拍灰、轻轻放回（任写两个即可）。</p>
+      <p class="err-tip">若只写「帮忙」「很高兴」而没找动作词，说明还没抓住「写具体」。</p>
+      <p><strong>【习作】</strong>示例：今天我帮妈妈擦桌子，先用湿布从左到右擦，再把边角的灰抹干净。接着我把碗一个个洗干净，倒扣在架子上沥干。</p>
+    </div>
+  </details>
+</section>
+
+<!-- ========== 数学 ========== -->
+<section class="block" id="math">
+  <h2>二、数学（约8分钟）</h2>
+  <p class="subhead">计算巩固｜四则运算+运算律+防粗心</p>
+
+  <div class="q">
+    <div><span class="q-num">1.</span>口算：</div>
+    <div style="margin-top:6px">
+      4800÷60=<span class="blank"></span>&emsp;
+      45×20=<span class="blank"></span>&emsp;
+      125+875=<span class="blank"></span>
+    </div>
+  </div>
+
+  <div class="q">
+    <div><span class="q-num">2.</span>竖式：315×34</div>
+    <div class="work-box vert big" aria-label="竖式书写区"></div>
+  </div>
+
+  <div class="q">
+    <div><span class="q-num">3.</span>脱式：480÷(35-23)×2</div>
+    <div class="work-box steps big" aria-label="脱式书写区"></div>
+  </div>
+
+  <div class="q">
+    <div><span class="q-num">4.</span>简便：（能用运算律就用）125×8×9</div>
+    <div class="work-box short" aria-label="简便计算书写区"></div>
+  </div>
+
+  <div class="q">
+    <div><span class="q-num">5.</span>判对错并改：一个长方形长 8 cm、宽 5 cm，面积是 26 cm²。（先写公式再核对）</div>
+    <div class="work-box short" aria-label="判对错书写区"></div>
+  </div>
+
+  <details class="answer">
+    <summary>家长对答案（先让孩子做完）· 数学</summary>
+    <div class="ans-body">
+      <ol>
+        <li>80；900；1000（逆运算：80×60=4800；45×2×10=900）</li>
+        <li>10710（可拆：315×30+315×4=9450+1260）</li>
+        <li>80（先括号 12，再 480÷12=40，再 40×2=80）</li>
+        <li>9000（125×8=1000，再 1000×9）</li>
+        <li>错。面积应为 8×5=40 cm²；26 是把周长公式（8+5）×2 算成了面积，概念串了。</li>
+      </ol>
+      <p class="err-tip">竖式注意：个位 4×315=1260 进位别漏；简便先凑整再乘。</p>
+    </div>
+  </details>
+</section>
+
+<!-- ========== 英语 ========== -->
+<section class="block" id="english">
+  <h2>三、英语（约 8～10 分钟）</h2>
+  <p class="subhead">学校科目与喜好</p>
+
+  <h3>A. Words（5 个词：音标 + 中英例句）+ 跟读</h3>
+
+  <div class="word-card">
+    <strong class="en">1. subject</strong> <span class="phon">/ˈsʌbdʒɪkt/</span> n. 科目 — <span class="en">Maths is my favourite subject.</span> 数学是我最喜欢的科目。
+  </div>
+  <div class="word-card">
+    <strong class="en">2. Chinese</strong> <span class="phon">/ˌtʃaɪˈniːz/</span> n./adj. 语文；中文的 — <span class="en">I have Chinese on Monday.</span> 我星期一有语文课。
+  </div>
+  <div class="word-card">
+    <strong class="en">3. maths</strong> <span class="phon">/mæθs/</span> n. 数学 — <span class="en">We do maths every day.</span> 我们每天都做数学。
+  </div>
+  <div class="word-card">
+    <strong class="en">4. favourite</strong> <span class="phon">/ˈfeɪvərɪt/</span> adj. 最喜欢的 — <span class="en">What is your favourite colour?</span> 你最喜欢的颜色是什么？
+  </div>
+  <div class="word-card">
+    <strong class="en">5. homework</strong> <span class="phon">/ˈhəʊmwɜːk/</span> n. 家庭作业 — <span class="en">I finish my homework after school.</span> 我放学后完成作业。
+  </div>
+
+  <div class="q">
+    <div>默写自测（可选）：subject &nbsp; Chinese &nbsp; maths &nbsp; favourite &nbsp; homework</div>
+    <div style="margin-top:8px">
+      （1）<span class="blank blank-lg"></span>&emsp;
+      （2）<span class="blank blank-lg"></span>&emsp;
+      （3）<span class="blank blank-lg"></span>&emsp;
+      （4）<span class="blank blank-lg"></span>&emsp;
+      （5）<span class="blank blank-lg"></span>
+    </div>
+  </div>
+
+  <h3>B. 句型替换</h3>
+  <div class="q">
+    <div>句型：<strong class="en">My favourite subject is ______. I like ______.</strong>（我最喜欢的科目是……。我喜欢……。）</div>
+    <div style="margin-top:6px">可替换：Chinese / maths / English；reading / counting / speaking English</div>
+    <div style="margin-top:6px" class="en">例：My favourite subject is maths. I like counting.</div>
+    <div style="margin-top:8px">仿写：</div>
+    <div style="margin-top:6px">（1）<span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
+    <div style="margin-top:6px">（2）<span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
+  </div>
+
+  <h3>C. 短文 + 细节题（3 问）</h3>
+  <div class="passage en">
+    Hello! My name is Tom. I am in Grade 4. My favourite subject is Chinese. I like reading stories. We have maths every day. Today I have Chinese, maths and English. After school, I do my homework at home. English is hard for me, but I try my best.
+  </div>
+  <div class="q">
+    <div><span class="q-num">1.</span> What is Tom's favourite subject?</div>
+    <div>答：<span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
+  </div>
+  <div class="q">
+    <div><span class="q-num">2.</span> What subjects does Tom have today?</div>
+    <div>答：<span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
+  </div>
+  <div class="q">
+    <div><span class="q-num">3.</span> What does Tom do after school?</div>
+    <div>答：<span class="blank blank-lg"></span><span class="blank blank-lg"></span><span class="blank blank-lg"></span></div>
+  </div>
+
+  <details class="answer">
+    <summary>家长对答案（先让孩子做完）· 英语</summary>
+    <div class="ans-body">
+      <p>单词：subject 科目；Chinese 语文/中文；maths 数学；favourite 最喜欢的；homework 家庭作业。</p>
+      <p class="en">句型示例：My favourite subject is Chinese. I like reading. / My favourite subject is English. I like speaking English.</p>
+      <p>阅读：1. Chinese / His favourite subject is Chinese.　2. Chinese, maths and English.　3. He does his homework (at home).</p>
+    </div>
+  </details>
+</section>
+
+<footer class="note">
+  小学四年级日练 · 2026-10-27 · 建议总用时约 30～40 分钟（语 15～20 + 数约 8 + 英 8～10）<br>
+  完成顺序：语文 → 数学 → 英语。先独立完成，再对答案。
+</footer>
+
+</div>
+</body>
+</html>
