@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>初一日练 · 2026-10-29</title>
+<title>初一日练 · 2026-10-30</title>
 <style>
   :root {
     --ink: #1a1a1a;
@@ -154,6 +154,12 @@
     );
     background-origin: content-box;
   }
+  .write-line {
+    display: block;
+    border-bottom: 1.5px solid #666;
+    min-height: 2.1em;
+    margin-top: 6px;
+  }
   .work-row {
     display: flex;
     flex-wrap: wrap;
@@ -271,6 +277,8 @@
     .wrap { max-width: none; margin: 0; padding: 0; }
     .toolbar,
     .no-print,
+    .print-hide,
+    .parent-answers,
     .tip-box,
     details.answer,
     .btn {
@@ -314,7 +322,8 @@
     .q,
     .word-card,
     .passage,
-    .write-box {
+    .write-box,
+    .write-line {
       break-inside: avoid;
       page-break-inside: avoid;
     }
@@ -334,7 +343,8 @@
     section.block,
     .write-box,
     .work-box,
-    details.answer {
+    details.answer,
+    .parent-answers {
       background: transparent !important;
       background-image: none !important;
     }
@@ -362,19 +372,19 @@
 
 <div class="wrap">
   <header class="sheet-head">
-    <h1>初一日练</h1>
+    <h1>初一日练 · 2026-10-30（周五）</h1>
     <div class="meta">
-      <span>日期 2026-10-29</span>
+      <span>日期 2026-10-30（周五）</span>
       <span>建议用时约 40～50 分钟</span>
-      <span>当值小四门：道德与法治</span>
+      <span class="print-hide">今日要点：语文《观沧海》字词与默写，数学绝对值与相反数，英语现在时态，历史·夏商周。</span>
     </div>
-    <div class="toolbar no-print">
+    <div class="toolbar no-print print-hide">
       <button class="btn" type="button" onclick="window.print()">🖨️ 打印本页</button>
       <button class="btn btn-ghost" type="button" onclick="document.querySelectorAll('details.answer').forEach(d=>d.open=false)">收起全部答案</button>
       <a class="btn btn-ghost" href="history.html" style="display:inline-flex;align-items:center;justify-content:center;text-decoration:none">历史日练</a>
     </div>
-    <div class="tip-box no-print">
-      <strong>给家长：</strong>先让孩子独立完成，再展开下方「家长对答案」。打印时提示和全部家长对答案会自动隐藏；页眉只留日期和建议用时。古诗只印半句和横线，答案不要抄到学生卷上。今日小四门为道德与法治（友谊与交友）。
+    <div class="tip-box no-print print-hide">
+      <strong>给家长：</strong>先让孩子独立完成，再展开下方「家长对答案」。打印时提示和全部家长对答案会自动隐藏；页眉只留日期和建议用时。古诗只印半句和横线，答案不要抄到学生卷上。今日小四门为历史·夏商周。
     </div>
   </header>
 
@@ -388,10 +398,10 @@
     <div class="q">
       <div><span class="q-num">1.</span>下列加点字注音全对的一项是（　）</div>
       <div style="margin-top:6px">
-        A. 酝酿（niàng）　黄晕（yùn）　应和（hè）<br>
-        B. 酝酿（ràng）　黄晕（yùn）　应和（hè）<br>
-        C. 酝酿（niàng）　黄晕（yūn）　应和（hé）<br>
-        D. 酝酿（niàng）　黄晕（yùn）　应和（hé）
+        A. 碣石（<span class="phon">jié</span>）　澹澹（<span class="phon">dàn</span>）　竦峙（<span class="phon">sǒng zhì</span>）<br>
+        B. 碣石（<span class="phon">jiē</span>）　澹澹（<span class="phon">dàn</span>）　竦峙（<span class="phon">sǒng zhì</span>）<br>
+        C. 碣石（<span class="phon">jié</span>）　澹澹（<span class="phon">dǎn</span>）　竦峙（<span class="phon">sǒng zhì</span>）<br>
+        D. 碣石（<span class="phon">jié</span>）　澹澹（<span class="phon">dàn</span>）　竦峙（<span class="phon">sòng zhì</span>）
       </div>
       <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
@@ -399,10 +409,10 @@
     <div class="q">
       <div><span class="q-num">2.</span>下列词语中没有错别字的一项是（　）</div>
       <div style="margin-top:6px">
-        A. 朗润　宛转　嘹亮　抖擞<br>
-        B. 郎润　宛转　嘹亮　抖擞<br>
-        C. 朗润　婉转　嘹亮　斗擞<br>
-        D. 朗润　宛转　嘹亮　斗薮
+        A. 星汉灿烂　秋风萧瑟　幸甚至哉<br>
+        B. 星汉灿烂　秋风消瑟　幸甚至哉<br>
+        C. 星汉灿烂　秋风萧瑟　幸甚至栽<br>
+        D. 星汉灿烂　秋风萧瑟　幸甚致哉
       </div>
       <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
@@ -410,9 +420,9 @@
     <div class="q">
       <div><span class="q-num">3.</span>给加点字选正确读音（填字母）。</div>
       <div style="margin-top:6px">
-        ①嘹亮（　）　A. liáo　B. liào<br>
-        ②烘托（　）　A. hōng　B. hòng<br>
-        ③涨水（　）　A. zhǎng　B. zhàng
+        ①竦峙（　）　A. <span class="phon">chì</span>　B. <span class="phon">zhì</span><br>
+        ②澹澹（　）　A. <span class="phon">dàn</span>　B. <span class="phon">dǎn</span><br>
+        ③碣石（　）　A. <span class="phon">jié</span>　B. <span class="phon">jiē</span>
       </div>
       <div style="margin-top:8px">作答：①<span class="blank"></span>　②<span class="blank"></span>　③<span class="blank"></span></div>
     </div>
@@ -421,9 +431,9 @@
 
     <div class="q">
       <div><span class="q-num">4.</span>选词填空（每个词只用一次）。</div>
-      <div style="margin-top:6px">备选：酝酿　朗润　抖擞　宛转</div>
+      <div style="margin-top:6px">备选：萧瑟　灿烂　竦峙　澹澹</div>
       <div style="margin-top:8px">
-        雨后山色格外<span class="blank blank-lg"></span>。小鸟在枝头<span class="blank blank-lg"></span>地歌唱。空气里似乎<span class="blank blank-lg"></span>着一种花香。大家精神<span class="blank blank-lg"></span>，准备出发。
+        东临碣石，海水<span class="blank blank-lg"></span>，山岛<span class="blank blank-lg"></span>。秋风<span class="blank blank-lg"></span>，星汉<span class="blank blank-lg"></span>。
       </div>
       <div style="margin-top:8px">作答：①<span class="blank blank-lg"></span>　②<span class="blank blank-lg"></span>　③<span class="blank blank-lg"></span>　④<span class="blank blank-lg"></span></div>
     </div>
@@ -431,10 +441,10 @@
     <div class="q">
       <div><span class="q-num">5.</span>下列加点成语使用恰当的一项是（　）</div>
       <div style="margin-top:6px">
-        A. 春天来了，田野里花红柳绿，一片生机。<br>
-        B. 他学习总是一丝不苟，考试却经常粗心丢分。<br>
-        C. 这篇作文东拉西扯，读来真是引人入胜。<br>
-        D. 课堂上大家正襟危坐，讨论得热火朝天。
+        A. 他做事总是一丝不苟，同学们都很佩服。<br>
+        B. 这部书枯燥无味，读来真是津津有味。<br>
+        C. 大家七嘴八舌，会场一下子鸦雀无声。<br>
+        D. 他考试时总是囫囵吞枣，成绩却名列前茅。
       </div>
       <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
@@ -444,40 +454,38 @@
     <div class="q">
       <div><span class="q-num">6.</span>下列句子没有语病的一项是（　）</div>
       <div style="margin-top:6px">
-        A. 通过这次春游，使我更加热爱大自然。<br>
-        B. 我们要继承和发扬艰苦奋斗的优良传统。<br>
-        C. 能否认真预习，是提高听课效率的关键。<br>
-        D. 他的朗读水平有了很大的改进。
+        A. 通过背诵古诗，使我提高了语感。<br>
+        B. 我们要继承和发扬中华优秀传统文化。<br>
+        C. 能否坚持练字，是写好字的关键。<br>
+        D. 他的课外阅读量有了明显的扩大。
       </div>
       <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
 
     <div class="q">
       <div><span class="q-num">7.</span>修改病句（每句改一处即可）。</div>
-      <div style="margin-top:8px">（1）通过每天朗读，使我的语感明显增强了。</div>
+      <div style="margin-top:8px">（1）通过老师的指导，使我改正了写字姿势。</div>
       <div style="margin-top:6px">改：<span class="blank blank-xl"></span></div>
-      <div style="margin-top:8px">（2）我们要防止这类错误不再发生。</div>
+      <div style="margin-top:8px">（2）我们要尽量防止少犯粗心的错误。</div>
       <div style="margin-top:6px">改：<span class="blank blank-xl"></span></div>
     </div>
 
     <h3>D. 古诗默写（2 题）</h3>
 
     <div class="q">
-      <div><span class="q-num">8.</span><span class="blank blank-xl"></span>，江春入旧年。（王湾《次北固山下》）</div>
-      <div style="margin-top:8px"><span class="q-num">9.</span>乡书何处达，<span class="blank blank-xl"></span>。（王湾《次北固山下》）</div>
+      <div><span class="q-num">8.</span>水何澹澹，<span class="blank blank-xl"></span>。（曹操《观沧海》）</div>
+      <div style="margin-top:8px"><span class="q-num">9.</span><span class="blank blank-xl"></span>，洪波涌起。（曹操《观沧海》）</div>
     </div>
 
-    <details class="answer">
+    <details class="answer parent-answers print-hide">
       <summary>家长对答案（先让孩子做完）· 语文</summary>
       <div class="ans-body">
-        <p>A. 1. A　2. A　3. ①A　②A　③A</p>
-        <p class="err-tip">易错：酝酿 niàng；黄晕 yùn；应和 hè（唱和义）；「朗润」勿写成「郎润」。</p>
-        <p>B. 4. 朗润；宛转；酝酿；抖擞　5. A</p>
-        <p class="err-tip">B 一丝不苟与粗心丢分矛盾；C 东拉西扯≠引人入胜；D 正襟危坐与热火朝天矛盾。</p>
-        <p>C. 6. B</p>
-        <p>7.（1）删「通过」或删「使」；（2）删「防止」或删「不再」（双重否定赘余）</p>
-        <p>D. 8. 海日生残夜　9. 归雁洛阳边</p>
-        <p class="err-tip">错一字该空不得分。</p>
+        <p><strong>A.</strong> 1. A　2. A　3. ①B　②A　③A</p>
+        <p><strong>B.</strong> 4. 澹澹；竦峙；萧瑟；灿烂　5. A</p>
+        <p><strong>C.</strong> 6. B</p>
+        <p>7.（1）删「通过」或删「使」；（2）删「防止」或删「少」</p>
+        <p><strong>D.</strong> 8. 山岛竦峙　9. 秋风萧瑟</p>
+        <p class="err-tip">踩分提示：字音看「全对」；成语先判褒贬与是否自相矛盾；病句盯「通过……使……」「能否……关键」「防止+少」；默写错一字该空不得分。</p>
       </div>
     </details>
   </section>
@@ -485,264 +493,262 @@
   <!-- ========== 数学 ========== -->
   <section class="block" id="math">
     <h2>二、数学（约 12～15 分钟）</h2>
-    <p class="subhead">螺旋巩固 · 科学记数法 + 有理数混合运算 · 必做计算</p>
+    <p class="subhead">螺旋巩固 · 绝对值 / 相反数 + 有理数混合运算 · 必做计算</p>
 
     <h3>今日概念提醒</h3>
     <ol style="margin:0 0 12px;padding-left:1.4em">
-      <li>科学记数法：把一个数写成 a×10<sup>n</sup> 的形式，其中 1≤|a|&lt;10，n 为整数。</li>
-      <li>较大的正数：n 为正整数；绝对值小于 1 的正数：n 为负整数。</li>
-      <li>脱式顺序：乘方 → 乘除 → 加减；有括号先算括号。注意「(-a)<sup>n</sup>」与「-a<sup>n</sup>」的区别。</li>
+      <li><strong>相反数</strong>：符号相反的两个数；0 的相反数是 0。</li>
+      <li><strong>绝对值</strong>：|a| 表示数 a 到原点的距离，结果一定是非负数；|−a| = |a|。</li>
+      <li><strong>脱式</strong>：有括号先括号；乘方 → 乘除 → 加减；先定符号再算。</li>
     </ol>
 
-    <h3>A. 科学记数法（4 题）</h3>
+    <h3>A. 基础计算（请留足书写区）（6 题）</h3>
 
     <div class="q">
-      <div><span class="q-num">1.</span>用科学记数法表示：450000000 = <span class="blank blank-xl"></span></div>
+      <div><span class="q-num">1.</span>−7 的相反数是 ______ ；|−7| = ______</div>
+      <div class="work-box steps big" aria-label="计算书写区1"></div>
     </div>
 
     <div class="q">
-      <div><span class="q-num">2.</span>用科学记数法表示：0.00068 = <span class="blank blank-xl"></span></div>
+      <div><span class="q-num">2.</span>|−3.5| + |2| =</div>
+      <div class="work-box steps big" aria-label="计算书写区2"></div>
     </div>
 
     <div class="q">
-      <div><span class="q-num">3.</span>写出原数：2.7×10<sup>4</sup> = <span class="blank blank-xl"></span></div>
+      <div><span class="q-num">3.</span>−|−8| + 5 =</div>
+      <div class="work-box steps big" aria-label="计算书写区3"></div>
     </div>
 
     <div class="q">
-      <div><span class="q-num">4.</span>写出原数：4.05×10<sup>−3</sup> = <span class="blank blank-xl"></span></div>
-    </div>
-
-    <h3>B. 有理数混合运算（请留足脱式书写区）（4 题）</h3>
-
-    <div class="q">
-      <div><span class="q-num">5.</span>(−2)<sup>3</sup> − 3×(−4) =</div>
-      <div class="work-box steps big" aria-label="脱式书写区5"></div>
+      <div><span class="q-num">4.</span>(−6) + |−4| × (−2) =</div>
+      <div class="work-box steps big" aria-label="计算书写区4"></div>
     </div>
 
     <div class="q">
-      <div><span class="q-num">6.</span>[(−5)+3<sup>2</sup>]÷(−2) =</div>
-      <div class="work-box steps big" aria-label="脱式书写区6"></div>
+      <div><span class="q-num">5.</span>|−12| ÷ (−3) + (−5)² =</div>
+      <div class="work-box steps big" aria-label="计算书写区5"></div>
     </div>
 
     <div class="q">
-      <div><span class="q-num">7.</span>−6<sup>2</sup>÷(−4)+(−1)<sup>5</sup> =</div>
-      <div class="work-box steps big" aria-label="脱式书写区7"></div>
+      <div><span class="q-num">6.</span>[|−9| − (−3)] ÷ (−2) =</div>
+      <div class="work-box steps big" aria-label="计算书写区6"></div>
+    </div>
+
+    <h3>B. 易错辨析（2 题）</h3>
+
+    <div class="q">
+      <div><span class="q-num">7.</span>有人算：−|−5| = 5。对吗？应怎么改？</div>
+      <div class="work-box short" aria-label="辨析书写区7"></div>
     </div>
 
     <div class="q">
-      <div><span class="q-num">8.</span>2.5×10<sup>3</sup> + 1.5×10<sup>3</sup> =（结果用科学记数法表示）</div>
-      <div class="work-box steps big" aria-label="脱式书写区8"></div>
+      <div><span class="q-num">8.</span>有人算：|−2|² = −4。对吗？错因是什么？</div>
+      <div class="work-box short" aria-label="辨析书写区8"></div>
     </div>
 
-    <h3>C. 易错辨析（2 题）</h3>
-
-    <div class="q">
-      <div><span class="q-num">9.</span>有人把 0.00032 写成 32×10<sup>−5</sup>。对吗？应怎么改？</div>
-      <div class="work-box short" aria-label="辨析书写区9"></div>
-    </div>
-
-    <div class="q">
-      <div><span class="q-num">10.</span>有人算：(−3)<sup>2</sup> = −9。对吗？错因是什么？</div>
-      <div class="work-box short" aria-label="辨析书写区10"></div>
-    </div>
-
-    <details class="answer">
+    <details class="answer parent-answers print-hide">
       <summary>家长对答案（先让孩子做完）· 数学</summary>
       <div class="ans-body">
-        <p>1. 4.5×10<sup>8</sup></p>
-        <p>2. 6.8×10<sup>−4</sup></p>
-        <p>3. 27000</p>
-        <p>4. 0.00405</p>
-        <p>5. 4</p>
-        <p>6. −2</p>
-        <p>7. 8</p>
-        <p>8. 4×10<sup>3</sup></p>
-        <p>9. 错；应为 3.2×10<sup>−4</sup>（a 须满足 1≤|a|&lt;10）</p>
-        <p>10. 错；应为 9（底数带括号时，负号参与乘方；偶次幂为正）</p>
-        <p class="err-tip">踩分：科学记数法看 a 的范围；对比「底数带括号」与「负号在乘方外」。</p>
+        <p><strong>A.</strong></p>
+        <p>1. 7；7</p>
+        <p>2. 3.5 + 2 = 5.5</p>
+        <p>3. −8 + 5 = −3（先求绝对值 8，再取负）</p>
+        <p>4. 先乘：4 × (−2) = −8；再 (−6) + (−8) = −14</p>
+        <p>5. 先除：12 ÷ (−3) = −4；（−5）² = 25；再 −4 + 25 = 21</p>
+        <p>6. 先括号：9 − (−3) = 12；12 ÷ (−2) = −6</p>
+        <p><strong>B.</strong></p>
+        <p>7. <strong>错</strong>。|−5| = 5，再取负：−|−5| = −5。</p>
+        <p>8. <strong>错</strong>。|−2| = 2，2² = 4（正）；不能写成 −4。</p>
+        <p class="err-tip">踩分提示：第 3、7 题区分「绝对值」与「绝对值再取负」；第 5 题先算除法与乘方再加减；第 8 题绝对值结果非负再乘方。</p>
       </div>
     </details>
   </section>
 
   <!-- ========== 英语 ========== -->
   <section class="block" id="english">
-    <h2>三、英语（约 12～15 分钟）</h2>
-    <p class="subhead">薄弱强化：一般现在时 / 现在进行时 / 第三人称单数 + 阅读定位</p>
+    <h2>三、英语（约 10～15 分钟）</h2>
+    <p class="subhead">螺旋复习：一般现在时 / 现在进行时（含第三人称单数）+ 阅读定位</p>
 
-    <h3>一、语法选择（每题 1 分，共 6 分）</h3>
+    <h3>一、时态选择（每题 1 分，共 6 分）</h3>
+    <p class="hint">先圈时间标志词，再选最佳答案。</p>
 
     <div class="q en">
-      <div><span class="q-num">1.</span>My brother ______ football every Saturday morning.</div>
-      <div style="margin-top:6px">A. play　B. plays　C. is playing　D. playing</div>
+      <div><span class="q-num">1.</span>My sister usually ______ breakfast at 7:00, but she ______ it now.</div>
+      <div style="margin-top:6px">A. has; is having　B. have; has　C. has; has　D. is having; has</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
 
     <div class="q en">
-      <div><span class="q-num">2.</span>Look! The students ______ in the library now.</div>
-      <div style="margin-top:6px">A. read　B. reads　C. are reading　D. reading</div>
+      <div><span class="q-num">2.</span>Look! The boys ______ football on the playground.</div>
+      <div style="margin-top:6px">A. play　B. plays　C. are playing　D. is playing</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
 
     <div class="q en">
-      <div><span class="q-num">3.</span>She usually ______ to school by bike, but today she ______ the bus.</div>
-      <div style="margin-top:6px">A. goes; takes　B. go; take　C. goes; is taking　D. is going; takes</div>
+      <div><span class="q-num">3.</span>—What ______ your father ______ every Sunday?</div>
+      <div style="margin-top:4px">—He often ______ fishing with his friends.</div>
+      <div style="margin-top:6px">A. do; do; go　B. does; do; goes　C. does; does; goes　D. do; does; go</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
 
     <div class="q en">
-      <div><span class="q-num">4.</span>He ______ English every evening. Listen! He ______ English in his room.</div>
-      <div style="margin-top:6px">A. studies; studies　B. studies; is studying　C. is studying; studies　D. study; is studying</div>
+      <div><span class="q-num">4.</span>Listen! Someone ______ an English song in the next room.</div>
+      <div style="margin-top:6px">A. sings　B. sing　C. is singing　D. are singing</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
 
     <div class="q en">
-      <div><span class="q-num">5.</span>—______ your sister often ______ TV after dinner?</div>
-      <div style="margin-top:4px">—Yes, she does.</div>
-      <div style="margin-top:6px">A. Do; watch　B. Does; watches　C. Does; watch　D. Is; watching</div>
+      <div><span class="q-num">5.</span>The earth ______ around the sun. That’s a fact.</div>
+      <div style="margin-top:6px">A. go　B. goes　C. is going　D. going</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
 
     <div class="q en">
-      <div><span class="q-num">6.</span>Tom ______ like milk, but he ______ drinking orange juice now.</div>
-      <div style="margin-top:6px">A. don’t; is　B. doesn’t; is　C. doesn’t; are　D. don’t; are</div>
+      <div><span class="q-num">6.</span>They ______ TV after dinner every day, but today they ______ homework.</div>
+      <div style="margin-top:6px">A. watch; do　B. watches; are doing　C. watch; are doing　D. are watching; do</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <h3>二、用所给动词的适当形式填空（每空 1 分，共 5 分）</h3>
+    <p class="hint">注意：三单、don’t/doesn’t、am/is/are + V-ing。</p>
+
+    <div class="q en">
+      <div><span class="q-num">7.</span>Tom often ______ (help) his mum with housework on weekends.</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-lg"></span></div>
     </div>
 
     <div class="q en">
-      <div>作答区：1.<span class="blank"></span> 2.<span class="blank"></span> 3.<span class="blank"></span> 4.<span class="blank"></span> 5.<span class="blank"></span> 6.<span class="blank"></span></div>
-    </div>
-
-    <h3>二、语法填空（每空 1 分，共 5 空）</h3>
-    <p class="hint">用所给词的适当形式填空。</p>
-
-    <div class="q en">
-      <div><span class="q-num">7.</span>Lucy <span class="blank blank-lg"></span> (have) breakfast at 7:00 every day.</div>
+      <div><span class="q-num">8.</span>—Where is Lily?</div>
+      <div style="margin-top:4px">—She ______ (read) a storybook in her bedroom now.</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-lg"></span></div>
     </div>
 
     <div class="q en">
-      <div><span class="q-num">8.</span>Be quiet! The baby <span class="blank blank-lg"></span> (sleep).</div>
+      <div><span class="q-num">9.</span>We ______ (not play) basketball at the moment. We ______ (clean) the classroom.</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-lg"></span>　<span class="blank blank-lg"></span></div>
     </div>
 
     <div class="q en">
-      <div><span class="q-num">9.</span>My father <span class="blank blank-lg"></span> (not work) on Sundays.</div>
+      <div><span class="q-num">10.</span>Does your brother ______ (like) science? Yes, he ______ (do).</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-lg"></span>　<span class="blank blank-lg"></span></div>
+    </div>
+
+    <h3>三、词汇搭配小练（每题 1 分，共 2 分）</h3>
+    <p class="hint">选合适短语填空（可变形）。</p>
+    <div class="word-card en">词库：get up　do homework　go to school　have lunch</div>
+
+    <div class="q en">
+      <div><span class="q-num">11.</span>I usually ______ at 6:30 and then wash my face.</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-lg"></span></div>
     </div>
 
     <div class="q en">
-      <div><span class="q-num">10.</span>—Where is Mom?</div>
-      <div style="margin-top:4px">—She <span class="blank blank-lg"></span> (cook) dinner in the kitchen.</div>
+      <div><span class="q-num">12.</span>Look! The students ______ in the dining hall. It’s 12:10 now.</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-xl"></span></div>
     </div>
 
-    <div class="q en">
-      <div><span class="q-num">11.</span>It often <span class="blank blank-lg"></span> (rain) in Guangzhou in summer.</div>
-    </div>
-
-    <h3>三、词汇搭配（每题 1 分，共 3 题）</h3>
-    <p class="hint">选合适的词填空（每词限用一次）：do / make / take / have</p>
-
-    <div class="q en">
-      <div><span class="q-num">12.</span>Please <span class="blank blank-lg"></span> a photo of the school gate.</div>
-    </div>
-
-    <div class="q en">
-      <div><span class="q-num">13.</span>We usually <span class="blank blank-lg"></span> homework after school.</div>
-    </div>
-
-    <div class="q en">
-      <div><span class="q-num">14.</span>Let’s <span class="blank blank-lg"></span> a break. I’m tired.</div>
-    </div>
-
-    <h3>四、短文阅读定位（每题 2 分，共 6 分）</h3>
-    <p class="hint">阅读短文，根据文中信息作答。先圈出题干关键词，再回原文定位。</p>
+    <h3>四、短文阅读·定位作答（每题 2 分，共 6 分）</h3>
+    <p class="hint">先读短文，再按题找信息。答案尽量用文中原词或短语。</p>
 
     <div class="passage en">
-      Mike is a Grade 7 student. He lives near his school, so he usually walks to school. He gets up at 6:30 and leaves home at 7:15. Classes begin at 8:00.<br><br>
-      Mike likes English best. He thinks it is interesting. Every Tuesday and Thursday afternoon, he goes to the English club. There he reads stories and talks with his classmates in English.<br><br>
-      Today is Thursday. Look! Mike is not walking. He is riding a bike because it is raining. He doesn’t want to be late for the English club.
+      Lily is a Grade 7 student. She gets up at 6:40 every morning. She usually walks to school with her friend Anna. Classes begin at 8:00. Lily likes English best because her English teacher is kind and funny. After school, she often does her homework first, and then she plays the piano for twenty minutes. Now it is 7:30 in the evening. Look! Lily is reading an English story. Her little brother is watching cartoons in the living room. Their mum is cooking dinner in the kitchen. They are all busy, but they are happy.
     </div>
 
     <div class="q en">
-      <div><span class="q-num">15.</span>How does Mike usually go to school?</div>
-      <div style="margin-top:6px">A. By bus.　B. By bike.　C. On foot.　D. By car.</div>
-      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+      <div><span class="q-num">13.</span>What time does Lily get up every morning?</div>
+      <div style="margin-top:8px">作答：</div>
+      <div class="write-line" aria-label="作答13"></div>
     </div>
 
     <div class="q en">
-      <div><span class="q-num">16.</span>When does Mike go to the English club?</div>
-      <div style="margin-top:6px">A. Every morning.　B. On Tuesday and Thursday afternoons.<br>C. Only on Thursday.　D. After dinner every day.</div>
-      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+      <div><span class="q-num">14.</span>Why does Lily like English best?（找原因）</div>
+      <div style="margin-top:8px">作答：</div>
+      <div class="write-line" aria-label="作答14"></div>
+      <div class="write-line" aria-label="作答14续"></div>
     </div>
 
     <div class="q en">
-      <div><span class="q-num">17.</span>Why is Mike riding a bike today?</div>
-      <div style="margin-top:6px">A. Because he is late.　B. Because he doesn’t like walking.<br>C. Because it is raining.　D. Because the club is far.</div>
-      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+      <div><span class="q-num">15.</span>What is Lily doing now?</div>
+      <div style="margin-top:8px">作答：</div>
+      <div class="write-line" aria-label="作答15"></div>
     </div>
 
-    <details class="answer">
+    <details class="answer parent-answers print-hide">
       <summary>家长对答案（先让孩子做完）· 英语</summary>
       <div class="ans-body">
-        <p>一、语法选择</p>
-        <p>1. B　2. C　3. C　4. B　5. C　6. B</p>
-        <p>二、语法填空</p>
-        <p>7. has　8. is sleeping　9. doesn’t work / does not work　10. is cooking　11. rains</p>
-        <p>三、词汇搭配</p>
-        <p>12. take　13. do　14. have</p>
-        <p>四、阅读定位</p>
-        <p>15. C　16. B　17. C</p>
-        <p class="err-tip">踩分提示：时态先抓时间标志词；第三人称单数别漏 -s/-es；阅读先划题干关键词再回原文。</p>
+        <p><strong>一、选择</strong></p>
+        <p>1. A（usually→一般现在时 has；now→现在进行时 is having）</p>
+        <p>2. C（Look!→进行时；boys 复数→are playing）</p>
+        <p>3. B（every Sunday→一般现在；主语 your father 三单→Does…do；答句 he→goes）</p>
+        <p>4. C（Listen!→进行时；someone 视为单数→is singing）</p>
+        <p>5. B（客观真理→一般现在时；earth 三单→goes）</p>
+        <p>6. C（every day→watch；today 对比→are doing）</p>
+        <p><strong>二、填空</strong></p>
+        <p>7. helps（often + 三单）</p>
+        <p>8. is reading（now）</p>
+        <p>9. are not playing / aren’t playing；are cleaning（at the moment）</p>
+        <p>10. like；does（Does 后用原形；简略回答用 does）</p>
+        <p><strong>三、搭配</strong></p>
+        <p>11. get up</p>
+        <p>12. are having lunch（Look! + now→进行时）</p>
+        <p><strong>四、阅读</strong></p>
+        <p>13. At 6:40. / She gets up at 6:40.</p>
+        <p>14. Because her English teacher is kind and funny.</p>
+        <p>15. She is reading an English story.</p>
+        <p class="err-tip">踩分提示：13～15 定位对即可得分；拼写小错可酌情；第 9、10 题两空各 1 分。易错点：三单加 -s/-es、Does 后动词还原、Look!/Listen!/now 触发进行时。</p>
       </div>
     </details>
   </section>
 
-  <!-- ========== 小四门：道德与法治 ========== -->
+  <!-- ========== 小四门：历史 ========== -->
   <section class="block" id="xiaosimen">
-    <h2>四、道德与法治（约 5～8 分钟）</h2>
-    <p class="subhead">今日当值小四门 · 友谊与交友</p>
+    <h2>四、历史（约 6 分钟）</h2>
+    <p class="subhead">今日当值小四门 · 夏商周</p>
 
     <div class="q">
-      <div><span class="q-num">1.</span>（单选）小华发现同桌总把自己的秘密说给别人听。他最恰当的做法是（　）</div>
+      <div><span class="q-num">1.</span>（单选）我国历史上第一个王朝是（　）</div>
       <div style="margin-top:6px">
-        A. 立刻绝交，再也不交朋友<br>
-        B. 当面指责，让全班同学评理<br>
-        C. 冷静沟通，说明感受并重设边界<br>
-        D. 假装没事，把秘密继续告诉对方
+        A. 商朝　B. 夏朝　C. 周朝　D. 秦朝
       </div>
       <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
 
     <div class="q">
-      <div><span class="q-num">2.</span>（单选）真正的友谊需要（　）</div>
+      <div><span class="q-num">2.</span>（单选）甲骨文主要出土于（　）</div>
       <div style="margin-top:6px">
-        A. 只和成绩好的同学来往<br>
-        B. 互相尊重、诚信、适度坦诚<br>
-        C. 一味迁就对方的所有要求<br>
-        D. 把对方的错误一律隐瞒
+        A. 长安　B. 洛阳　C. 殷墟（安阳）　D. 咸阳
       </div>
       <div style="margin-top:8px">作答：<span class="blank"></span></div>
     </div>
 
     <div class="q">
-      <div><span class="q-num">3.</span>（判断）交友可以没有原则，只要对方对自己好就行。（　）</div>
+      <div><span class="q-num">3.</span>（判断）西周实行分封制，目的是巩固统治、扩大疆域。（　）</div>
       <div style="margin-top:8px">作答：<span class="blank"></span>（√ / ×）</div>
     </div>
 
     <div class="q">
-      <div><span class="q-num">4.</span>（情境简答）材料：小明想加入篮球兴趣小组，但担心自己水平一般被笑话；同桌鼓励他“先参与，再进步”，并答应一起练。</div>
-      <div style="margin-top:8px">请用道法观点回答：</div>
-      <div style="margin-top:6px">①小明该不该去？为什么？（写1点）</div>
+      <div><span class="q-num">4.</span>（简答）材料：商朝人用龟甲、兽骨占卜，并把文字刻在上面。</div>
+      <div style="margin-top:8px">请回答：①这种文字叫什么？②它说明商朝在哪方面已比较发达？（各写1点）</div>
+      <div style="margin-top:6px">①</div>
       <div class="write-box" aria-label="简答书写区4-1"></div>
-      <div style="margin-top:8px">②同桌的做法体现了友谊的什么作用？（写1点）</div>
+      <div style="margin-top:8px">②</div>
       <div class="write-box" aria-label="简答书写区4-2"></div>
     </div>
 
-    <details class="answer">
-      <summary>家长对答案（先让孩子做完）· 道德与法治</summary>
+    <details class="answer parent-answers print-hide">
+      <summary>家长对答案（先让孩子做完）· 历史</summary>
       <div class="ans-body">
-        <p>1. C（冷静沟通、设边界）</p>
-        <p>2. B（尊重、诚信、坦诚）</p>
-        <p>3. ×（交友要有原则）</p>
-        <p>4. ①该去：勇于尝试／自信／丰富生活（任一点即可）　②支持鼓励／共同进步／陪伴成长（任一点即可）</p>
+        <p>1. B（夏朝）</p>
+        <p>2. C（殷墟／安阳）</p>
+        <p>3. √</p>
+        <p>4. ①甲骨文　②文字／文化／文明（任一点即可）</p>
       </div>
     </details>
   </section>
 
   <footer class="note">
-    初一日练 · 2026-10-29 · 建议用时约 40～50 分钟<br>
-    完成顺序：语文 → 数学 → 英语 → 道德与法治。
+    初一日练 · 2026-10-30（周五） · 建议用时约 40～50 分钟<br>
+    完成顺序：语文 → 数学 → 英语 → 历史。
   </footer>
 
 </div>

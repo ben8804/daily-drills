@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>初一日练 · 2026-10-30</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --line: #d0d4da;
+    --soft: #f6f7f9;
+    --accent: #1f4e79;
+    --ok: #2d6a4f;
+    --warn: #9a3412;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+                 "Noto Sans SC", "Source Han Sans SC", sans-serif;
+    color: var(--ink);
+    background: #eef1f5;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 16px 14px 48px;
+  }
+  header.sheet-head {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 18px 14px;
+    margin-bottom: 14px;
+  }
+  header.sheet-head h1 {
+    margin: 0 0 6px;
+    font-size: 1.35rem;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .meta span::before {
+    content: "· ";
+    color: #aaa;
+  }
+  .meta span:first-child::before { content: ""; }
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 0 4px;
+  }
+  .btn {
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: var(--accent);
+    color: #fff;
+    min-height: 48px;
+    min-width: 120px;
+  }
+  .btn:active { opacity: 0.9; }
+  .btn-ghost {
+    background: #fff;
+    color: var(--accent);
+    border: 1.5px solid var(--accent);
+  }
+  .tip-box {
+    background: #fff8e8;
+    border: 1px solid #f0d9a0;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    color: #6b4e16;
+    margin-top: 10px;
+  }
+  section.block {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 16px 12px;
+    margin-bottom: 14px;
+  }
+  section.block h2 {
+    margin: 0 0 4px;
+    font-size: 1.15rem;
+    color: var(--accent);
+    border-bottom: 2px solid #e3e8ef;
+    padding-bottom: 8px;
+  }
+  .subhead {
+    color: var(--muted);
+    font-size: 0.88rem;
+    margin: 0 0 12px;
+  }
+  h3 {
+    margin: 16px 0 8px;
+    font-size: 1.02rem;
+    color: #243447;
+  }
+  .q {
+    margin: 0 0 14px;
+    padding: 10px 12px;
+    background: var(--soft);
+    border-radius: 8px;
+    border-left: 3px solid #9db4ce;
+  }
+  .q-num {
+    font-weight: 700;
+    color: var(--accent);
+    margin-right: 4px;
+  }
+  .blank {
+    display: inline-block;
+    min-width: 2.2em;
+    border-bottom: 1.5px solid #666;
+    margin: 0 2px;
+    height: 1.1em;
+    vertical-align: baseline;
+  }
+  .blank-lg { min-width: 4.5em; }
+  .blank-xl { min-width: 11em; }
+  .hint {
+    margin-top: 6px;
+    font-size: 0.86rem;
+    color: var(--warn);
+  }
+  .write-box {
+    border: 1.5px dashed #b8c0cc;
+    border-radius: 8px;
+    min-height: 110px;
+    margin-top: 8px;
+    background: repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      #e8ecf1 27px,
+      #e8ecf1 28px
+    );
+    background-origin: content-box;
+  }
+  .write-line {
+    display: block;
+    border-bottom: 1.5px solid #666;
+    min-height: 2.1em;
+    margin-top: 6px;
+  }
+  .work-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    margin-top: 10px;
+  }
+  .work-item {
+    flex: 1 1 140px;
+    min-width: 140px;
+  }
+  .work-item .lab {
+    font-size: 0.92rem;
+    margin-bottom: 4px;
+    color: #333;
+  }
+  .work-box {
+    border: 1.5px solid #b8c0cc;
+    border-radius: 8px;
+    background: #fff;
+    background-image: repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      #e8ecf1 27px,
+      #e8ecf1 28px
+    );
+    margin-top: 4px;
+  }
+  .work-box.vert {
+    min-height: 150px;
+    width: 100%;
+    max-width: 200px;
+  }
+  .work-box.steps {
+    min-height: 120px;
+    width: 100%;
+  }
+  .work-box.steps.big { min-height: 168px; }
+  .work-box.short {
+    min-height: 90px;
+    width: 100%;
+  }
+  .phon {
+    font-family: "Segoe UI", "Lucida Grande", Arial, sans-serif;
+    color: #444;
+    font-size: 0.92em;
+  }
+  .en { font-family: Georgia, "Times New Roman", serif; }
+  .word-card {
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background: var(--soft);
+    border-radius: 8px;
+  }
+  .word-card strong { color: var(--accent); }
+  .passage {
+    background: #f9fafb;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 8px 0 12px;
+  }
+  details.answer {
+    margin-top: 10px;
+    border: 1.5px solid #c5ddd0;
+    border-radius: 10px;
+    background: #f3faf6;
+    overflow: hidden;
+  }
+  details.answer > summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    font-weight: 700;
+    color: var(--ok);
+    list-style: none;
+    user-select: none;
+  }
+  details.answer > summary::-webkit-details-marker { display: none; }
+  details.answer > summary::before {
+    content: "▸ ";
+    display: inline-block;
+    transition: transform 0.15s;
+  }
+  details.answer[open] > summary::before { content: "▾ "; }
+  .ans-body {
+    padding: 0 14px 14px;
+    border-top: 1px solid #d4e8dc;
+    font-size: 0.95rem;
+  }
+  .ans-body ol, .ans-body ul { padding-left: 1.3em; margin: 6px 0; }
+  .ans-body li { margin: 4px 0; }
+  .err-tip {
+    color: var(--warn);
+    font-size: 0.88rem;
+    margin-top: 4px;
+  }
+  footer.note {
+    text-align: center;
+    color: #888;
+    font-size: 0.82rem;
+    margin-top: 8px;
+  }
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+  @media print {
+    html { font-size: 11pt; }
+    body {
+      background: #fff !important;
+      color: #000;
+      line-height: 1.45;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .wrap { max-width: none; margin: 0; padding: 0; }
+    .toolbar,
+    .no-print,
+    .print-hide,
+    .parent-answers,
+    .tip-box,
+    details.answer,
+    .btn {
+      display: none !important;
+    }
+    header.sheet-head,
+    section.block {
+      border: none !important;
+      border-radius: 0;
+      box-shadow: none;
+      margin: 0 0 6mm;
+      padding: 0;
+      background: #fff !important;
+      break-inside: auto;
+    }
+    header.sheet-head {
+      break-after: avoid;
+      margin-bottom: 4mm;
+      padding-bottom: 2mm;
+      border-bottom: none !important;
+    }
+    header.sheet-head h1 { display: none !important; }
+    header.sheet-head .meta {
+      font-size: 11pt;
+      color: #000;
+      gap: 10px 16px;
+    }
+    header.sheet-head .meta span::before { content: ""; }
+    header.sheet-head .meta span + span::before {
+      content: "· ";
+      color: #666;
+    }
+    section.block h2 {
+      break-after: avoid;
+      border-bottom: none;
+      color: #000;
+      padding-bottom: 2mm;
+      margin-bottom: 3mm;
+    }
+    h3 { break-after: avoid; color: #000; }
+    .q,
+    .word-card,
+    .passage,
+    .write-box,
+    .write-line {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .write-box { min-height: 28mm; }
+    .work-box.vert { min-height: 42mm; max-width: 48mm; }
+    .work-box.steps { min-height: 36mm; }
+    .work-box.steps.big { min-height: 48mm; }
+    .work-box.short { min-height: 28mm; }
+    .work-item, .work-box { break-inside: avoid; page-break-inside: avoid; }
+    .hint { color: #333; }
+    a { text-decoration: none; color: inherit; }
+    .q,
+    .word-card,
+    .passage,
+    .tip-box,
+    header.sheet-head,
+    section.block,
+    .write-box,
+    .work-box,
+    details.answer,
+    .parent-answers {
+      background: transparent !important;
+      background-image: none !important;
+    }
+    .q { border-left-color: #9db4ce; }
+    .write-box,
+    .work-box {
+      border-color: #999;
+      background-image: repeating-linear-gradient(
+        transparent,
+        transparent 27px,
+        #ccc 27px,
+        #ccc 28px
+      ) !important;
+    }
+    footer.note { display: none !important; }
+  }
+  @media (max-width: 480px) {
+    html { font-size: 16px; }
+    .btn { width: 100%; }
+  }
+
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="sheet-head">
+    <h1>初一日练 · 2026-10-30（周五）</h1>
+    <div class="meta">
+      <span>日期 2026-10-30（周五）</span>
+      <span>建议用时约 40～50 分钟</span>
+      <span class="print-hide">今日要点：语文《观沧海》字词与默写，数学绝对值与相反数，英语现在时态，历史·夏商周。</span>
+    </div>
+    <div class="toolbar no-print print-hide">
+      <button class="btn" type="button" onclick="window.print()">🖨️ 打印本页</button>
+      <button class="btn btn-ghost" type="button" onclick="document.querySelectorAll('details.answer').forEach(d=>d.open=false)">收起全部答案</button>
+      <a class="btn btn-ghost" href="../history.html" style="display:inline-flex;align-items:center;justify-content:center;text-decoration:none">历史日练</a>
+    </div>
+    <div class="tip-box no-print print-hide">
+      <strong>给家长：</strong>先让孩子独立完成，再展开下方「家长对答案」。打印时提示和全部家长对答案会自动隐藏；页眉只留日期和建议用时。古诗只印半句和横线，答案不要抄到学生卷上。今日小四门为历史·夏商周。
+    </div>
+  </header>
+
+  <!-- ========== 语文 ========== -->
+  <section class="block" id="chinese">
+    <h2>一、语文（约 12～15 分钟）</h2>
+    <p class="subhead">螺旋复习 · 基础知识：字音字形 + 词语运用 + 病句 + 古诗默写</p>
+
+    <h3>A. 字音字形（3 题）</h3>
+
+    <div class="q">
+      <div><span class="q-num">1.</span>下列加点字注音全对的一项是（　）</div>
+      <div style="margin-top:6px">
+        A. 碣石（<span class="phon">jié</span>）　澹澹（<span class="phon">dàn</span>）　竦峙（<span class="phon">sǒng zhì</span>）<br>
+        B. 碣石（<span class="phon">jiē</span>）　澹澹（<span class="phon">dàn</span>）　竦峙（<span class="phon">sǒng zhì</span>）<br>
+        C. 碣石（<span class="phon">jié</span>）　澹澹（<span class="phon">dǎn</span>）　竦峙（<span class="phon">sǒng zhì</span>）<br>
+        D. 碣石（<span class="phon">jié</span>）　澹澹（<span class="phon">dàn</span>）　竦峙（<span class="phon">sòng zhì</span>）
+      </div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">2.</span>下列词语中没有错别字的一项是（　）</div>
+      <div style="margin-top:6px">
+        A. 星汉灿烂　秋风萧瑟　幸甚至哉<br>
+        B. 星汉灿烂　秋风消瑟　幸甚至哉<br>
+        C. 星汉灿烂　秋风萧瑟　幸甚至栽<br>
+        D. 星汉灿烂　秋风萧瑟　幸甚致哉
+      </div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">3.</span>给加点字选正确读音（填字母）。</div>
+      <div style="margin-top:6px">
+        ①竦峙（　）　A. <span class="phon">chì</span>　B. <span class="phon">zhì</span><br>
+        ②澹澹（　）　A. <span class="phon">dàn</span>　B. <span class="phon">dǎn</span><br>
+        ③碣石（　）　A. <span class="phon">jié</span>　B. <span class="phon">jiē</span>
+      </div>
+      <div style="margin-top:8px">作答：①<span class="blank"></span>　②<span class="blank"></span>　③<span class="blank"></span></div>
+    </div>
+
+    <h3>B. 词语运用（2 题）</h3>
+
+    <div class="q">
+      <div><span class="q-num">4.</span>选词填空（每个词只用一次）。</div>
+      <div style="margin-top:6px">备选：萧瑟　灿烂　竦峙　澹澹</div>
+      <div style="margin-top:8px">
+        东临碣石，海水<span class="blank blank-lg"></span>，山岛<span class="blank blank-lg"></span>。秋风<span class="blank blank-lg"></span>，星汉<span class="blank blank-lg"></span>。
+      </div>
+      <div style="margin-top:8px">作答：①<span class="blank blank-lg"></span>　②<span class="blank blank-lg"></span>　③<span class="blank blank-lg"></span>　④<span class="blank blank-lg"></span></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">5.</span>下列加点成语使用恰当的一项是（　）</div>
+      <div style="margin-top:6px">
+        A. 他做事总是一丝不苟，同学们都很佩服。<br>
+        B. 这部书枯燥无味，读来真是津津有味。<br>
+        C. 大家七嘴八舌，会场一下子鸦雀无声。<br>
+        D. 他考试时总是囫囵吞枣，成绩却名列前茅。
+      </div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <h3>C. 病句修改（2 题）</h3>
+
+    <div class="q">
+      <div><span class="q-num">6.</span>下列句子没有语病的一项是（　）</div>
+      <div style="margin-top:6px">
+        A. 通过背诵古诗，使我提高了语感。<br>
+        B. 我们要继承和发扬中华优秀传统文化。<br>
+        C. 能否坚持练字，是写好字的关键。<br>
+        D. 他的课外阅读量有了明显的扩大。
+      </div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">7.</span>修改病句（每句改一处即可）。</div>
+      <div style="margin-top:8px">（1）通过老师的指导，使我改正了写字姿势。</div>
+      <div style="margin-top:6px">改：<span class="blank blank-xl"></span></div>
+      <div style="margin-top:8px">（2）我们要尽量防止少犯粗心的错误。</div>
+      <div style="margin-top:6px">改：<span class="blank blank-xl"></span></div>
+    </div>
+
+    <h3>D. 古诗默写（2 题）</h3>
+
+    <div class="q">
+      <div><span class="q-num">8.</span>水何澹澹，<span class="blank blank-xl"></span>。（曹操《观沧海》）</div>
+      <div style="margin-top:8px"><span class="q-num">9.</span><span class="blank blank-xl"></span>，洪波涌起。（曹操《观沧海》）</div>
+    </div>
+
+    <details class="answer parent-answers print-hide">
+      <summary>家长对答案（先让孩子做完）· 语文</summary>
+      <div class="ans-body">
+        <p><strong>A.</strong> 1. A　2. A　3. ①B　②A　③A</p>
+        <p><strong>B.</strong> 4. 澹澹；竦峙；萧瑟；灿烂　5. A</p>
+        <p><strong>C.</strong> 6. B</p>
+        <p>7.（1）删「通过」或删「使」；（2）删「防止」或删「少」</p>
+        <p><strong>D.</strong> 8. 山岛竦峙　9. 秋风萧瑟</p>
+        <p class="err-tip">踩分提示：字音看「全对」；成语先判褒贬与是否自相矛盾；病句盯「通过……使……」「能否……关键」「防止+少」；默写错一字该空不得分。</p>
+      </div>
+    </details>
+  </section>
+
+  <!-- ========== 数学 ========== -->
+  <section class="block" id="math">
+    <h2>二、数学（约 12～15 分钟）</h2>
+    <p class="subhead">螺旋巩固 · 绝对值 / 相反数 + 有理数混合运算 · 必做计算</p>
+
+    <h3>今日概念提醒</h3>
+    <ol style="margin:0 0 12px;padding-left:1.4em">
+      <li><strong>相反数</strong>：符号相反的两个数；0 的相反数是 0。</li>
+      <li><strong>绝对值</strong>：|a| 表示数 a 到原点的距离，结果一定是非负数；|−a| = |a|。</li>
+      <li><strong>脱式</strong>：有括号先括号；乘方 → 乘除 → 加减；先定符号再算。</li>
+    </ol>
+
+    <h3>A. 基础计算（请留足书写区）（6 题）</h3>
+
+    <div class="q">
+      <div><span class="q-num">1.</span>−7 的相反数是 ______ ；|−7| = ______</div>
+      <div class="work-box steps big" aria-label="计算书写区1"></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">2.</span>|−3.5| + |2| =</div>
+      <div class="work-box steps big" aria-label="计算书写区2"></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">3.</span>−|−8| + 5 =</div>
+      <div class="work-box steps big" aria-label="计算书写区3"></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">4.</span>(−6) + |−4| × (−2) =</div>
+      <div class="work-box steps big" aria-label="计算书写区4"></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">5.</span>|−12| ÷ (−3) + (−5)² =</div>
+      <div class="work-box steps big" aria-label="计算书写区5"></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">6.</span>[|−9| − (−3)] ÷ (−2) =</div>
+      <div class="work-box steps big" aria-label="计算书写区6"></div>
+    </div>
+
+    <h3>B. 易错辨析（2 题）</h3>
+
+    <div class="q">
+      <div><span class="q-num">7.</span>有人算：−|−5| = 5。对吗？应怎么改？</div>
+      <div class="work-box short" aria-label="辨析书写区7"></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">8.</span>有人算：|−2|² = −4。对吗？错因是什么？</div>
+      <div class="work-box short" aria-label="辨析书写区8"></div>
+    </div>
+
+    <details class="answer parent-answers print-hide">
+      <summary>家长对答案（先让孩子做完）· 数学</summary>
+      <div class="ans-body">
+        <p><strong>A.</strong></p>
+        <p>1. 7；7</p>
+        <p>2. 3.5 + 2 = 5.5</p>
+        <p>3. −8 + 5 = −3（先求绝对值 8，再取负）</p>
+        <p>4. 先乘：4 × (−2) = −8；再 (−6) + (−8) = −14</p>
+        <p>5. 先除：12 ÷ (−3) = −4；（−5）² = 25；再 −4 + 25 = 21</p>
+        <p>6. 先括号：9 − (−3) = 12；12 ÷ (−2) = −6</p>
+        <p><strong>B.</strong></p>
+        <p>7. <strong>错</strong>。|−5| = 5，再取负：−|−5| = −5。</p>
+        <p>8. <strong>错</strong>。|−2| = 2，2² = 4（正）；不能写成 −4。</p>
+        <p class="err-tip">踩分提示：第 3、7 题区分「绝对值」与「绝对值再取负」；第 5 题先算除法与乘方再加减；第 8 题绝对值结果非负再乘方。</p>
+      </div>
+    </details>
+  </section>
+
+  <!-- ========== 英语 ========== -->
+  <section class="block" id="english">
+    <h2>三、英语（约 10～15 分钟）</h2>
+    <p class="subhead">螺旋复习：一般现在时 / 现在进行时（含第三人称单数）+ 阅读定位</p>
+
+    <h3>一、时态选择（每题 1 分，共 6 分）</h3>
+    <p class="hint">先圈时间标志词，再选最佳答案。</p>
+
+    <div class="q en">
+      <div><span class="q-num">1.</span>My sister usually ______ breakfast at 7:00, but she ______ it now.</div>
+      <div style="margin-top:6px">A. has; is having　B. have; has　C. has; has　D. is having; has</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">2.</span>Look! The boys ______ football on the playground.</div>
+      <div style="margin-top:6px">A. play　B. plays　C. are playing　D. is playing</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">3.</span>—What ______ your father ______ every Sunday?</div>
+      <div style="margin-top:4px">—He often ______ fishing with his friends.</div>
+      <div style="margin-top:6px">A. do; do; go　B. does; do; goes　C. does; does; goes　D. do; does; go</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">4.</span>Listen! Someone ______ an English song in the next room.</div>
+      <div style="margin-top:6px">A. sings　B. sing　C. is singing　D. are singing</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">5.</span>The earth ______ around the sun. That’s a fact.</div>
+      <div style="margin-top:6px">A. go　B. goes　C. is going　D. going</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">6.</span>They ______ TV after dinner every day, but today they ______ homework.</div>
+      <div style="margin-top:6px">A. watch; do　B. watches; are doing　C. watch; are doing　D. are watching; do</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <h3>二、用所给动词的适当形式填空（每空 1 分，共 5 分）</h3>
+    <p class="hint">注意：三单、don’t/doesn’t、am/is/are + V-ing。</p>
+
+    <div class="q en">
+      <div><span class="q-num">7.</span>Tom often ______ (help) his mum with housework on weekends.</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-lg"></span></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">8.</span>—Where is Lily?</div>
+      <div style="margin-top:4px">—She ______ (read) a storybook in her bedroom now.</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-lg"></span></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">9.</span>We ______ (not play) basketball at the moment. We ______ (clean) the classroom.</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-lg"></span>　<span class="blank blank-lg"></span></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">10.</span>Does your brother ______ (like) science? Yes, he ______ (do).</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-lg"></span>　<span class="blank blank-lg"></span></div>
+    </div>
+
+    <h3>三、词汇搭配小练（每题 1 分，共 2 分）</h3>
+    <p class="hint">选合适短语填空（可变形）。</p>
+    <div class="word-card en">词库：get up　do homework　go to school　have lunch</div>
+
+    <div class="q en">
+      <div><span class="q-num">11.</span>I usually ______ at 6:30 and then wash my face.</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-lg"></span></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">12.</span>Look! The students ______ in the dining hall. It’s 12:10 now.</div>
+      <div style="margin-top:8px">作答：<span class="blank blank-xl"></span></div>
+    </div>
+
+    <h3>四、短文阅读·定位作答（每题 2 分，共 6 分）</h3>
+    <p class="hint">先读短文，再按题找信息。答案尽量用文中原词或短语。</p>
+
+    <div class="passage en">
+      Lily is a Grade 7 student. She gets up at 6:40 every morning. She usually walks to school with her friend Anna. Classes begin at 8:00. Lily likes English best because her English teacher is kind and funny. After school, she often does her homework first, and then she plays the piano for twenty minutes. Now it is 7:30 in the evening. Look! Lily is reading an English story. Her little brother is watching cartoons in the living room. Their mum is cooking dinner in the kitchen. They are all busy, but they are happy.
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">13.</span>What time does Lily get up every morning?</div>
+      <div style="margin-top:8px">作答：</div>
+      <div class="write-line" aria-label="作答13"></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">14.</span>Why does Lily like English best?（找原因）</div>
+      <div style="margin-top:8px">作答：</div>
+      <div class="write-line" aria-label="作答14"></div>
+      <div class="write-line" aria-label="作答14续"></div>
+    </div>
+
+    <div class="q en">
+      <div><span class="q-num">15.</span>What is Lily doing now?</div>
+      <div style="margin-top:8px">作答：</div>
+      <div class="write-line" aria-label="作答15"></div>
+    </div>
+
+    <details class="answer parent-answers print-hide">
+      <summary>家长对答案（先让孩子做完）· 英语</summary>
+      <div class="ans-body">
+        <p><strong>一、选择</strong></p>
+        <p>1. A（usually→一般现在时 has；now→现在进行时 is having）</p>
+        <p>2. C（Look!→进行时；boys 复数→are playing）</p>
+        <p>3. B（every Sunday→一般现在；主语 your father 三单→Does…do；答句 he→goes）</p>
+        <p>4. C（Listen!→进行时；someone 视为单数→is singing）</p>
+        <p>5. B（客观真理→一般现在时；earth 三单→goes）</p>
+        <p>6. C（every day→watch；today 对比→are doing）</p>
+        <p><strong>二、填空</strong></p>
+        <p>7. helps（often + 三单）</p>
+        <p>8. is reading（now）</p>
+        <p>9. are not playing / aren’t playing；are cleaning（at the moment）</p>
+        <p>10. like；does（Does 后用原形；简略回答用 does）</p>
+        <p><strong>三、搭配</strong></p>
+        <p>11. get up</p>
+        <p>12. are having lunch（Look! + now→进行时）</p>
+        <p><strong>四、阅读</strong></p>
+        <p>13. At 6:40. / She gets up at 6:40.</p>
+        <p>14. Because her English teacher is kind and funny.</p>
+        <p>15. She is reading an English story.</p>
+        <p class="err-tip">踩分提示：13～15 定位对即可得分；拼写小错可酌情；第 9、10 题两空各 1 分。易错点：三单加 -s/-es、Does 后动词还原、Look!/Listen!/now 触发进行时。</p>
+      </div>
+    </details>
+  </section>
+
+  <!-- ========== 小四门：历史 ========== -->
+  <section class="block" id="xiaosimen">
+    <h2>四、历史（约 6 分钟）</h2>
+    <p class="subhead">今日当值小四门 · 夏商周</p>
+
+    <div class="q">
+      <div><span class="q-num">1.</span>（单选）我国历史上第一个王朝是（　）</div>
+      <div style="margin-top:6px">
+        A. 商朝　B. 夏朝　C. 周朝　D. 秦朝
+      </div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">2.</span>（单选）甲骨文主要出土于（　）</div>
+      <div style="margin-top:6px">
+        A. 长安　B. 洛阳　C. 殷墟（安阳）　D. 咸阳
+      </div>
+      <div style="margin-top:8px">作答：<span class="blank"></span></div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">3.</span>（判断）西周实行分封制，目的是巩固统治、扩大疆域。（　）</div>
+      <div style="margin-top:8px">作答：<span class="blank"></span>（√ / ×）</div>
+    </div>
+
+    <div class="q">
+      <div><span class="q-num">4.</span>（简答）材料：商朝人用龟甲、兽骨占卜，并把文字刻在上面。</div>
+      <div style="margin-top:8px">请回答：①这种文字叫什么？②它说明商朝在哪方面已比较发达？（各写1点）</div>
+      <div style="margin-top:6px">①</div>
+      <div class="write-box" aria-label="简答书写区4-1"></div>
+      <div style="margin-top:8px">②</div>
+      <div class="write-box" aria-label="简答书写区4-2"></div>
+    </div>
+
+    <details class="answer parent-answers print-hide">
+      <summary>家长对答案（先让孩子做完）· 历史</summary>
+      <div class="ans-body">
+        <p>1. B（夏朝）</p>
+        <p>2. C（殷墟／安阳）</p>
+        <p>3. √</p>
+        <p>4. ①甲骨文　②文字／文化／文明（任一点即可）</p>
+      </div>
+    </details>
+  </section>
+
+  <footer class="note">
+    初一日练 · 2026-10-30（周五） · 建议用时约 40～50 分钟<br>
+    完成顺序：语文 → 数学 → 英语 → 历史。
+  </footer>
+
+</div>
+</body>
+</html>
