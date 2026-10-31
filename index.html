@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>小学四年级日练 · 2026-10-30</title>
+<title>小学四年级日练 · 2026-10-31</title>
 <style>
   :root {
     --ink: #1a1a1a;
@@ -175,7 +175,7 @@
   .write-box {
     border: 1.5px dashed #b8c0cc;
     border-radius: 8px;
-    min-height: 110px;
+    min-height: 72px;
     margin-top: 8px;
     background: repeating-linear-gradient(
       transparent,
@@ -185,20 +185,8 @@
     );
     background-origin: content-box;
   }
-  .work-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px 18px;
-    margin-top: 10px;
-  }
-  .work-item {
-    flex: 1 1 140px;
-    min-width: 140px;
-  }
-  .work-item .lab {
-    font-size: 0.92rem;
-    margin-bottom: 4px;
-    color: #333;
+  .write-box.mid {
+    min-height: 100px;
   }
   .work-box {
     border: 1.5px solid #b8c0cc;
@@ -218,21 +206,18 @@
     max-width: 200px;
   }
   .work-box.vert.big {
-    min-height: 210px;
+    min-height: 200px;
     max-width: 260px;
-  }
-  .work-box.steps.big {
-    min-height: 168px;
-  }
-  .write-box.roomy {
-    min-height: 176px;
   }
   .work-box.steps {
     min-height: 120px;
     width: 100%;
   }
+  .work-box.steps.big {
+    min-height: 150px;
+  }
   .work-box.short {
-    min-height: 90px;
+    min-height: 72px;
     width: 100%;
   }
   .phon {
@@ -363,15 +348,15 @@
       break-inside: avoid;
       page-break-inside: avoid;
     }
-    .write-box { min-height: 28mm; }
+    .write-box { min-height: 20mm; }
+    .write-box.mid { min-height: 28mm; }
     .work-box.vert { min-height: 42mm; max-width: 48mm; }
-    .work-box.vert.big { min-height: 58mm; max-width: 64mm; }
-    .work-box.steps { min-height: 36mm; }
-    .work-box.steps.big { min-height: 48mm; }
-    .work-box.short { min-height: 28mm; }
-    .write-box.roomy { min-height: 50mm; }
+    .work-box.vert.big { min-height: 56mm; max-width: 64mm; }
+    .work-box.steps { min-height: 34mm; }
+    .work-box.steps.big { min-height: 42mm; }
+    .work-box.short { min-height: 20mm; }
     .dict-line { min-height: 12mm; border-bottom-color: #000; }
-    .work-item, .work-box { break-inside: avoid; page-break-inside: avoid; }
+    .work-box { break-inside: avoid; page-break-inside: avoid; }
     .hint { color: #333; }
     a { text-decoration: none; color: inherit; }
 
@@ -412,12 +397,12 @@
 <div class="wrap">
 
 <header class="sheet-head">
-  <h1 class="no-print print-hide">四年级日练 · 2026-10-30（周五）</h1>
+  <h1 class="no-print print-hide">四年级日练 · 2026-10-31（周六）</h1>
   <div class="meta">
-    <span>日期 2026-10-30（周五）</span>
+    <span>日期 2026-10-31（周六）</span>
     <span>建议用时约 20～40 分钟</span>
   </div>
-  <p class="today-point no-print print-hide">今日要点：语文结尾练、数学计算巩固、英语日常作息。</p>
+  <p class="today-point no-print print-hide">今日要点：语文条理提纲、数学计算巩固、英语爱好与周末。</p>
   <div class="toolbar no-print print-hide">
     <button class="btn" type="button" onclick="window.print()">🖨️ 打印本页</button>
     <button class="btn btn-ghost" type="button" onclick="document.querySelectorAll('details.answer').forEach(d=>d.open=false)">收起全部答案</button>
@@ -432,7 +417,7 @@
 <!-- ========== 语文 ========== -->
 <section class="block" id="chinese">
   <h2>一、语文（约 8～10 分钟）</h2>
-  <p class="subhead">字词 + 阅读猜心情 + 习作练「结尾」（不写全文）</p>
+  <p class="subhead">字词 + 阅读找原因 + 习作练「条理」（不写全文）</p>
 
   <h3>字词（听写 / 选填）</h3>
   <div class="q dictation" id="zh-dictation">
@@ -449,29 +434,31 @@
 
   <h3>阅读（1问）</h3>
   <div class="passage">
-    美术课上要画春天。乐乐把绿色涂得到处都是，还把同桌的纸角蹭脏了。同桌皱了皱眉，却把桌面擦干净，又把自己的绿颜料推过来：「你用我的吧，画树叶更匀。」乐乐愣了一下，小声说了声「谢谢」，脸有点红。
+    课间，小雨在教室门口左顾右盼，好像在找什么。原来同桌小凯的橡皮滚到了走廊。小雨弯腰捡起来，擦了擦，送回给小凯。小凯喜出望外，连声道谢。小雨笑了笑，说声「没事」，就回座位继续看书了。
   </div>
   <div class="q">
-    <div>问：乐乐后来为什么脸红？请用文中意思回答。</div>
+    <div>问：小雨为什么在门口左顾右盼？（用一两句话说清楚）</div>
     <div style="margin-top:8px">答：</div>
     <div class="write-box" aria-label="阅读作答区"></div>
   </div>
 
-  <h3>习作一点练（只练结尾，不写全文）</h3>
+  <h3>习作一点练（只练条理，不写全文）</h3>
   <div class="q">
-    <div>题目方向：写一次「帮助别人或被帮助」。</div>
-    <p style="margin:8px 0">只写结尾 2 句：一句写事情结束后自己或对方说了什么/做了什么，一句写当时心里最想留下的感受。不要再从头叙述经过。每句不超过 25 字。</p>
-    <div style="margin-top:8px">结尾：</div>
-    <div class="write-box roomy" aria-label="习作结尾书写区"></div>
+    <div>训练点：条理——用「先……再……最后……」把事情说清楚。</div>
+    <p style="margin:8px 0">题目提示：写「早上出门前收拾书包」。</p>
+    <p style="margin:8px 0">要求：只写三步提纲（每步一句话），不要写成整篇作文。</p>
+    <div style="margin-top:8px">提纲：</div>
+    <div class="write-box mid" aria-label="习作提纲书写区"></div>
   </div>
 
   <details class="answer parent-answers print-hide">
     <summary>家长对答案（先让孩子做完）· 语文</summary>
     <div class="ans-body">
-      <p><strong>听写词（家长报）：</strong>提醒、小心翼翼、情不自禁、四面八方、若有所思</p>
-      <p><strong>阅读：</strong>因为蹭脏了同桌的纸 / 同桌还借颜料给他 / 觉得不好意思或感激。答出「蹭脏」或「谢谢」相关即可。</p>
-      <p class="err-tip">错因常是只写「他害羞」——改法：回到「蹭脏」「推过来」「谢谢」这几处。</p>
-      <p><strong>习作：</strong>结尾应落在「事后」；若又从「有一天」写起，圈掉过程句，只留最后两句重写。</p>
+      <p><strong>听写词（家长报）：</strong>眺望、清澈、一丝不苟、喜出望外、左顾右盼</p>
+      <p><strong>阅读：</strong>因为同桌小凯的橡皮滚到了走廊，小雨在找那块橡皮。（意思对即可）</p>
+      <p class="err-tip">错因常是只写「他在找东西」——改法：点明「橡皮」「走廊」。</p>
+      <p><strong>习作：</strong>三步须有先后，如：先对照课表把课本放进书包；再检查铅笔盒和作业本；最后拉上拉链、背上书包。易错：三步乱序或写成一整段。</p>
+      <p class="err-tip">字词易错：眺（不要写成跳）、澈（右边是「敫」）、苟、盼。</p>
     </div>
   </details>
 </section>
@@ -479,34 +466,34 @@
 <!-- ========== 数学 ========== -->
 <section class="block" id="math">
   <h2>二、数学（约 8 分钟）</h2>
-  <p class="subhead">计算巩固｜四则 + 简便 + 面积周长防串</p>
+  <p class="subhead">计算巩固｜四则 + 简便 + 周长面积防串</p>
 
   <div class="q">
     <div><span class="q-num">1.</span>口算：</div>
     <div style="margin-top:6px">
-      4800÷60=<span class="blank blank-lg"></span>&emsp;
-      67×20=<span class="blank blank-lg"></span>&emsp;
-      805-378=<span class="blank blank-lg"></span>
+      3600÷40=<span class="blank blank-lg"></span>&emsp;
+      76×30=<span class="blank blank-lg"></span>&emsp;
+      1003-456=<span class="blank blank-lg"></span>
     </div>
   </div>
 
   <div class="q">
-    <div><span class="q-num">2.</span>竖式：815×36</div>
+    <div><span class="q-num">2.</span>竖式：407×58</div>
     <div class="work-box vert big" aria-label="竖式书写区"></div>
   </div>
 
   <div class="q">
-    <div><span class="q-num">3.</span>脱式：630÷(42÷7)+19</div>
+    <div><span class="q-num">3.</span>脱式：720÷(24-15)×3</div>
     <div class="work-box steps big" aria-label="脱式书写区"></div>
   </div>
 
   <div class="q">
-    <div><span class="q-num">4.</span>简便：125×24×8</div>
+    <div><span class="q-num">4.</span>简便：25×48×4</div>
     <div class="work-box steps big" aria-label="简便计算书写区"></div>
   </div>
 
   <div class="q">
-    <div><span class="q-num">5.</span>判对错并改：长方形长 12 cm、宽 5 cm，面积是 34 cm²。</div>
+    <div><span class="q-num">5.</span>判对错并改：一个正方形边长 9 cm，周长是 81 cm。</div>
     <div class="work-box short" aria-label="判对错书写区"></div>
   </div>
 
@@ -514,11 +501,11 @@
     <summary>家长对答案（先让孩子做完）· 数学</summary>
     <div class="ans-body">
       <ol>
-        <li>80；1340；427（逆运算：80×60=4800；减法可估 800-380=420）</li>
-        <li>29340（可拆：815×30+815×6；进位易错）</li>
-        <li>124（先括号 6，再 630÷6=105，再 105+19；括号顺序错会全错）</li>
-        <li>24000（125×8×24=1000×24；不会简便也可逐步乘，但要验算）</li>
-        <li>错，应为 60 cm²（12×5；写成 34 是把周长当成面积了）</li>
+        <li>90；2280；547（逆运算：90×40=3600；76×30=76×3×10；减法可估 1000-450=550）</li>
+        <li>23606（可拆：407×50+407×8；中间 0 易漏进位）</li>
+        <li>240（先括号 9，再 720÷9=80，再 80×3；先乘后除会错）</li>
+        <li>4800（25×4×48=100×48；不会简便也可逐步乘，但要验算）</li>
+        <li>错，应为 36 cm（9×4；写成 81 是把面积当成周长了）</li>
       </ol>
     </div>
   </details>
@@ -527,26 +514,26 @@
 <!-- ========== 英语 ========== -->
 <section class="block" id="english">
   <h2>三、英语</h2>
-  <p class="subhead">日常作息｜单词记忆、发音朗读、阅读理解</p>
+  <p class="subhead">爱好与周末｜单词记忆、发音朗读、阅读理解</p>
 
   <h3>A. Words（5 词：音标 + 中英例句）+ 跟读（各读 3 遍）</h3>
 
   <div class="word-card">
-    <strong class="en">1. morning</strong> <span class="phon">/ˈmɔːnɪŋ/</span> 早上 — <span class="en">I get up in the morning.</span> 我早上起床。
+    <strong class="en">1. weekend</strong> <span class="phon">/ˌwiːkˈend/</span> 周末 — <span class="en">I play football at the weekend.</span> 我周末踢足球。
   </div>
   <div class="word-card">
-    <strong class="en">2. breakfast</strong> <span class="phon">/ˈbrekfəst/</span> 早餐 — <span class="en">I eat breakfast at seven.</span> 我七点吃早餐。
+    <strong class="en">2. hobby</strong> <span class="phon">/ˈhɒbi/</span> 爱好 — <span class="en">Reading is my hobby.</span> 阅读是我的爱好。
   </div>
   <div class="word-card">
-    <strong class="en">3. homework</strong> <span class="phon">/ˈhəʊmwɜːk/</span> 家庭作业 — <span class="en">I do my homework after school.</span> 我放学后做作业。
+    <strong class="en">3. swim</strong> <span class="phon">/swɪm/</span> 游泳 — <span class="en">I can swim.</span> 我会游泳。
   </div>
   <div class="word-card">
-    <strong class="en">4. evening</strong> <span class="phon">/ˈiːvnɪŋ/</span> 晚上 — <span class="en">I read books in the evening.</span> 我晚上看书。
+    <strong class="en">4. draw</strong> <span class="phon">/drɔː/</span> 画画 — <span class="en">She likes to draw.</span> 她喜欢画画。
   </div>
   <div class="word-card">
-    <strong class="en">5. sleep</strong> <span class="phon">/sliːp/</span> 睡觉 — <span class="en">I sleep at nine.</span> 我九点睡觉。
+    <strong class="en">5. often</strong> <span class="phon">/ˈɒfn/</span> 经常 — <span class="en">I often read books.</span> 我经常看书。
   </div>
-  <p class="hint">跟读提示：morning 重音在第一音节；breakfast 里 ea 发 /e/，别读成 /iː/；homework 连读 ho-me-work，w 要轻轻带过。</p>
+  <p class="hint">跟读提示：weekend 重音在 end；hobby 的 o 发短元音；often 里 t 常不读。</p>
 
   <div class="q dictation" id="en-dictation">
     <div>默写（家长报词，词表见下方家长对答案；卷面只留空）</div>
@@ -561,10 +548,9 @@
 
   <h3>B. 句型替换</h3>
   <div class="q">
-    <div>句型：<strong class="en">I ______ at ______. / I ______ every day.</strong></div>
-    <div style="margin-top:6px">替换：get up / seven · eat breakfast / seven · do homework / five · sleep / nine</div>
-    <div style="margin-top:6px" class="en">例：I get up at seven. — I sleep every day.</div>
-    <div style="margin-top:4px">（孩子可仿：I eat breakfast at seven. / I do homework every day.）</div>
+    <div>句型：<strong class="en">I ______ at the weekend. / My hobby is ______.</strong></div>
+    <div style="margin-top:6px">替换：swim / draw / read / play football</div>
+    <div style="margin-top:6px" class="en">例：I swim at the weekend. — My hobby is swimming.</div>
     <div style="margin-top:8px">仿写：</div>
     <ol class="dict-list">
       <li><span class="n">（1）</span><span class="dict-line" aria-label="句型仿写1"></span></li>
@@ -574,20 +560,20 @@
 
   <h3>C. 短文 + 3 问</h3>
   <div class="passage en">
-    Tom gets up at seven in the morning. He eats breakfast, then he goes to school. After school, he does his homework. In the evening, he reads a book. He sleeps at nine.
+    Mike likes weekends. His hobby is swimming. He often swims with his dad on Saturday. On Sunday, he likes to draw at home.
   </div>
   <div class="q">
-    <div><span class="q-num">1.</span> What time does Tom get up?</div>
+    <div><span class="q-num">1.</span> What is Mike's hobby?</div>
     <div style="margin-top:6px">答：</div>
     <div class="dict-line" aria-label="短文第1题作答"></div>
   </div>
   <div class="q">
-    <div><span class="q-num">2.</span> What does Tom do after school?</div>
+    <div><span class="q-num">2.</span> Who does Mike swim with?</div>
     <div style="margin-top:6px">答：</div>
     <div class="dict-line" aria-label="短文第2题作答"></div>
   </div>
   <div class="q">
-    <div><span class="q-num">3.</span> Does Tom sleep at nine?</div>
+    <div><span class="q-num">3.</span> What does Mike do on Sunday?</div>
     <div style="margin-top:6px">答：</div>
     <div class="dict-line" aria-label="短文第3题作答"></div>
   </div>
@@ -595,27 +581,26 @@
   <details class="answer parent-answers print-hide">
     <summary>家长对答案（先让孩子做完）· 英语</summary>
     <div class="ans-body">
-      <p><strong>默写词（家长报）：</strong>morning、breakfast、homework、evening、sleep</p>
-      <p class="en">句型示例：I get up at seven. — I sleep every day.（或 I eat breakfast at seven. / I do homework every day.）</p>
+      <p><strong>默写词（家长报）：</strong>weekend、hobby、swim、draw、often</p>
+      <p class="en">句型示例：I swim at the weekend. — My hobby is swimming.（或 I draw at the weekend. / My hobby is reading.）</p>
       <ol>
-        <li>At seven. / He gets up at seven.</li>
-        <li>He does his homework. / Homework.</li>
-        <li>Yes.</li>
+        <li>Swimming. / His hobby is swimming.</li>
+        <li>His dad. / He swims with his dad.</li>
+        <li>He draws (at home). / He likes to draw.</li>
       </ol>
       <p><strong>常见错因：</strong></p>
       <ul>
-        <li>breakfast 易写成 brakefast / breakfirst；morning 漏写 r。</li>
-        <li>短文第1题只写 seven 不写 at，可提醒「几点」常带 at。</li>
-        <li>第2题抄成 goes to school（那是去学校，不是放学后）。</li>
-        <li>sleep / evening 音近时跟读易混，可对比：evening 晚上 ≠ sleep 睡觉。</li>
+        <li>weekend 易漏写第二个 e；hobby 双写 b 易漏。</li>
+        <li>第1题写成 swim（动词）而不用 swimming。</li>
+        <li>第2题答成 Saturday（问的是和谁，不是哪天）。</li>
+        <li>often 易写成 ofen / offten。</li>
       </ul>
-      <p>下轮建议：可回到学校科目 / 天气季节，或换「爱好与周末」轻螺旋。</p>
     </div>
   </details>
 </section>
 
 <footer class="note">
-  小学四年级日练 · 2026-10-30（周五）· 建议总用时约 20～40 分钟<br>
+  小学四年级日练 · 2026-10-31（周六）· 建议总用时约 20～40 分钟<br>
   完成顺序：语文 → 数学 → 英语。先独立完成，再对答案。
 </footer>
 
