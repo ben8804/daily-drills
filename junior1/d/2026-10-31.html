@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>初一日练 · 2026-10-31</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --line: #d0d4da;
+    --soft: #f6f7f9;
+    --accent: #1f4e79;
+    --ok: #2d6a4f;
+    --warn: #9a3412;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+                 "Noto Sans SC", "Source Han Sans SC", sans-serif;
+    color: var(--ink);
+    background: #eef1f5;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 16px 14px 48px;
+  }
+  header.sheet-head {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 18px 14px;
+    margin-bottom: 14px;
+  }
+  header.sheet-head h1 {
+    margin: 0 0 6px;
+    font-size: 1.35rem;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .meta span::before {
+    content: "· ";
+    color: #aaa;
+  }
+  .meta span:first-child::before { content: ""; }
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 0 4px;
+  }
+  .btn {
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: var(--accent);
+    color: #fff;
+    min-height: 48px;
+    min-width: 120px;
+  }
+  .btn:active { opacity: 0.9; }
+  .btn-ghost {
+    background: #fff;
+    color: var(--accent);
+    border: 1.5px solid var(--accent);
+  }
+  .tip-box {
+    background: #fff8e8;
+    border: 1px solid #f0d9a0;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    color: #6b4e16;
+    margin-top: 10px;
+  }
+  section.block {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 16px 12px;
+    margin-bottom: 14px;
+  }
+  section.block h2 {
+    margin: 0 0 4px;
+    font-size: 1.15rem;
+    color: var(--accent);
+    border-bottom: 2px solid #e3e8ef;
+    padding-bottom: 8px;
+  }
+  .subhead {
+    color: var(--muted);
+    font-size: 0.88rem;
+    margin: 0 0 12px;
+  }
+  h3 {
+    margin: 16px 0 8px;
+    font-size: 1.02rem;
+    color: #243447;
+  }
+  .q {
+    margin: 0 0 14px;
+    padding: 10px 12px;
+    background: var(--soft);
+    border-radius: 8px;
+    border-left: 3px solid #9db4ce;
+  }
+  .q-num {
+    font-weight: 700;
+    color: var(--accent);
+    margin-right: 4px;
+  }
+  .blank {
+    display: inline-block;
+    min-width: 2.2em;
+    border-bottom: 1.5px solid #666;
+    margin: 0 2px;
+    height: 1.1em;
+    vertical-align: baseline;
+  }
+  .blank-lg { min-width: 4.5em; }
+  .blank-xl { min-width: 11em; }
+  .hint {
+    margin-top: 6px;
+    font-size: 0.86rem;
+    color: var(--warn);
+  }
+  .write-box {
+    border: 1.5px dashed #b8c0cc;
+    border-radius: 8px;
+    min-height: 110px;
+    margin-top: 8px;
+    background: repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      #e8ecf1 27px,
+      #e8ecf1 28px
+    );
+    background-origin: content-box;
+  }
+  .write-line {
+    display: block;
+    border-bottom: 1.5px solid #666;
+    min-height: 2.1em;
+    margin-top: 6px;
+  }
+  .work-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    margin-top: 10px;
+  }
+  .work-item {
+    flex: 1 1 140px;
+    min-width: 140px;
+  }
+  .work-item .lab {
+    font-size: 0.92rem;
+    margin-bottom: 4px;
+    color: #333;
+  }
+  .work-box {
+    border: 1.5px solid #b8c0cc;
+    border-radius: 8px;
+    background: #fff;
+    background-image: repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      #e8ecf1 27px,
+      #e8ecf1 28px
+    );
+    margin-top: 4px;
+  }
+  .work-box.vert {
+    min-height: 150px;
+    width: 100%;
+    max-width: 200px;
+  }
+  .work-box.steps {
+    min-height: 120px;
+    width: 100%;
+  }
+  .work-box.steps.big { min-height: 168px; }
+  .work-box.short {
+    min-height: 90px;
+    width: 100%;
+  }
+  .phon {
+    font-family: "Segoe UI", "Lucida Grande", Arial, sans-serif;
+    color: #444;
+    font-size: 0.92em;
+  }
+  .en { font-family: Georgia, "Times New Roman", serif; }
+  .word-card {
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background: var(--soft);
+    border-radius: 8px;
+  }
+  .word-card strong { color: var(--accent); }
+  .passage {
+    background: #f9fafb;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 8px 0 12px;
+  }
+  details.answer {
+    margin-top: 10px;
+    border: 1.5px solid #c5ddd0;
+    border-radius: 10px;
+    background: #f3faf6;
+    overflow: hidden;
+  }
+  details.answer > summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    font-weight: 700;
+    color: var(--ok);
+    list-style: none;
+    user-select: none;
+  }
+  details.answer > summary::-webkit-details-marker { display: none; }
+  details.answer > summary::before {
+    content: "▸ ";
+    display: inline-block;
+    transition: transform 0.15s;
+  }
+  details.answer[open] > summary::before { content: "▾ "; }
+  .ans-body {
+    padding: 0 14px 14px;
+    border-top: 1px solid #d4e8dc;
+    font-size: 0.95rem;
+  }
+  .ans-body ol, .ans-body ul { padding-left: 1.3em; margin: 6px 0; }
+  .ans-body li { margin: 4px 0; }
+  .err-tip {
+    color: var(--warn);
+    font-size: 0.88rem;
+    margin-top: 4px;
+  }
+  footer.note {
+    text-align: center;
+    color: #888;
+    font-size: 0.82rem;
+    margin-top: 8px;
+  }
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+  @media print {
+    html { font-size: 11pt; }
+    body {
+      background: #fff !important;
+      color: #000;
+      line-height: 1.45;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .wrap { max-width: none; margin: 0; padding: 0; }
+    .toolbar,
+    .no-print,
+    .print-hide,
+    .parent-answers,
+    .tip-box,
+    details.answer,
+    .btn {
+      display: none !important;
+    }
+    header.sheet-head,
+    section.block {
+      border: none !important;
+      border-radius: 0;
+      box-shadow: none;
+      margin: 0 0 6mm;
+      padding: 0;
+      background: #fff !important;
+      break-inside: auto;
+    }
+    header.sheet-head {
+      break-after: avoid;
+      margin-bottom: 4mm;
+      padding-bottom: 2mm;
+      border-bottom: none !important;
+    }
+    header.sheet-head h1 { display: none !important; }
+    header.sheet-head .meta {
+      font-size: 11pt;
+      color: #000;
+      gap: 10px 16px;
+    }
+    header.sheet-head .meta span::before { content: ""; }
+    header.sheet-head .meta span + span::before {
+      content: "· ";
+      color: #666;
+    }
+    section.block h2 {
+      break-after: avoid;
+      border-bottom: none;
+      color: #000;
+      padding-bottom: 2mm;
+      margin-bottom: 3mm;
+    }
+    h3 { break-after: avoid; color: #000; }
+    .q,
+    .word-card,
+    .passage,
+    .write-box,
+    .write-line {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .write-box { min-height: 28mm; }
+    .work-box.vert { min-height: 42mm; max-width: 48mm; }
+    .work-box.steps { min-height: 36mm; }
+    .work-box.steps.big { min-height: 48mm; }
+    .work-box.short { min-height: 28mm; }
+    .work-item, .work-box { break-inside: avoid; page-break-inside: avoid; }
+    .hint { color: #333; }
+    a { text-decoration: none; color: inherit; }
+    .q,
+    .word-card,
+    .passage,
+    .tip-box,
+    header.sheet-head,
+    section.block,
+    .write-box,
+    .work-box,
+    details.answer,
+    .parent-answers {
+      background: transparent !important;
+      background-image: none !important;
+    }
+    .q { border-left-color: #9db4ce; }
+    .write-box,
+    .work-box {
+      border-color: #999;
+      background-image: repeating-linear-gradient(
+        transparent,
+        transparent 27px,
+        #ccc 27px,
+        #ccc 28px
+      ) !important;
+    }
+    footer.note { display: none !important; }
+  }
+  @media (max-width: 480px) {
+    html { font-size: 16px; }
+    .btn { width: 100%; }
+  }
+
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="sheet-head">
+  <h1>初一日练 · 2026-10-31（周六）</h1>
+  <div class="meta">
+    <span>日期 2026-10-31（周六）</span>
+    <span>建议用时约 40～50 分钟</span>
+    <span>今日要点：语文《天净沙·秋思》字词与默写，数学有理数+合并同类项，英语现在时态，地理·地球与地图。</span>
+  </div>
+  <div class="toolbar no-print">
+    <button class="btn" type="button" onclick="window.print()">🖨️ 打印本页</button>
+    <button class="btn btn-ghost" type="button" onclick="document.querySelectorAll('details.answer').forEach(d=>d.open=false)">收起全部答案</button>
+    <a class="btn btn-ghost" href="../history.html">历史日练</a>
+  </div>
+  <div class="tip-box print-hide">
+    <strong>给家长：</strong>先让孩子独立完成，再展开下方「家长对答案」。打印时提示和全部家长对答案会自动隐藏；页眉只留日期和建议用时。古诗只印半句和横线，答案不要抄到学生卷上。今日小四门为地理·地球与地图。
+  </div>
+</header>
+
+<!-- 语文 -->
+<section class="block">
+  <h2>一、语文（约 12～15 分钟）</h2>
+  <p class="subhead">螺旋复习 · 基础知识：字音字形 + 词语运用 + 病句 + 古诗默写</p>
+
+  <h3>A. 字音字形（3 题）</h3>
+  <div class="q">
+    <span class="q-num">1.</span>下列加点字注音全对的一项是（　）
+    <div style="margin-top:6px">
+      A. 枯藤（téng）　昏鸦（hūn）　天涯（yá）<br>
+      B. 枯藤（téng）　昏鸦（hún）　天涯（yá）<br>
+      C. 枯藤（téng）　昏鸦（hūn）　天涯（yà）<br>
+      D. 枯藤（tén）　昏鸦（hūn）　天涯（yá）
+    </div>
+  </div>
+  <div class="q">
+    <span class="q-num">2.</span>下列词语中没有错别字的一项是（　）
+    <div style="margin-top:6px">
+      A. 枯藤老树　小桥流水　断肠人在天崖<br>
+      B. 枯腾老树　小桥流水　断肠人在天涯<br>
+      C. 枯藤老树　小桥流水　断肠人在天涯<br>
+      D. 枯藤老树　小桥流水　断肠人在天牙
+    </div>
+  </div>
+  <div class="q">
+    <span class="q-num">3.</span>给加点字选正确读音（填字母）。
+    <div style="margin-top:6px">
+      ①昏鸦（　）　A. hūn　B. hún<br>
+      ②天涯（　）　A. yá　B. yà<br>
+      ③夕阳（　）　A. xī　B. xì
+    </div>
+  </div>
+
+  <h3>B. 词语运用（2 题）</h3>
+  <div class="q">
+    <span class="q-num">4.</span>选词填空（每个词只用一次）。<br>
+    备选：枯藤　昏鸦　夕阳　天涯<br>
+    <span class="blank blank-lg"></span>老树<span class="blank blank-lg"></span>，小桥流水人家。古道西风瘦马。<span class="blank blank-lg"></span>西下，断肠人在<span class="blank blank-lg"></span>。
+  </div>
+  <div class="q">
+    <span class="q-num">5.</span>下列加点成语使用恰当的一项是（　）
+    <div style="margin-top:6px">
+      A. 这首小令画面感很强，读来令人身临其境。<br>
+      B. 他写作文总是画蛇添足，老师却表扬他写得简洁。<br>
+      C. 大家七嘴八舌，教室里顿时鸦雀无声。<br>
+      D. 他复习时囫囵吞枣，结果成绩突飞猛进。
+    </div>
+  </div>
+
+  <h3>C. 病句修改（2 题）</h3>
+  <div class="q">
+    <span class="q-num">6.</span>下列句子没有语病的一项是（　）
+    <div style="margin-top:6px">
+      A. 通过反复朗读，使我体会到这首小令的意境。<br>
+      B. 我们要养成勤查字典的好习惯。<br>
+      C. 能否认真观察，是写好景物的关键。<br>
+      D. 他的积累量有了明显的扩大。
+    </div>
+  </div>
+  <div class="q">
+    <span class="q-num">7.</span>修改病句（每句改一处即可）。<br>
+    （1）通过这次默写训练，使我减少了错别字。<br>
+    改：<span class="write-line" style="min-height:1.8em"></span>
+    （2）我们要尽量避免不再写错字。<br>
+    改：<span class="write-line" style="min-height:1.8em"></span>
+  </div>
+
+  <h3>D. 古诗默写（2 题）</h3>
+  <div class="q">
+    <span class="q-num">8.</span>枯藤老树昏鸦，<span class="blank blank-xl"></span>。（马致远《天净沙·秋思》）<br>
+    <span class="q-num">9.</span><span class="blank blank-xl"></span>，断肠人在天涯。（马致远《天净沙·秋思》）
+  </div>
+
+  <details class="answer parent-answers">
+    <summary>家长对答案（先让孩子做完）· 语文</summary>
+    <div class="ans-body">
+      <p><strong>A.</strong> 1. A　2. C　3. ①A　②A　③A</p>
+      <p><strong>B.</strong> 4. 枯藤；昏鸦；夕阳；天涯　5. A</p>
+      <p><strong>C.</strong> 6. B<br>7.（1）删「通过」或删「使」；（2）删「避免」或删「不再」</p>
+      <p><strong>D.</strong> 8. 小桥流水人家　9. 夕阳西下</p>
+      <p class="err-tip">踩分提示：字音看「全对」；成语先判褒贬与是否自相矛盾；病句盯「通过……使……」「能否……关键」「避免+不再」；默写错一字该空不得分。</p>
+    </div>
+  </details>
+</section>
+
+<!-- 数学 -->
+<section class="block">
+  <h2>二、数学（约 12～15 分钟）</h2>
+  <p class="subhead">螺旋巩固 · 有理数综合 + 整式初步（合并同类项）· 必做计算</p>
+
+  <h3>今日概念提醒</h3>
+  <ol>
+    <li>有理数运算：先乘方，再乘除，后加减；有括号先括号；先定符号。</li>
+    <li>同类项：所含字母相同，并且相同字母的指数也相同的项；数字系数不同不影响。</li>
+    <li>合并同类项：系数相加，字母和指数不变；注意符号。</li>
+  </ol>
+
+  <h3>A. 基础计算（请留足脱式书写区）（5 题）</h3>
+  <div class="q">
+    <span class="q-num">1.</span>(−2)<sup>3</sup>+(−8)÷2=
+    <div class="work-box steps short"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">2.</span>15−(−3)×4+|−6|=
+    <div class="work-box steps short"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">3.</span>合并同类项：5a−3b+2a+b=
+    <div class="work-box steps short"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">4.</span>合并同类项：−4x<sup>2</sup>+7x+x<sup>2</sup>−3x=
+    <div class="work-box steps short"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">5.</span>化简：3(m−2)−2(m+1)=（先去括号再合并）
+    <div class="work-box steps"></div>
+  </div>
+
+  <h3>B. 易错辨析（2 题）</h3>
+  <div class="q">
+    <span class="q-num">6.</span>有人把 3a 与 3a<sup>2</sup> 合并成 6a<sup>2</sup>。对吗？为什么？
+    <div class="write-box" style="min-height:56px"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">7.</span>有人算：2(x−3)=2x−3。对吗？应怎么改？
+    <div class="write-box" style="min-height:56px"></div>
+  </div>
+
+  <details class="answer parent-answers">
+    <summary>家长对答案（先让孩子做完）· 数学</summary>
+    <div class="ans-body">
+      <p><strong>A.</strong></p>
+      <ol>
+        <li>−8+(−4)=−12</li>
+        <li>15−(−12)+6=15+12+6=33</li>
+        <li>7a−2b</li>
+        <li>−3x<sup>2</sup>+4x</li>
+        <li>3m−6−2m−2=m−8</li>
+      </ol>
+      <p><strong>B.</strong></p>
+      <ol start="6">
+        <li><strong>错。</strong>3a 与 3a<sup>2</sup> 字母指数不同，不是同类项，不能合并。</li>
+        <li><strong>错。</strong>去括号要把 2 分给每一项：2(x−3)=2x−6。</li>
+      </ol>
+      <p class="err-tip">踩分提示：乘方优先；同类项看字母与指数是否都相同；去括号别漏乘符号。</p>
+    </div>
+  </details>
+</section>
+
+<!-- 英语 -->
+<section class="block">
+  <h2>三、英语（约 10～12 分钟）</h2>
+  <p class="subhead">螺旋复习：一般现在时 / 现在进行时（三单）+ 词汇搭配 + 阅读定位</p>
+
+  <h3>A. 语法选择（6 题）</h3>
+  <div class="q">
+    <span class="q-num">1.</span>She ______ to school by bike every day, but today she ______ the bus.<br>
+    A. go; takes　B. goes; is taking　C. goes; takes　D. is going; take
+  </div>
+  <div class="q">
+    <span class="q-num">2.</span>Look! The cat ______ under the table.<br>
+    A. sleep　B. sleeps　C. is sleeping　D. are sleeping
+  </div>
+  <div class="q">
+    <span class="q-num">3.</span>—______ Tom ______ English every morning?<br>
+    —Yes, he does.<br>
+    A. Do; read　B. Does; reads　C. Does; read　D. Is; reading
+  </div>
+  <div class="q">
+    <span class="q-num">4.</span>We ______ football now. We ______ it on Sundays.<br>
+    A. don't play; play　B. aren't playing; play<br>
+    C. aren't play; plays　D. don't playing; play
+  </div>
+  <div class="q">
+    <span class="q-num">5.</span>Listen! Someone ______ at the door.<br>
+    A. knock　B. knocks　C. is knocking　D. are knocking
+  </div>
+  <div class="q">
+    <span class="q-num">6.</span>My father often ______ newspapers after dinner.<br>
+    A. read　B. reads　C. is reading　D. reading
+  </div>
+
+  <h3>B. 语法填空（5 空）</h3>
+  <div class="q">
+    <span class="q-num">7.</span>Amy usually ______ (do) her homework at 7:00, but she ______ (not do) it now — she ______ (watch) TV.
+  </div>
+  <div class="q">
+    <span class="q-num">8.</span>—Where are the boys?<br>
+    —They ______ (play) basketball on the playground. They often ______ (play) there after school.
+  </div>
+
+  <h3>C. 词汇搭配（选填，可变形）（3 题）</h3>
+  <p>词库：make the bed　take a photo　have breakfast　do morning exercises</p>
+  <div class="q">
+    <span class="q-num">9.</span>I usually ______ at 6:50, then I brush my teeth.
+  </div>
+  <div class="q">
+    <span class="q-num">10.</span>Look! Mum ______ for us. Smile!
+  </div>
+  <div class="q">
+    <span class="q-num">11.</span>He ______ every morning to keep healthy.
+  </div>
+
+  <h3>D. 短文阅读 · 先题后文（3 题）</h3>
+  <div class="passage en">
+    Mark is a Grade 7 student. He usually gets up at 6:30 and has breakfast at home. He goes to school by bus. His favourite subject is maths because it is useful. After school, he often plays basketball with his classmates. Right now, Mark is not playing basketball. He is sitting in the library. He is looking for a book about animals for his science project.
+  </div>
+  <div class="q">
+    <span class="q-num">12.</span>How does Mark usually go to school?
+    <span class="write-line" style="min-height:1.8em"></span>
+  </div>
+  <div class="q">
+    <span class="q-num">13.</span>Why does Mark like maths?
+    <span class="write-line" style="min-height:1.8em"></span>
+  </div>
+  <div class="q">
+    <span class="q-num">14.</span>What is Mark doing right now?
+    <span class="write-line" style="min-height:1.8em"></span>
+  </div>
+
+  <details class="answer parent-answers">
+    <summary>家长对答案（先让孩子做完）· 英语</summary>
+    <div class="ans-body">
+      <p><strong>A.</strong> 1. B　2. C　3. C　4. B　5. C　6. B</p>
+      <p><strong>B.</strong> 7. does；isn't doing / is not doing；is watching　8. are playing；play</p>
+      <p><strong>C.</strong> 9. have breakfast　10. is taking a photo　11. does morning exercises</p>
+      <p><strong>D.</strong> 12. By bus. / He goes to school by bus.　13. Because it is useful.　14. He is looking for a book about animals (in the library). / He is sitting in the library.</p>
+      <p class="err-tip">踩分提示：every day/often→一般现在；Look!/Listen!/now→进行时；Does 后动词用原形；阅读定位用文中信息即可。</p>
+    </div>
+  </details>
+</section>
+
+<!-- 地理 -->
+<section class="block">
+  <h2>四、地理（约 6～8 分钟）</h2>
+  <p class="subhead">今日当值小四门 · 地球与地图</p>
+
+  <div class="q">
+    <span class="q-num">1.</span>（单选）下列关于地球的说法，正确的是（　）
+    <div style="margin-top:6px">
+      A. 地球是一个正球体　B. 地球的平均半径约为 6371 千米<br>
+      C. 地球表面积约为 5.1 万平方千米　D. 赤道周长约为 4 万米
+    </div>
+  </div>
+  <div class="q">
+    <span class="q-num">2.</span>（单选）在经纬网中，纬线指示的方向是（　）
+    <div style="margin-top:6px">
+      A. 东西方向　B. 南北方向　C. 东北—西南方向　D. 西北—东南方向
+    </div>
+  </div>
+  <div class="q">
+    <span class="q-num">3.</span>（判断）比例尺越大，表示的实地范围通常越小，内容越详细。（　）
+  </div>
+  <div class="q">
+    <span class="q-num">4.</span>（简答）地图的三要素是什么？请写出名称。（写齐 3 点）
+    <div class="write-box" style="min-height:48px"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">5.</span>（选填）某同学在校园平面图上量得教学楼到食堂的图上距离为 5 厘米，图上比例尺为 1∶2000。实地距离是多少米？<br>
+    列式：<span class="write-line" style="min-height:1.8em"></span>
+    答：<span class="blank blank-lg"></span> 米
+  </div>
+
+  <details class="answer parent-answers">
+    <summary>家长对答案（先让孩子做完）· 地理</summary>
+    <div class="ans-body">
+      <ol>
+        <li>B（地球是两极稍扁、赤道略鼓的不规则球体；平均半径约 6371 千米；表面积约 5.1 亿平方千米；赤道周长约 4 万千米）</li>
+        <li>A（纬线指示东西方向；经线指示南北方向）</li>
+        <li>√</li>
+        <li>比例尺、方向、图例（三者都要，顺序不限）</li>
+        <li>5×2000=10000（厘米）=100 米；答 100 米</li>
+      </ol>
+    </div>
+  </details>
+</section>
+
+<footer class="note">
+  初一日练 · 2026-10-31（周六） · 建议用时约 40～50 分钟<br>
+  完成顺序：语文 → 数学 → 英语 → 地理。
+</footer>
+
+</div>
+</body>
+</html>
