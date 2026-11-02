@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>初一日练 · 2026-11-02</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --line: #d0d4da;
+    --soft: #f6f7f9;
+    --accent: #1f4e79;
+    --ok: #2d6a4f;
+    --warn: #9a3412;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+                 "Noto Sans SC", "Source Han Sans SC", sans-serif;
+    color: var(--ink);
+    background: #eef1f5;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 16px 14px 48px;
+  }
+  header.sheet-head {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 18px 14px;
+    margin-bottom: 14px;
+  }
+  header.sheet-head h1 {
+    margin: 0 0 6px;
+    font-size: 1.35rem;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .meta span::before {
+    content: "· ";
+    color: #aaa;
+  }
+  .meta span:first-child::before { content: ""; }
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 0 4px;
+  }
+  .btn {
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: var(--accent);
+    color: #fff;
+    min-height: 48px;
+    min-width: 120px;
+  }
+  .btn:active { opacity: 0.9; }
+  .btn-ghost {
+    background: #fff;
+    color: var(--accent);
+    border: 1.5px solid var(--accent);
+  }
+  .tip-box {
+    background: #fff8e8;
+    border: 1px solid #f0d9a0;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    color: #6b4e16;
+    margin-top: 10px;
+  }
+  section.block {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 16px 12px;
+    margin-bottom: 14px;
+  }
+  section.block h2 {
+    margin: 0 0 4px;
+    font-size: 1.15rem;
+    color: var(--accent);
+    border-bottom: 2px solid #e3e8ef;
+    padding-bottom: 8px;
+  }
+  .subhead {
+    color: var(--muted);
+    font-size: 0.88rem;
+    margin: 0 0 12px;
+  }
+  h3 {
+    margin: 16px 0 8px;
+    font-size: 1.02rem;
+    color: #243447;
+  }
+  .q {
+    margin: 0 0 14px;
+    padding: 10px 12px;
+    background: var(--soft);
+    border-radius: 8px;
+    border-left: 3px solid #9db4ce;
+  }
+  .q-num {
+    font-weight: 700;
+    color: var(--accent);
+    margin-right: 4px;
+  }
+  .blank {
+    display: inline-block;
+    min-width: 2.2em;
+    border-bottom: 1.5px solid #666;
+    margin: 0 2px;
+    height: 1.1em;
+    vertical-align: baseline;
+  }
+  .blank-lg { min-width: 4.5em; }
+  .blank-xl { min-width: 11em; }
+  .hint {
+    margin-top: 6px;
+    font-size: 0.86rem;
+    color: var(--warn);
+  }
+  .write-box {
+    border: 1.5px dashed #b8c0cc;
+    border-radius: 8px;
+    min-height: 110px;
+    margin-top: 8px;
+    background: repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      #e8ecf1 27px,
+      #e8ecf1 28px
+    );
+    background-origin: content-box;
+  }
+  .write-line {
+    display: block;
+    border-bottom: 1.5px solid #666;
+    min-height: 2.1em;
+    margin-top: 6px;
+  }
+  .work-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    margin-top: 10px;
+  }
+  .work-item {
+    flex: 1 1 140px;
+    min-width: 140px;
+  }
+  .work-item .lab {
+    font-size: 0.92rem;
+    margin-bottom: 4px;
+    color: #333;
+  }
+  .work-box {
+    border: 1.5px solid #b8c0cc;
+    border-radius: 8px;
+    background: #fff;
+    background-image: repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      #e8ecf1 27px,
+      #e8ecf1 28px
+    );
+    margin-top: 4px;
+  }
+  .work-box.vert {
+    min-height: 150px;
+    width: 100%;
+    max-width: 200px;
+  }
+  .work-box.steps {
+    min-height: 120px;
+    width: 100%;
+  }
+  .work-box.steps.big { min-height: 168px; }
+  .work-box.short {
+    min-height: 90px;
+    width: 100%;
+  }
+  .phon {
+    font-family: "Segoe UI", "Lucida Grande", Arial, sans-serif;
+    color: #444;
+    font-size: 0.92em;
+  }
+  .en { font-family: Georgia, "Times New Roman", serif; }
+  .word-card {
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background: var(--soft);
+    border-radius: 8px;
+  }
+  .word-card strong { color: var(--accent); }
+  .passage {
+    background: #f9fafb;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 8px 0 12px;
+  }
+  details.answer {
+    margin-top: 10px;
+    border: 1.5px solid #c5ddd0;
+    border-radius: 10px;
+    background: #f3faf6;
+    overflow: hidden;
+  }
+  details.answer > summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    font-weight: 700;
+    color: var(--ok);
+    list-style: none;
+    user-select: none;
+  }
+  details.answer > summary::-webkit-details-marker { display: none; }
+  details.answer > summary::before {
+    content: "▸ ";
+    display: inline-block;
+    transition: transform 0.15s;
+  }
+  details.answer[open] > summary::before { content: "▾ "; }
+  .ans-body {
+    padding: 0 14px 14px;
+    border-top: 1px solid #d4e8dc;
+    font-size: 0.95rem;
+  }
+  .ans-body ol, .ans-body ul { padding-left: 1.3em; margin: 6px 0; }
+  .ans-body li { margin: 4px 0; }
+  .err-tip {
+    color: var(--warn);
+    font-size: 0.88rem;
+    margin-top: 4px;
+  }
+  footer.note {
+    text-align: center;
+    color: #888;
+    font-size: 0.82rem;
+    margin-top: 8px;
+  }
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+  @media print {
+    html { font-size: 11pt; }
+    body {
+      background: #fff !important;
+      color: #000;
+      line-height: 1.45;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .wrap { max-width: none; margin: 0; padding: 0; }
+    .toolbar,
+    .no-print,
+    .print-hide,
+    .parent-answers,
+    .tip-box,
+    details.answer,
+    .btn {
+      display: none !important;
+    }
+    header.sheet-head,
+    section.block {
+      border: none !important;
+      border-radius: 0;
+      box-shadow: none;
+      margin: 0 0 6mm;
+      padding: 0;
+      background: #fff !important;
+      break-inside: auto;
+    }
+    header.sheet-head {
+      break-after: avoid;
+      margin-bottom: 4mm;
+      padding-bottom: 2mm;
+      border-bottom: none !important;
+    }
+    header.sheet-head h1 { display: none !important; }
+    header.sheet-head .meta {
+      font-size: 11pt;
+      color: #000;
+      gap: 10px 16px;
+    }
+    header.sheet-head .meta span::before { content: ""; }
+    header.sheet-head .meta span + span::before {
+      content: "· ";
+      color: #666;
+    }
+    section.block h2 {
+      break-after: avoid;
+      border-bottom: none;
+      color: #000;
+      padding-bottom: 2mm;
+      margin-bottom: 3mm;
+    }
+    h3 { break-after: avoid; color: #000; }
+    .q,
+    .word-card,
+    .passage,
+    .write-box,
+    .write-line {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .write-box { min-height: 28mm; }
+    .work-box.vert { min-height: 42mm; max-width: 48mm; }
+    .work-box.steps { min-height: 36mm; }
+    .work-box.steps.big { min-height: 48mm; }
+    .work-box.short { min-height: 28mm; }
+    .work-item, .work-box { break-inside: avoid; page-break-inside: avoid; }
+    .hint { color: #333; }
+    a { text-decoration: none; color: inherit; }
+    .q,
+    .word-card,
+    .passage,
+    .tip-box,
+    header.sheet-head,
+    section.block,
+    .write-box,
+    .work-box,
+    details.answer,
+    .parent-answers {
+      background: transparent !important;
+      background-image: none !important;
+    }
+    .q { border-left-color: #9db4ce; }
+    .write-box,
+    .work-box {
+      border-color: #999;
+      background-image: repeating-linear-gradient(
+        transparent,
+        transparent 27px,
+        #ccc 27px,
+        #ccc 28px
+      ) !important;
+    }
+    footer.note { display: none !important; }
+  }
+  @media (max-width: 480px) {
+    html { font-size: 16px; }
+    .btn { width: 100%; }
+  }
+
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="sheet-head">
+  <h1>初一日练 · 2026-11-02（周一）</h1>
+  <div class="meta">
+    <span>日期 2026-11-02（周一）</span>
+    <span>建议用时约 40～50 分钟</span>
+    <span>今日要点：语文《闻王昌龄左迁龙标遥有此寄》字词与默写，数学有理数乘方与去括号，英语一般现在时/进行时，历史·春秋战国。</span>
+  </div>
+  <div class="toolbar no-print">
+    <button class="btn" type="button" onclick="window.print()">🖨️ 打印本页</button>
+    <button class="btn btn-ghost" type="button" onclick="document.querySelectorAll('details.answer').forEach(d=>d.open=false)">收起全部答案</button>
+    <a class="btn btn-ghost" href="../history.html">历史日练</a>
+  </div>
+  <div class="tip-box print-hide">
+    <strong>给家长：</strong>先让孩子独立完成，再展开下方「家长对答案」。打印时提示和全部家长对答案会自动隐藏；页眉只留日期和建议用时。古诗只印半句和横线，答案不要抄到学生卷上。今日小四门为历史·春秋战国。
+  </div>
+</header>
+
+<!-- 语文 -->
+<section class="block">
+  <h2>一、语文（约 12～15 分钟）</h2>
+  <p class="subhead">螺旋复习 · 基础知识：字音字形 + 词语运用 + 病句 + 古诗默写</p>
+
+  <h3>A. 字音字形（3 题）</h3>
+  <div class="q">
+    <span class="q-num">1.</span>下列加点字注音全对的一项是（　）
+    <div style="margin-top:6px">
+      A. 子规（guī）　杨花（yáng）　五溪（xī）　夜郎（láng）<br>
+      B. 子规（guǐ）　杨花（yáng）　五溪（xī）　夜郎（láng）<br>
+      C. 子规（guī）　杨花（yáng）　五溪（qī）　夜郎（láng）<br>
+      D. 子规（guī）　杨花（yáng）　五溪（xī）　夜郎（làng）
+    </div>
+  </div>
+  <div class="q">
+    <span class="q-num">2.</span>下列词语中没有错别字的一项是（　）
+    <div style="margin-top:6px">
+      A. 杨花落尽　子规啼叫　我寄愁心<br>
+      B. 杨华落尽　子规啼叫　我寄愁心<br>
+      C. 杨花落尽　子规啼叫　我寄仇心<br>
+      D. 杨花落尽　子规啼叫　我寄仇心与明月
+    </div>
+  </div>
+  <div class="q">
+    <span class="q-num">3.</span>给加点字选正确读音（填字母）。
+    <div style="margin-top:6px">
+      ①子规（　）　A. guī　B. guǐ<br>
+      ②五溪（　）　A. xī　B. qī<br>
+      ③夜郎（　）　A. láng　B. làng
+    </div>
+  </div>
+
+  <h3>B. 词语运用（2 题）</h3>
+  <div class="q">
+    <span class="q-num">4.</span>选词填空（每个词只用一次）。<br>
+    备选：子规　龙标　明月　夜郎<br>
+    杨花落尽<span class="blank blank-lg"></span>啼，闻道<span class="blank blank-lg"></span>过五溪。我寄愁心与<span class="blank blank-lg"></span>，随君直到<span class="blank blank-lg"></span>西。
+  </div>
+  <div class="q">
+    <span class="q-num">5.</span>下列加点成语使用恰当的一项是（　）
+    <div style="margin-top:6px">
+      A. 这首诗意境悠远，读后令人豁然开朗。<br>
+      B. 他写作业总是一丝不苟，结果错得一塌糊涂。<br>
+      C. 大家七嘴八舌，教室里立刻鸦雀无声。<br>
+      D. 他复习时囫囵吞枣，考试却名列前茅。
+    </div>
+  </div>
+
+  <h3>C. 病句修改（2 题）</h3>
+  <div class="q">
+    <span class="q-num">6.</span>下列句子没有语病的一项是（　）
+    <div style="margin-top:6px">
+      A. 通过背诵这首诗，使我加深了对友情的理解。<br>
+      B. 我们要养成勤查字典、勤改错字的好习惯。<br>
+      C. 能否认真朗读，是提高语感的关键。<br>
+      D. 他的背诵数量有了明显的扩大。
+    </div>
+  </div>
+  <div class="q">
+    <span class="q-num">7.</span>修改病句（每句改一处即可）。<br>
+    （1）通过这次古诗默写，使我减少了错字。<br>
+    改：<span class="write-line" style="min-height:1.8em"></span>
+    （2）我们要尽量避免不再写错别字。<br>
+    改：<span class="write-line" style="min-height:1.8em"></span>
+  </div>
+
+  <h3>D. 古诗默写（2 题）</h3>
+  <div class="q">
+    <span class="q-num">8.</span>杨花落尽子规啼，<span class="blank blank-xl"></span>。（李白《闻王昌龄左迁龙标遥有此寄》）<br>
+    <span class="q-num">9.</span><span class="blank blank-xl"></span>，随君直到夜郎西。（李白《闻王昌龄左迁龙标遥有此寄》）
+  </div>
+
+  <details class="answer parent-answers">
+    <summary>家长对答案（先让孩子做完）· 语文</summary>
+    <div class="ans-body">
+      <p><strong>A.</strong> 1. A（B 子规 guī；C 五溪 xī；D 夜郎 láng）　2. A（B「华」应为「花」；C、D「仇」应为「愁」）　3. ①A　②A　③A</p>
+      <p><strong>B.</strong> 4. 子规；龙标；明月；夜郎　5. A（B 褒贬矛盾；C 前后矛盾；D 因果不合）</p>
+      <p><strong>C.</strong> 6. B<br>7.（1）删「通过」或删「使」；（2）删「避免」或删「不再」</p>
+      <p><strong>D.</strong> 8. 闻道龙标过五溪　9. 我寄愁心与明月</p>
+      <p class="err-tip">踩分提示：字音盯「子规 guī」「五溪 xī」「夜郎 láng」；成语先判褒贬与是否自相矛盾；病句盯「通过……使……」「能否……关键」「避免+不再」；默写错一字该空不得分。</p>
+    </div>
+  </details>
+</section>
+
+<!-- 数学 -->
+<section class="block">
+  <h2>二、数学（约 12～15 分钟）</h2>
+  <p class="subhead">螺旋巩固 · 有理数运算易错 + 整式加减（去括号与合并）· 必做计算</p>
+
+  <h3>今日概念提醒</h3>
+  <ol>
+    <li>有理数运算顺序：先乘方，再乘除，后加减；有括号先算括号；同级从左到右。</li>
+    <li>符号易错：−a<sup>n</sup> 表示先算 a<sup>n</sup> 再取相反数；(−a)<sup>n</sup> 才是对 −a 做乘方。</li>
+    <li>去括号：括号前是「+」各项不变号；括号前是「−」各项都变号；括号前有系数时，系数要乘到每一项（含符号）。</li>
+    <li>合并同类项：所含字母相同且相同字母的指数也相同；系数相加，字母与指数不变。</li>
+  </ol>
+
+  <h3>A. 基础计算（请留足脱式书写区）（5 题）</h3>
+  <div class="q">
+    <span class="q-num">1.</span>(−3)<sup>2</sup> − (−12)÷3 + |−5| =
+    <div class="work-box steps short"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">2.</span>−2<sup>3</sup> + (−2)×(−5) =
+    <div class="work-box steps short"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">3.</span>去括号：−(2a − 3b + 1) =
+    <div class="work-box steps short"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">4.</span>化简：4(x − 2) − 3(x + 1) =
+    <div class="work-box steps"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">5.</span>化简：5m − 2n − (3m − n) + 2 =
+    <div class="work-box steps"></div>
+  </div>
+
+  <h3>B. 易错辨析（2 题）</h3>
+  <div class="q">
+    <span class="q-num">6.</span>有人算：−3<sup>2</sup> = (−3)<sup>2</sup> = 9。对吗？为什么？
+    <div class="write-box" style="min-height:56px"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">7.</span>有人算：−(a − b) = −a − b。对吗？应怎么改？
+    <div class="write-box" style="min-height:56px"></div>
+  </div>
+
+  <details class="answer parent-answers">
+    <summary>家长对答案（先让孩子做完）· 数学</summary>
+    <div class="ans-body">
+      <p><strong>A.</strong></p>
+      <ol>
+        <li>9 − (−4) + 5 = 9 + 4 + 5 = 18</li>
+        <li>−8 + 10 = 2</li>
+        <li>−2a + 3b − 1</li>
+        <li>4x − 8 − 3x − 3 = x − 11</li>
+        <li>5m − 2n − 3m + n + 2 = 2m − n + 2</li>
+      </ol>
+      <p><strong>B.</strong></p>
+      <ol start="6">
+        <li><strong>错。</strong>−3<sup>2</sup> = −9；(−3)<sup>2</sup> = 9。</li>
+        <li><strong>错。</strong>−(a − b) = −a + b。</li>
+      </ol>
+      <p class="err-tip">踩分提示：乘方优先；−a<sup>n</sup> 与 (−a)<sup>n</sup> 不同；去括号别漏变号或漏乘。</p>
+    </div>
+  </details>
+</section>
+
+<!-- 英语 -->
+<section class="block">
+  <h2>三、英语（约 6～8 分钟）</h2>
+  <p class="subhead">螺旋复习：一般现在时 vs 现在进行时 + 短文定位</p>
+
+  <h3>今日概念提醒</h3>
+  <ol>
+    <li>一般现在时：习惯、事实；三单加 <span class="en">-s/-es</span>；否定/疑问用 <span class="en">do/does</span>。</li>
+    <li>现在进行时：此刻正在做 → <span class="en">am/is/are + V-ing</span>；信号词：<span class="en">now / Look! / Listen! / at the moment</span>。</li>
+    <li><span class="en">every day / usually</span> → 一般现在时；<span class="en">now / Look!</span> → 现在进行时。</li>
+    <li>阅读先抓题干关键词，再回原文找原句。</li>
+  </ol>
+
+  <h3>A. 选时态填空（3 题）</h3>
+  <div class="q">
+    <span class="q-num">1.</span><span class="en">Look! The girls ________ (play) volleyball on the playground.</span>
+  </div>
+  <div class="q">
+    <span class="q-num">2.</span><span class="en">My brother usually ________ (get) up at 6:30, but he ________ (not get) up now — he is ill.</span>
+  </div>
+  <div class="q">
+    <span class="q-num">3.</span><span class="en">—________ she ________ (like) English? —Yes. She ________ (read) an English story at the moment.</span>
+  </div>
+
+  <h3>B. 短文选择（2 题）</h3>
+  <div class="passage en">
+    Tom is a Grade 7 student. He usually goes to school by bike. After school, he often does his homework in the library. Right now, he is not in the library. He is talking with his classmate on the playground.
+  </div>
+  <div class="q">
+    <span class="q-num">4.</span><span class="en">How does Tom usually go to school?</span>（　）<br>
+    A. By bus.　B. By bike.　C. On foot.　D. By car.
+  </div>
+  <div class="q">
+    <span class="q-num">5.</span><span class="en">What is Tom doing right now?</span>（　）<br>
+    A. Doing homework.　B. Reading in the library.　C. Talking with a classmate.　D. Playing football.
+  </div>
+
+  <details class="answer parent-answers">
+    <summary>家长对答案（先让孩子做完）· 英语</summary>
+    <div class="ans-body">
+      <p><strong>A.</strong> 1. are playing　2. gets; isn't getting / is not getting　3. Does; like; is reading</p>
+      <p><strong>B.</strong> 4. B　5. C</p>
+      <p class="err-tip">踩分提示：有 Look!/now/at the moment 优先现在进行时；三单别漏 -s；阅读题回原文对原句。</p>
+    </div>
+  </details>
+</section>
+
+<!-- 历史 -->
+<section class="block">
+  <h2>四、历史（约 6～8 分钟）</h2>
+  <p class="subhead">今日当值小四门 · 春秋战国</p>
+
+  <div class="q">
+    <span class="q-num">1.</span>（单选）商鞅变法发生在（　）
+    <div style="margin-top:6px">
+      A. 齐国　B. 楚国　C. 秦国　D. 赵国
+    </div>
+  </div>
+  <div class="q">
+    <span class="q-num">2.</span>（单选）提出“兼爱”“非攻”主张的思想家是（　）
+    <div style="margin-top:6px">
+      A. 孔子　B. 老子　C. 墨子　D. 韩非
+    </div>
+  </div>
+  <div class="q">
+    <span class="q-num">3.</span>（判断）春秋时期诸侯争霸，在客观上促进了民族交融与社会进步。（　）
+  </div>
+  <div class="q">
+    <span class="q-num">4.</span>（简答）材料：周天子把土地和人民分封给王族、功臣等，建立诸侯国；诸侯须服从天子、定期朝贡。<br>
+    请回答：①材料反映的是什么制度？②这一制度在西周起了什么作用？（各写1点）
+    <div class="write-box" style="min-height:56px"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">5.</span>（选填）老子是<span class="blank blank-lg"></span>学派创始人，孔子是<span class="blank blank-lg"></span>学派创始人。
+  </div>
+
+  <details class="answer parent-answers">
+    <summary>家长对答案（先让孩子做完）· 历史</summary>
+    <div class="ans-body">
+      <ol>
+        <li>C（秦国）</li>
+        <li>C（墨子）</li>
+        <li>√</li>
+        <li>①分封制　②巩固统治／扩大疆域／稳定秩序（任一点即可）</li>
+        <li>道；儒</li>
+      </ol>
+    </div>
+  </details>
+</section>
+
+<footer class="note">
+  初一日练 · 2026-11-02（周一） · 建议用时约 40～50 分钟<br>
+  完成顺序：语文 → 数学 → 英语 → 历史。
+</footer>
+
+</div>
+</body>
+</html>
