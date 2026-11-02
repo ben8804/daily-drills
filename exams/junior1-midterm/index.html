@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>七年级上学期期中模拟</title>
+<style>
+
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --line: #d0d4da;
+    --soft: #f6f7f9;
+    --accent: #1f4e79;
+    --ok: #2d6a4f;
+    --warn: #9a3412;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+                 "Noto Sans SC", "Source Han Sans SC", sans-serif;
+    color: var(--ink);
+    background: #eef1f5;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 16px 14px 48px; }
+  header.sheet-head {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 18px 14px;
+    margin-bottom: 14px;
+  }
+  header.sheet-head h1 {
+    margin: 0 0 6px;
+    font-size: 1.35rem;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .meta span::before { content: "· "; color: #aaa; }
+  .meta span:first-child::before { content: ""; }
+  .scope { margin: 8px 0 0; font-size: 0.95rem; }
+  .stu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    margin-top: 10px;
+    font-size: 0.98rem;
+  }
+  .stu .fill {
+    display: inline-block;
+    min-width: 6.5em;
+    border-bottom: 1px solid #333;
+    margin-left: 6px;
+    height: 1.15em;
+    vertical-align: baseline;
+  }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
+  .btn {
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: var(--accent);
+    color: #fff;
+    min-height: 48px;
+    min-width: 120px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+  }
+  .btn:active { opacity: 0.9; }
+  .btn-ghost { background: #fff; color: var(--accent); border: 1.5px solid var(--accent); }
+  .tip-box {
+    background: #fff8e8;
+    border: 1px solid #f0d9a0;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    color: #6b4e16;
+    margin-top: 10px;
+  }
+  section.block {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 16px 12px;
+    margin-bottom: 14px;
+  }
+  section.block h2 {
+    margin: 0 0 4px;
+    font-size: 1.15rem;
+    color: var(--accent);
+    border-bottom: 2px solid #e3e8ef;
+    padding-bottom: 8px;
+  }
+  .subhead { color: var(--muted); font-size: 0.88rem; margin: 0 0 12px; }
+  h3 { margin: 16px 0 8px; font-size: 1.02rem; color: #243447; }
+  .q {
+    margin: 0 0 12px;
+    padding: 10px 12px;
+    background: var(--soft);
+    border-radius: 8px;
+    border-left: 3px solid #9db4ce;
+  }
+  .q-num { font-weight: 700; color: var(--accent); margin-right: 4px; }
+  .opts { margin: 4px 0 0 0.15em; }
+  .opts div { margin: 2px 0; }
+  .opts.inline { display: flex; flex-wrap: wrap; column-gap: 1.1em; }
+  .opts.inline div { margin: 2px 0; }
+  .blank {
+    display: inline-block;
+    min-width: 3.4em;
+    border-bottom: 1.5px solid #333;
+    margin: 0 2px;
+    height: 1.15em;
+    vertical-align: baseline;
+  }
+  .blank.sm { min-width: 2.4em; }
+  .blank.md { min-width: 5.2em; }
+  .blank.lg { min-width: 8.5em; }
+  .blank.xl { min-width: 12em; }
+  .en { font-family: Georgia, "Times New Roman", "Songti SC", serif; }
+  .passage, .material {
+    background: #f9fafb;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 8px 0 12px;
+  }
+  .passage p, .material p { margin: 0.4em 0; }
+  .poem { margin: 6px 0 6px 0.4em; line-height: 1.9; }
+  .drawn { text-decoration: underline; text-underline-offset: 3px; }
+  .ruled {
+    margin-top: 6px;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent calc(1.85em - 1px),
+      #c5cad3 calc(1.85em - 1px),
+      #c5cad3 1.85em
+    );
+  }
+  .r2 { height: 3.7em; }
+  .r3 { height: 5.55em; }
+  .r4 { height: 7.4em; }
+  .r5 { height: 9.25em; }
+  .r6 { height: 11.1em; }
+  .r8 { height: 14.8em; }
+  .r16 { height: 29.6em; }
+  details.answer {
+    margin-top: 10px;
+    border: 1.5px solid #c5ddd0;
+    border-radius: 10px;
+    background: #f3faf6;
+    overflow: hidden;
+  }
+  details.answer > summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    font-weight: 700;
+    color: var(--ok);
+    list-style: none;
+    user-select: none;
+  }
+  details.answer > summary::-webkit-details-marker { display: none; }
+  details.answer > summary::before { content: "▸ "; }
+  details.answer[open] > summary::before { content: "▾ "; }
+  .ans-body { padding: 0 14px 14px; border-top: 1px solid #d4e8dc; font-size: 0.95rem; }
+  .ans-body p { margin: 8px 0; }
+  .err-tip { color: var(--warn); font-size: 0.88rem; }
+  footer.note { text-align: center; color: #888; font-size: 0.82rem; margin-top: 8px; }
+  sup { line-height: 0; font-size: 0.75em; }
+  em { font-style: italic; }
+  a.subj {
+    display: block;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin: 0 0 12px;
+    text-decoration: none;
+    color: inherit;
+    border-left: 4px solid var(--accent);
+  }
+  a.subj:active { opacity: 0.92; }
+  .subj-name { display: block; font-size: 1.12rem; font-weight: 700; color: var(--accent); }
+  .subj-meta { display: block; color: var(--muted); font-size: 0.9rem; margin-top: 2px; }
+  .subj-scope { display: block; margin-top: 4px; font-size: 0.92rem; }
+  @page { size: A4; margin: 12mm 14mm; }
+  @media print {
+    html { font-size: 12pt; }
+    body {
+      background: #fff !important;
+      color: #000;
+      line-height: 1.5;
+    }
+    .wrap { max-width: none; margin: 0; padding: 0; }
+    .toolbar, .no-print, .print-hide, .parent-answers, details.answer,
+    .btn, .tip-box, footer.note { display: none !important; }
+    header.sheet-head, section.block, .q, .passage, .material,
+    details.answer, a.subj, .tip-box {
+      background: transparent !important;
+      background-image: none !important;
+      border: none !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+    }
+    header.sheet-head { margin: 0 0 4mm; padding: 0 0 2mm; break-after: avoid; }
+    header.sheet-head h1 { color: #000; font-size: 16pt; margin-bottom: 2mm; }
+    .meta, .scope, .stu, .subj-meta, .subj-scope { color: #000; }
+    .meta span::before { color: #333; }
+    section.block { margin: 0 0 3mm; padding: 0; }
+    section.block h2 {
+      color: #000;
+      border-bottom: none;
+      padding-bottom: 1mm;
+      break-after: avoid;
+    }
+    h3 { color: #000; break-after: avoid; }
+    .q { margin: 0 0 3.2mm; padding: 0; }
+    .q-num, .subj-name { color: #000; }
+    .passage, .material { padding: 0; margin: 1.5mm 0 2mm; }
+    a.subj { padding: 0 0 3mm; margin: 0 0 3mm; }
+    .ruled {
+      background-color: transparent !important;
+      border: none !important;
+      background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0,
+        transparent calc(1.85em - 1px),
+        #444 calc(1.85em - 1px),
+        #444 1.85em
+      ) !important;
+    }
+    .blank, .stu .fill { border-bottom-color: #000; }
+    a { text-decoration: none; color: inherit; }
+    .q.keep, .opts, .poem { break-inside: avoid; page-break-inside: avoid; }
+  }
+  @media (max-width: 480px) {
+    html { font-size: 16px; }
+    .btn { width: 100%; }
+  }
+
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="sheet-head">
+  <h1>七年级上学期期中模拟</h1>
+  <div class="meta">
+    <span>期中模拟</span>
+    <span>满分各 100 分</span>
+    <span>广州越秀 · 新课标</span>
+  </div>
+  <p class="scope">七科分开打印。每科试题在前，文末「家长对答案」打印时自动隐藏。</p>
+  <div class="toolbar no-print">
+    <button class="btn" type="button" onclick="window.print()">🖨️ 打印目录</button>
+    <a class="btn btn-ghost" href="../../junior1/">初一日练</a>
+  </div>
+</header>
+<section class="block">
+  <h2>科目</h2>
+  <p class="subhead">老师定稿 · 点进一科做题或打印</p>
+  <a class="subj" href="chinese.html">
+    <span class="subj-name">语文</span>
+    <span class="subj-meta">满分 100 分 · 建议用时 100 分钟</span>
+    <span class="subj-scope">第一～第四单元：四季美景、至爱亲情、学习生活、人生之舟</span>
+  </a>
+  <a class="subj" href="math.html">
+    <span class="subj-name">数学</span>
+    <span class="subj-meta">满分 100 分 · 建议用时 90 分钟</span>
+    <span class="subj-scope">有理数 · 整式的加减</span>
+  </a>
+  <a class="subj" href="english.html">
+    <span class="subj-name">英语</span>
+    <span class="subj-meta">满分 100 分 · 建议用时 90 分钟</span>
+    <span class="subj-scope">be 动词、代词、名词单复数、一般现在时、现在进行时、there be</span>
+  </a>
+  <a class="subj" href="history.html">
+    <span class="subj-name">历史</span>
+    <span class="subj-meta">满分 100 分 · 建议用时 50～60 分钟</span>
+    <span class="subj-scope">第一、二单元：史前时期—夏商周（含春秋战国）</span>
+  </a>
+  <a class="subj" href="geography.html">
+    <span class="subj-name">地理</span>
+    <span class="subj-meta">满分 100 分 · 建议用时 40～45 分钟</span>
+    <span class="subj-scope">地球和地图、陆地和海洋、天气与气候、居民与聚落</span>
+  </a>
+  <a class="subj" href="biology.html">
+    <span class="subj-name">生物学</span>
+    <span class="subj-meta">满分 100 分 · 建议用时 40～45 分钟</span>
+    <span class="subj-scope">生物圈、显微镜与细胞、结构层次；种子结构与萌发</span>
+  </a>
+  <a class="subj" href="daofa.html">
+    <span class="subj-name">道德与法治</span>
+    <span class="subj-meta">满分 100 分 · 建议用时 50～60 分钟</span>
+    <span class="subj-scope">成长的节拍、友谊的天空、师长情谊</span>
+  </a>
+</section>
+<footer class="note">七年级上学期期中模拟 · 语文 / 数学 / 英语 / 历史 / 地理 / 生物 / 道德与法治</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>七年级上学期期中模拟 · 历史</title>
+<style>
+
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --line: #d0d4da;
+    --soft: #f6f7f9;
+    --accent: #1f4e79;
+    --ok: #2d6a4f;
+    --warn: #9a3412;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+                 "Noto Sans SC", "Source Han Sans SC", sans-serif;
+    color: var(--ink);
+    background: #eef1f5;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 16px 14px 48px; }
+  header.sheet-head {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 18px 14px;
+    margin-bottom: 14px;
+  }
+  header.sheet-head h1 {
+    margin: 0 0 6px;
+    font-size: 1.35rem;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .meta span::before { content: "· "; color: #aaa; }
+  .meta span:first-child::before { content: ""; }
+  .scope { margin: 8px 0 0; font-size: 0.95rem; }
+  .stu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    margin-top: 10px;
+    font-size: 0.98rem;
+  }
+  .stu .fill {
+    display: inline-block;
+    min-width: 6.5em;
+    border-bottom: 1px solid #333;
+    margin-left: 6px;
+    height: 1.15em;
+    vertical-align: baseline;
+  }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
+  .btn {
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: var(--accent);
+    color: #fff;
+    min-height: 48px;
+    min-width: 120px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+  }
+  .btn:active { opacity: 0.9; }
+  .btn-ghost { background: #fff; color: var(--accent); border: 1.5px solid var(--accent); }
+  .tip-box {
+    background: #fff8e8;
+    border: 1px solid #f0d9a0;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    color: #6b4e16;
+    margin-top: 10px;
+  }
+  section.block {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 16px 12px;
+    margin-bottom: 14px;
+  }
+  section.block h2 {
+    margin: 0 0 4px;
+    font-size: 1.15rem;
+    color: var(--accent);
+    border-bottom: 2px solid #e3e8ef;
+    padding-bottom: 8px;
+  }
+  .subhead { color: var(--muted); font-size: 0.88rem; margin: 0 0 12px; }
+  h3 { margin: 16px 0 8px; font-size: 1.02rem; color: #243447; }
+  .q {
+    margin: 0 0 12px;
+    padding: 10px 12px;
+    background: var(--soft);
+    border-radius: 8px;
+    border-left: 3px solid #9db4ce;
+  }
+  .q-num { font-weight: 700; color: var(--accent); margin-right: 4px; }
+  .opts { margin: 4px 0 0 0.15em; }
+  .opts div { margin: 2px 0; }
+  .opts.inline { display: flex; flex-wrap: wrap; column-gap: 1.1em; }
+  .opts.inline div { margin: 2px 0; }
+  .blank {
+    display: inline-block;
+    min-width: 3.4em;
+    border-bottom: 1.5px solid #333;
+    margin: 0 2px;
+    height: 1.15em;
+    vertical-align: baseline;
+  }
+  .blank.sm { min-width: 2.4em; }
+  .blank.md { min-width: 5.2em; }
+  .blank.lg { min-width: 8.5em; }
+  .blank.xl { min-width: 12em; }
+  .en { font-family: Georgia, "Times New Roman", "Songti SC", serif; }
+  .passage, .material {
+    background: #f9fafb;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 8px 0 12px;
+  }
+  .passage p, .material p { margin: 0.4em 0; }
+  .poem { margin: 6px 0 6px 0.4em; line-height: 1.9; }
+  .drawn { text-decoration: underline; text-underline-offset: 3px; }
+  .ruled {
+    margin-top: 6px;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent calc(1.85em - 1px),
+      #c5cad3 calc(1.85em - 1px),
+      #c5cad3 1.85em
+    );
+  }
+  .r2 { height: 3.7em; }
+  .r3 { height: 5.55em; }
+  .r4 { height: 7.4em; }
+  .r5 { height: 9.25em; }
+  .r6 { height: 11.1em; }
+  .r8 { height: 14.8em; }
+  .r16 { height: 29.6em; }
+  details.answer {
+    margin-top: 10px;
+    border: 1.5px solid #c5ddd0;
+    border-radius: 10px;
+    background: #f3faf6;
+    overflow: hidden;
+  }
+  details.answer > summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    font-weight: 700;
+    color: var(--ok);
+    list-style: none;
+    user-select: none;
+  }
+  details.answer > summary::-webkit-details-marker { display: none; }
+  details.answer > summary::before { content: "▸ "; }
+  details.answer[open] > summary::before { content: "▾ "; }
+  .ans-body { padding: 0 14px 14px; border-top: 1px solid #d4e8dc; font-size: 0.95rem; }
+  .ans-body p { margin: 8px 0; }
+  .err-tip { color: var(--warn); font-size: 0.88rem; }
+  footer.note { text-align: center; color: #888; font-size: 0.82rem; margin-top: 8px; }
+  sup { line-height: 0; font-size: 0.75em; }
+  em { font-style: italic; }
+  a.subj {
+    display: block;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin: 0 0 12px;
+    text-decoration: none;
+    color: inherit;
+    border-left: 4px solid var(--accent);
+  }
+  a.subj:active { opacity: 0.92; }
+  .subj-name { display: block; font-size: 1.12rem; font-weight: 700; color: var(--accent); }
+  .subj-meta { display: block; color: var(--muted); font-size: 0.9rem; margin-top: 2px; }
+  .subj-scope { display: block; margin-top: 4px; font-size: 0.92rem; }
+  @page { size: A4; margin: 12mm 14mm; }
+  @media print {
+    html { font-size: 12pt; }
+    body {
+      background: #fff !important;
+      color: #000;
+      line-height: 1.5;
+    }
+    .wrap { max-width: none; margin: 0; padding: 0; }
+    .toolbar, .no-print, .print-hide, .parent-answers, details.answer,
+    .btn, .tip-box, footer.note { display: none !important; }
+    header.sheet-head, section.block, .q, .passage, .material,
+    details.answer, a.subj, .tip-box {
+      background: transparent !important;
+      background-image: none !important;
+      border: none !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+    }
+    header.sheet-head { margin: 0 0 4mm; padding: 0 0 2mm; break-after: avoid; }
+    header.sheet-head h1 { color: #000; font-size: 16pt; margin-bottom: 2mm; }
+    .meta, .scope, .stu, .subj-meta, .subj-scope { color: #000; }
+    .meta span::before { color: #333; }
+    section.block { margin: 0 0 3mm; padding: 0; }
+    section.block h2 {
+      color: #000;
+      border-bottom: none;
+      padding-bottom: 1mm;
+      break-after: avoid;
+    }
+    h3 { color: #000; break-after: avoid; }
+    .q { margin: 0 0 3.2mm; padding: 0; }
+    .q-num, .subj-name { color: #000; }
+    .passage, .material { padding: 0; margin: 1.5mm 0 2mm; }
+    a.subj { padding: 0 0 3mm; margin: 0 0 3mm; }
+    .ruled {
+      background-color: transparent !important;
+      border: none !important;
+      background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0,
+        transparent calc(1.85em - 1px),
+        #444 calc(1.85em - 1px),
+        #444 1.85em
+      ) !important;
+    }
+    .blank, .stu .fill { border-bottom-color: #000; }
+    a { text-decoration: none; color: inherit; }
+    .q.keep, .opts, .poem { break-inside: avoid; page-break-inside: avoid; }
+  }
+  @media (max-width: 480px) {
+    html { font-size: 16px; }
+    .btn { width: 100%; }
+  }
+
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="sheet-head">
+  <h1>七年级上学期期中模拟 · 历史</h1>
+  <div class="meta">
+    <span>期中模拟</span>
+    <span>满分 100 分</span>
+    <span>建议用时 50～60 分钟</span>
+    <span>广州越秀 · 新课标</span>
+  </div>
+  <p class="scope">范围：统编七年级上册第一、二单元（史前时期—夏商周，含春秋战国）</p>
+  <div class="stu">
+    <span>班级<span class="fill"></span></span>
+    <span>姓名<span class="fill"></span></span>
+    <span>学号<span class="fill"></span></span>
+  </div>
+  <div class="toolbar no-print">
+    <button class="btn" type="button" onclick="window.print()">🖨️ 打印试卷</button>
+    <button class="btn btn-ghost" type="button" onclick="document.querySelectorAll('details.answer').forEach(d=>d.open=true)">展开答案</button>
+    <button class="btn btn-ghost" type="button" onclick="document.querySelectorAll('details.answer').forEach(d=>d.open=false)">收起答案</button>
+    <a class="btn btn-ghost" href="index.html">返回目录</a>
+  </div>
+  <div class="tip-box print-hide"><strong>给家长：</strong>先让孩子独立完成，再展开文末「家长对答案」。打印时答案会自动隐藏。</div>
+</header>
+<section class="block">
+  <h2>一、选择题（每题 3 分，共 30 分）</h2>
+  <div class="q keep"><span class="q-num">1.</span>我国目前已确认的最早的古人类是（　）
+    <div class="opts inline"><div>A. 北京人</div><div>B. 元谋人</div><div>C. 山顶洞人</div><div>D. 半坡人</div></div>
+  </div>
+  <div class="q keep"><span class="q-num">2.</span>北京人已经会（　）
+    <div class="opts"><div>A. 人工取火</div><div>B. 使用天然火</div><div>C. 种植水稻</div><div>D. 制造青铜器</div></div>
+  </div>
+  <div class="q keep"><span class="q-num">3.</span>河姆渡居民的主要生活特征是（　）
+    <div class="opts">
+      <div>A. 住半地穴式房屋，种植粟</div>
+      <div>B. 住干栏式房屋，种植水稻</div>
+      <div>C. 过迁徙生活，以渔猎为主</div>
+      <div>D. 已建立奴隶制国家</div>
+    </div>
+  </div>
+  <div class="q keep"><span class="q-num">4.</span>半坡居民种植的主要粮食作物是（　）
+    <div class="opts inline"><div>A. 水稻</div><div>B. 小麦</div><div>C. 粟</div><div>D. 高粱</div></div>
+  </div>
+  <div class="q keep"><span class="q-num">5.</span>我国历史上第一个王朝是（　）
+    <div class="opts inline"><div>A. 商朝</div><div>B. 周朝</div><div>C. 夏朝</div><div>D. 秦朝</div></div>
+  </div>
+  <div class="q keep"><span class="q-num">6.</span>甲骨文主要出土于（　）
+    <div class="opts"><div>A. 长安</div><div>B. 洛阳</div><div>C. 殷墟（今河南安阳）</div><div>D. 咸阳</div></div>
+  </div>
+  <div class="q keep"><span class="q-num">7.</span>西周实行分封制的主要目的是（　）
+    <div class="opts">
+      <div>A. 发展商业</div>
+      <div>B. 巩固统治、扩大疆域</div>
+      <div>C. 废除世袭</div>
+      <div>D. 统一文字</div>
+    </div>
+  </div>
+  <div class="q keep"><span class="q-num">8.</span>商鞅变法发生在（　）
+    <div class="opts inline"><div>A. 齐国</div><div>B. 楚国</div><div>C. 秦国</div><div>D. 赵国</div></div>
+  </div>
+  <div class="q keep"><span class="q-num">9.</span>提出“兼爱”“非攻”主张的思想家是（　）
+    <div class="opts inline"><div>A. 孔子</div><div>B. 老子</div><div>C. 墨子</div><div>D. 韩非</div></div>
+  </div>
+  <div class="q keep"><span class="q-num">10.</span>春秋时期，诸侯争霸在客观上（　）
+    <div class="opts">
+      <div>A. 导致国家彻底分裂</div>
+      <div>B. 促进了民族交融与社会进步</div>
+      <div>C. 废除了土地私有</div>
+      <div>D. 结束了封建制度</div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <h2>二、判断题（每题 2 分，共 10 分；正确打 √，错误打 ×）</h2>
+  <div class="q keep"><span class="q-num">11.</span>山顶洞人比北京人进步，已掌握磨光和钻孔技术。（　）</div>
+  <div class="q keep"><span class="q-num">12.</span>禹传启，标志着世袭制代替禅让制，“家天下”开始。（　）</div>
+  <div class="q keep"><span class="q-num">13.</span>青铜器在商朝主要用于农业生产工具。（　）</div>
+  <div class="q keep"><span class="q-num">14.</span>老子是道家学派创始人，孔子是儒家学派创始人。（　）</div>
+  <div class="q keep"><span class="q-num">15.</span>战国时期百家争鸣，有利于社会进步和思想繁荣。（　）</div>
+</section>
+
+<section class="block">
+  <h2>三、材料分析题（共 40 分）</h2>
+  <h3>16.（20 分）阅读材料，回答问题。</h3>
+  <div class="material">
+    <p><strong>材料一：</strong>河姆渡遗址出土稻谷、骨耜和干栏式建筑遗迹；半坡遗址出土粟、彩陶和半地穴式房屋遗迹。</p>
+    <p><strong>材料二：</strong>传说炎帝教民开垦耕种，黄帝建造宫室、制作衣裳，他们被尊为中华民族人文始祖。</p>
+  </div>
+  <div class="q">
+    <span class="q-num">（1）</span>材料一说明我国原始农耕分别在南北方有了怎样的发展？（写出南北各 1 点）（8 分）
+    <div class="ruled r3"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">（2）</span>材料二中的“人文始祖”指谁？（4 分）
+    <div class="ruled r2"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">（3）</span>从材料一、二看，远古时期中华文明发展有何特点？（写 1 点即可）（8 分）
+    <div class="ruled r3"></div>
+  </div>
+
+  <h3>17.（20 分）阅读材料，回答问题。</h3>
+  <div class="material">
+    <p><strong>材料一：</strong>周天子把土地和人民分封给王族、功臣和古代帝王的后代，建立诸侯国。诸侯须服从周天子，定期朝贡，并派兵随从作战。</p>
+    <p><strong>材料二：</strong>商鞅下令承认土地私有，允许自由买卖；奖励耕织；奖励军功，按军功大小授予爵位和田宅。</p>
+  </div>
+  <div class="q">
+    <span class="q-num">（1）</span>材料一反映的是什么制度？该制度在西周起了什么作用？（写 1 点即可）（8 分）
+    <div class="ruled r3"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">（2）</span>材料二措施的主要目的是什么？结果如何？（各写 1 点）（8 分）
+    <div class="ruled r3"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">（3）</span>从“分封”到“变法图强”，反映出春秋战国时期怎样的时代特征？（写 1 点即可）（4 分）
+    <div class="ruled r2"></div>
+  </div>
+</section>
+
+<section class="block">
+  <h2>四、综合简答（20 分）</h2>
+  <h3>18. 时空与阶段特征：请完成下列要求。</h3>
+  <div class="q">
+    <span class="q-num">（1）</span>按时间先后排列下列事件（只写序号）：①商鞅变法　②夏朝建立　③甲骨文出现（商朝）　④炎黄传说时代（8 分）
+    <div class="ruled r2"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">（2）</span>用一句话概括“夏商周时期”的阶段特征。（6 分）
+    <div class="ruled r2"></div>
+  </div>
+  <div class="q">
+    <span class="q-num">（3）</span>任选一个你学过的文物或遗址（如甲骨文、司母戊鼎、河姆渡遗址等），说明它能证明哪一史实。（6 分）
+    <div class="ruled r3"></div>
+  </div>
+</section>
+<details class="answer parent-answers">
+  <summary>家长对答案（先让孩子做完）</summary>
+  <div class="ans-body">
+<p><strong>一、选择题</strong></p>
+<p>1. B　2. B　3. B　4. C　5. C　6. C　7. B　8. C　9. C　10. B</p>
+<p><strong>二、判断题</strong></p>
+<p>11. √</p>
+<p>12. √</p>
+<p>13. ×（商朝青铜器主要用于礼器和兵器等，不是主要农具）</p>
+<p>14. √</p>
+<p>15. √</p>
+<p><strong>三、材料题</strong></p>
+<p><strong>16.</strong></p>
+<p>（1）南方（河姆渡）：种植水稻／干栏式房屋（4 分）；北方（半坡）：种植粟／半地穴式房屋／彩陶（4 分）</p>
+<p>（2）炎帝、黄帝（炎黄）（4 分）</p>
+<p>（3）多元起源／南北各有特色／源远流长／农耕文明较早发达等（任 1 点，8 分）</p>
+<p><strong>17.</strong></p>
+<p>（1）分封制（4 分）；巩固统治／扩大疆域／开发边远地区等（任 1 点，4 分）</p>
+<p>（2）目的：富国强兵／增强秦国实力（4 分）；结果：秦国国力大增，为后来统一奠定基础（4 分）</p>
+<p>（3）社会大变革／诸侯争霸与变法图强／奴隶制向封建制过渡等（任 1 点，4 分）</p>
+<p><strong>四、综合简答</strong></p>
+<p><strong>18.</strong></p>
+<p>（1）④→②→③→①（炎黄→夏朝建立→甲骨文→商鞅变法）（全对 8 分；错 1 处扣 2 分，扣完为止）</p>
+<p>（2）示例：早期国家产生与发展（或：奴隶制王朝的兴衰；青铜文明与早期政治制度发展）（6 分；意思对即可）</p>
+<p>（3）示例：甲骨文——证明商朝已有比较成熟的文字；司母戊鼎——证明商朝青铜铸造高度发达；河姆渡遗址——证明长江流域原始农耕（水稻）等（史实正确、对应即可，6 分）</p>
+<p class="err-tip">评分提示：材料题与简答按踩分点给分，关键词到位即可，不苛求原文照抄。</p>
+  </div>
+</details>
+<footer class="note">七年级上学期期中模拟 · 历史 · 打印时隐藏「家长对答案」</footer>
+</div>
+</body>
+</html>
