@@ -537,6 +537,12 @@ mark.pat {
   background-color: var(--color-hill-2);
 }
 
+.soil,
+.ground {
+  position: relative;
+  z-index: 1;
+}
+
 .soil {
   margin-top: -32px;
   padding: 18px 0 28px;
@@ -547,6 +553,7 @@ mark.pat {
 
 .garden h2 {
   font-size: var(--text-card);
+  line-height: 1.35;
   margin-bottom: 6px;
 }
 
