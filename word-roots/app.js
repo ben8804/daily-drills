@@ -7,6 +7,9 @@
   const families = parseFamilies();
   let progress = loadProgress();
   let lastFamilyId = null;
+  let shelf = "4";
+  let volume = "a";
+  const gradeName = { "3": "三年级", "4": "四年级", "5": "五年级", "6": "六年级" };
 
   try {
     init();
@@ -18,8 +21,13 @@
   function init() {
     if (!families.length) throw new Error("no families");
     updateProgressUI();
-    updateStartLink();
     document.querySelectorAll("[data-tab]").forEach(bindTab);
+    document.querySelectorAll("[data-shelf-pick]").forEach(function (tab) {
+      bindChoice(tab, "data-shelf-pick", function (value) { shelf = value; });
+    });
+    document.querySelectorAll("[data-volume-pick]").forEach(function (tab) {
+      bindChoice(tab, "data-volume-pick", function (value) { volume = value; });
+    });
     const host = document.querySelector("[data-hero-speak]");
     if (host) {
       const button = speakButton(host.getAttribute("data-hero-speak"));
@@ -42,6 +50,7 @@
           partZh: (li.dataset.partzh || "").split("|").filter(Boolean),
           unit: li.dataset.unit || "",
           note: li.dataset.note || "",
+          pos: li.dataset.pos || "",
           li: li
         };
       });
@@ -50,6 +59,8 @@
         kind: el.dataset.kind || "compound",
         pattern: el.dataset.pattern || "",
         sound: el.dataset.sound || "",
+        shelf: el.dataset.shelf || "review",
+        volume: el.dataset.volume || "review",
         title: (el.querySelector("h2") || {}).textContent || "",
         el: el,
         members: members
@@ -114,6 +125,9 @@
   function growthText(family) {
     const done = family.members.filter(function (member) { return builtSet(family.id).has(member.en); }).length;
     const stars = progress.stars[family.id] || 0;
+    if (family.kind === "bank") {
+      return stars > 0 ? "测验 " + stars + " 星" : "还没测验。";
+    }
     if (done === 0 && stars === 0) return "还没开始。";
     const starBit = stars > 0 ? "测验 " + stars + " 星" : "还没测验";
     return "已拼 " + done + "/" + family.members.length + "，" + starBit;
@@ -137,8 +151,82 @@
   function updateStartLink() {
     const link = document.getElementById("start");
     if (!link) return;
-    const next = families.find(function (family) { return (progress.stars[family.id] || 0) < 3; }) || families[0];
-    link.href = "#" + next.id;
+    const here = families.filter(function (family) { return matchesShelf(family.shelf, family.volume); });
+    const pool = here.length ? here : families;
+    const next = pool.find(function (family) { return (progress.stars[family.id] || 0) < 3; }) || pool[0];
+    if (next) link.href = "#" + next.id;
+  }
+
+  function matchesShelf(shelfId, volumeId) {
+    if ((shelfId || "review") !== shelf) return false;
+    if (shelf === "review") return true;
+    return (volumeId || "a") === volume;
+  }
+
+  function bindChoice(tab, attr, assign) {
+    tab.addEventListener("click", function () {
+      assign(tab.getAttribute(attr));
+      applyShelf();
+    });
+    tab.addEventListener("keydown", function (event) {
+      if (event.key !== "ArrowRight" && event.key !== "ArrowLeft" && event.key !== "ArrowDown" && event.key !== "ArrowUp") return;
+      const tabs = Array.from(tab.parentElement.querySelectorAll("[" + attr + "]"));
+      const index = tabs.indexOf(tab);
+      const step = event.key === "ArrowRight" || event.key === "ArrowDown" ? 1 : -1;
+      const next = tabs[(index + step + tabs.length) % tabs.length];
+      event.preventDefault();
+      next.focus();
+      next.click();
+    });
+  }
+
+  function applyShelf() {
+    document.querySelectorAll("[data-shelf-pick]").forEach(function (tab) {
+      const on = tab.getAttribute("data-shelf-pick") === shelf;
+      tab.classList.toggle("is-chosen", on);
+      tab.setAttribute("aria-selected", on ? "true" : "false");
+      tab.tabIndex = on ? 0 : -1;
+    });
+    document.querySelectorAll("[data-volume-pick]").forEach(function (tab) {
+      const on = tab.getAttribute("data-volume-pick") === volume;
+      tab.classList.toggle("is-chosen", on);
+      tab.setAttribute("aria-selected", on ? "true" : "false");
+      tab.tabIndex = on ? 0 : -1;
+    });
+    document.querySelectorAll(".volume-switch").forEach(function (el) {
+      if (shelf === "review") el.setAttribute("hidden", "");
+      else el.removeAttribute("hidden");
+    });
+    let shown = 0;
+    families.forEach(function (family) {
+      const on = matchesShelf(family.shelf, family.volume);
+      if (on) shown += 1;
+      family.el.classList.toggle("is-shelf-off", !on);
+    });
+    document.querySelectorAll("[data-plant], .module-banner").forEach(function (plant) {
+      const on = matchesShelf(plant.dataset.shelf || "review", plant.dataset.volume || "review");
+      plant.classList.toggle("is-shelf-off", !on);
+    });
+    document.querySelectorAll("[data-book-empty]").forEach(function (el) {
+      if (shown === 0) el.removeAttribute("hidden");
+      else el.setAttribute("hidden", "");
+    });
+    const volumeLabel = volume === "b" ? "下册" : "上册";
+    const grade = gradeName[shelf] || "";
+    document.querySelectorAll("[data-shelf-title]").forEach(function (el) {
+      el.textContent = shelf === "review" ? "8 个词族" : grade + volumeLabel;
+    });
+    document.querySelectorAll("[data-shelf-lead]").forEach(function (el) {
+      if (shelf === "review") el.textContent = "点进去拼一拼。星星留在这台浏览器里。";
+      else if (shown === 0) el.textContent = "教科版（广州版）" + grade + volumeLabel + "。官方词表放进来之后，可以听、看意思、做小测验。";
+      else el.textContent = "教科版（广州版）" + grade + volumeLabel + "。点进去认一认。星星留在这台浏览器里。";
+    });
+    document.querySelectorAll("[data-shelf-note]").forEach(function (el) {
+      el.textContent = shelf === "review"
+        ? "这 8 个词族是人教 PEP 四年级上册，留着复习。"
+        : "教科版（广州版）" + grade + volumeLabel + "。";
+    });
+    updateStartLink();
   }
 
   function parseRoute() {
@@ -155,6 +243,7 @@
   }
 
   function normalizeMode(family, mode) {
+    if (family.kind === "bank") return mode === "quiz" ? "quiz" : "review";
     const allowed = family.kind === "phonics" ? ["read", "review", "quiz"] : ["build", "review", "quiz"];
     if (family.kind === "phonics" && mode === "review") return "read";
     if (allowed.indexOf(mode) === -1) return family.kind === "phonics" ? "read" : "build";
@@ -169,6 +258,14 @@
 
   function render() {
     const route = parseRoute();
+    if (route.name === "family") {
+      const found = families.find(function (item) { return item.id === route.id; });
+      if (found) {
+        shelf = found.shelf || "review";
+        if (shelf !== "review" && found.volume) volume = found.volume;
+      }
+    }
+    applyShelf();
     document.body.classList.toggle("view-home", route.name === "home");
     document.body.classList.toggle("view-family", route.name === "family");
     families.forEach(function (family) {
@@ -635,12 +732,21 @@
   }
 
   function paintQuiz(family) {
+    if (!family.members.length) {
+      const board = family.el.querySelector("[data-board]");
+      board.replaceChildren();
+      const help = document.createElement("p");
+      help.className = "help";
+      help.textContent = "这一组还没有词。";
+      board.append(help);
+      return;
+    }
     const questions = buildQuestions(family);
     paintQuestion(family, { questions: questions, index: 0, correct: 0 });
   }
 
   function buildQuestions(family) {
-    const types = family.kind === "phonics"
+    const types = family.kind === "phonics" || family.kind === "bank"
       ? ["zh-to-en", "en-to-zh", "listen-zh"]
       : ["zh-to-en", "parts-to-en", "assemble", "listen-zh"];
     const questions = family.members.map(function (member, index) {
@@ -651,7 +757,7 @@
         type: "which-pattern",
         member: family.members[family.members.length - 1]
       }));
-    } else if (family.members.length < 4) {
+    } else if (family.kind !== "bank" && family.members.length < 4) {
       const member = family.members.find(function (item) { return item.parts.length >= 2; }) || family.members[0];
       questions.push(normalizeQuestion(family, {
         type: member.parts.length >= 2 ? "assemble" : "zh-to-en",
@@ -691,6 +797,12 @@
       word.className = "prompt-zh";
       word.lang = "en";
       word.innerHTML = markedHTML(member.en, family.pattern);
+      if (member.pos) {
+        const pos = document.createElement("span");
+        pos.className = "pos";
+        pos.textContent = " " + member.pos;
+        word.append(pos);
+      }
       prompt.append(word, helpLine("这个词是什么意思？"));
     } else if (question.type === "listen-zh") {
       prompt.append(promptLine("听一听", false), helpLine("选出听到的意思。"));
@@ -838,9 +950,10 @@
     const review = document.createElement("button");
     review.type = "button";
     review.className = "press";
-    review.textContent = family.kind === "phonics" ? "再看发音" : "先翻一翻";
+    review.textContent = family.kind === "phonics" ? "再看发音" : family.kind === "bank" ? "再认一认" : "先翻一翻";
     review.addEventListener("click", function () {
-      go(family.id + "/" + (family.kind === "phonics" ? "read" : "review"));
+      const back = family.kind === "phonics" ? "read" : "review";
+      go(family.id + "/" + back);
     });
     actions.append(again, review);
     box.append(title, line, actions);
