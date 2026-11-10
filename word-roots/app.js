@@ -7,7 +7,7 @@
   const families = parseFamilies();
   let progress = loadProgress();
   let lastFamilyId = null;
-  let shelf = "review";
+  let shelf = "4";
   let volume = "a";
   const gradeName = { "3": "三年级", "4": "四年级", "5": "五年级", "6": "六年级" };
 
@@ -50,6 +50,7 @@
           partZh: (li.dataset.partzh || "").split("|").filter(Boolean),
           unit: li.dataset.unit || "",
           note: li.dataset.note || "",
+          pos: li.dataset.pos || "",
           li: li
         };
       });
@@ -150,8 +151,8 @@
   function updateStartLink() {
     const link = document.getElementById("start");
     if (!link) return;
-    const review = families.filter(function (family) { return family.shelf === "review"; });
-    const pool = review.length ? review : families;
+    const here = families.filter(function (family) { return matchesShelf(family.shelf, family.volume); });
+    const pool = here.length ? here : families;
     const next = pool.find(function (family) { return (progress.stars[family.id] || 0) < 3; }) || pool[0];
     if (next) link.href = "#" + next.id;
   }
@@ -202,7 +203,7 @@
       if (on) shown += 1;
       family.el.classList.toggle("is-shelf-off", !on);
     });
-    document.querySelectorAll("[data-plant]").forEach(function (plant) {
+    document.querySelectorAll("[data-plant], .module-banner").forEach(function (plant) {
       const on = matchesShelf(plant.dataset.shelf || "review", plant.dataset.volume || "review");
       plant.classList.toggle("is-shelf-off", !on);
     });
@@ -796,6 +797,12 @@
       word.className = "prompt-zh";
       word.lang = "en";
       word.innerHTML = markedHTML(member.en, family.pattern);
+      if (member.pos) {
+        const pos = document.createElement("span");
+        pos.className = "pos";
+        pos.textContent = " " + member.pos;
+        word.append(pos);
+      }
       prompt.append(word, helpLine("这个词是什么意思？"));
     } else if (question.type === "listen-zh") {
       prompt.append(promptLine("听一听", false), helpLine("选出听到的意思。"));
