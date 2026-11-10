@@ -2,6 +2,7 @@
 /* Critique: word tiles beg to become a rainbow toy; pear acts, blue links, coral shouts once, mint grows. */
 /* Waiver: grain and fibre data-URIs bake blue-black ink, because SVG images cannot read custom properties. */
 /* Waiver: @font-face names Chillax so these self-hosted Fontshare files load; after :root every face is --font-display. */
+/* Waiver: Noto Sans IPA is only for .ipa. Chillax has no phonetic glyphs, so it stays the display face. */
 
 @font-face {
   font-family: "Chillax";
@@ -15,6 +16,14 @@
   font-family: "Chillax";
   src: url("fonts/chillax-600.woff2") format("woff2");
   font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans IPA";
+  src: url("fonts/noto-sans-ipa.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -1037,6 +1046,8 @@ mark.pat {
   min-height: var(--control);
   padding: 12px 16px;
   justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
   text-align: start;
   font-size: 20px;
   line-height: 1.35;
@@ -1052,6 +1063,44 @@ mark.pat {
   margin: 8px 0 4px;
   font-size: 22px;
   line-height: 1.2;
+}
+
+.study .chunk-head {
+  margin-top: 22px;
+}
+
+.wordline {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.ipa {
+  font-family: "Noto Sans IPA", "Charis SIL", "Doulos SIL", "Gentium Plus", "Noto Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+  letter-spacing: 0;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--color-ink-2);
+  overflow-wrap: anywhere;
+}
+
+.prompt-zh .ipa,
+.result-en .ipa,
+.hero-word .ipa,
+.feedback .ipa {
+  margin-left: 8px;
+  font-size: 22px;
+}
+
+.choice .ipa,
+.wordline .ipa {
+  margin-left: 0;
 }
 
 .study ol {

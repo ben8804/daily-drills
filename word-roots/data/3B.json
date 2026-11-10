@@ -1,0 +1,982 @@
+{
+  "edition": "教科版（广州版）小学英语（三年级起点）2024 新课标，三年级下册 2025春。词表透录自该书书后附录 Vocabulary（按字母序，对应电子课本网所称 Word List）及 Chunks & Sentence Stems（按单元序，用于确定单元归属）。课本未印音标；ipa 为英式 DJ/IPA，来源词典。黑体词要求理解运用（star=false）；白体词只要求了解词义（star=true）。Vocabulary 与 Chunks 页眉均为「黑体词要求理解运用，白体词只要求了解词义」。",
+  "volume": {
+    "grade": "3",
+    "term": "下",
+    "code": "3B",
+    "name": "三年级下册",
+    "year": "2025春",
+    "curriculum": "2024新课标"
+  },
+  "count": 82,
+  "chunk_count": 37,
+  "ipa_source_default": "dictionary",
+  "textbook_has_ipa": false,
+  "words": [
+    {
+      "en": "Art",
+      "zh": "美术",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/ɑːt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "be careful",
+      "zh": "小心",
+      "unit": "Review Road Helper Day",
+      "ipa": "/bi ˈkeəfl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "before you go",
+      "zh": "在你走之前",
+      "unit": "Review Road Helper Day",
+      "ipa": "/bɪˈfɔː ju ɡəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "blackboard",
+      "zh": "黑板",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/ˈblækbɔːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "brush my teeth",
+      "zh": "刷牙",
+      "unit": "Unit 1 Get Up",
+      "ipa": "/brʌʃ maɪ tiːθ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "carry food boxes",
+      "zh": "搬运餐盒",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/ˈkæri fuːd bɒksɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "chair",
+      "zh": "椅子",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/tʃeə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Chinese",
+      "zh": "语文",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/ˌtʃaɪˈniːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "classroom rules",
+      "zh": "班规",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/ˈklɑːsruːm ruːlz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "close the window",
+      "zh": "关上窗户",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/kləʊz ðə ˈwɪndəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "comb my hair",
+      "zh": "梳头",
+      "unit": "Unit 1 Get Up",
+      "ipa": "/kəʊm maɪ heə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "computer classroom",
+      "zh": "电脑教室",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/kəmˈpjuːtə ˈklɑːsruːm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "desk",
+      "zh": "书桌",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/desk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "do your best",
+      "zh": "尽自己最大努力",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/duː jɔː best/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "don't eat or drink",
+      "zh": "不要吃喝",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/dəʊnt iːt ɔː drɪŋk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "don't run in the classroom",
+      "zh": "不要在教室里奔跑",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/dəʊnt rʌn ɪn ðə ˈklɑːsruːm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "don't run in the hallway",
+      "zh": "不要在走廊里奔跑",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/dəʊnt rʌn ɪn ðə ˈhɔːlweɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "dream",
+      "zh": "梦",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/driːm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "eight twenty",
+      "zh": "八点二十分",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/eɪt ˈtwenti/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fan",
+      "zh": "电风扇",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/fæn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "get dressed",
+      "zh": "穿衣",
+      "unit": "Unit 1 Get Up",
+      "ipa": "/ɡet drest/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "get in line",
+      "zh": "排队",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/ɡet ɪn laɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "get up",
+      "zh": "起床",
+      "unit": "Unit 1 Get Up",
+      "ipa": "/ɡet ʌp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "give a helping hand",
+      "zh": "向别人伸出援手",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/ɡɪv ə ˈhelpɪŋ hænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go home",
+      "zh": "回家",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/ɡəʊ həʊm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go on green",
+      "zh": "绿灯行",
+      "unit": "Review Road Helper Day",
+      "ipa": "/ɡəʊ ɒn ɡriːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go to bed",
+      "zh": "去睡觉",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/ɡəʊ tə bed/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go to school",
+      "zh": "去上学",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/ɡəʊ tə skuːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go to the school club",
+      "zh": "参加学校社团",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/ɡəʊ tə ðə skuːl klʌb/",
+      "ipa_source": "dictionary",
+      "star": false,
+      "note": "字母序 Vocabulary 印作 go to the school club；按单元序 Chunks 印作 go to a school club。en 按字母序官方词表录入。"
+    },
+    {
+      "en": "half an hour",
+      "zh": "半小时",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/hɑːf ən ˈaʊə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "half past ten",
+      "zh": "十点半",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/hɑːf pɑːst ten/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hand out papers",
+      "zh": "分发试卷",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/hænd aʊt ˈpeɪpəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hand out food",
+      "zh": "分发食物",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/hænd aʊt fuːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have breakfast",
+      "zh": "吃早饭",
+      "unit": "Unit 1 Get Up",
+      "ipa": "/hæv ˈbrekfəst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have class",
+      "zh": "上课",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/hæv klɑːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have dinner",
+      "zh": "吃晚饭",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/hæv ˈdɪnə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have lunch",
+      "zh": "吃午饭",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/hæv lʌntʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "help everyone stand in line",
+      "zh": "帮助大家站好队",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/help ˈevrɪwʌn stænd ɪn laɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hurry up",
+      "zh": "快点",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/ˈhʌri ʌp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "in the toilet",
+      "zh": "在厕所",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/ɪn ðə ˈtɔɪlət/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "job",
+      "zh": "工作",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/dʒɒb/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "keep to the right",
+      "zh": "靠右行走",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/kiːp tə ðə raɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "keep your voice down",
+      "zh": "小声说话",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/kiːp jɔː vɒɪs daʊn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "lead the way",
+      "zh": "在队列中带路",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/liːd ðə weɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "line leader",
+      "zh": "列队小帮手",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/laɪn ˈliːdə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "listen carefully",
+      "zh": "仔细听",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/ˈlɪsn ˈkeəfəli/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "look left",
+      "zh": "向左看",
+      "unit": "Review Road Helper Day",
+      "ipa": "/lʊk left/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "look right",
+      "zh": "向右看",
+      "unit": "Review Road Helper Day",
+      "ipa": "/lʊk raɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "lunch helper",
+      "zh": "午饭小帮手",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/lʌntʃ ˈhelpə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "lunchroom",
+      "zh": "食堂",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/ˈlʌntʃruːm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "Maths",
+      "zh": "数学",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/mæθs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "music classroom",
+      "zh": "音乐教室",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/ˈmjuːzɪk ˈklɑːsruːm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "nine ten",
+      "zh": "九点十分",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/naɪn ten/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "on duty",
+      "zh": "值日",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/ɒn ˈdjuːti/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "pack my schoolbag",
+      "zh": "收拾书包",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/pæk maɪ ˈskuːlbæɡ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "PE",
+      "zh": "体育",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/ˌpiːˈiː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "piano",
+      "zh": "钢琴",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/pɪˈænəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "play sports",
+      "zh": "做运动",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/pleɪ spɔːts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "polite",
+      "zh": "礼貌的",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/pəˈlaɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "poster",
+      "zh": "海报",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/ˈpəʊstə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "put away books",
+      "zh": "整理书本",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/pʊt əˈweɪ ˈbʊks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "put away your things",
+      "zh": "收拾好你的东西",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/pʊt əˈweɪ jɔː θɪŋz/",
+      "ipa_source": "dictionary",
+      "star": false,
+      "note": "字母序 Vocabulary 中文印作「收拾好你的东西」；按单元序 Chunks 印作「收拾好自己的东西」。en 与 zh 按字母序官方词表录入。"
+    },
+    {
+      "en": "read books",
+      "zh": "看书",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/riːd ˈbʊks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "road sign",
+      "zh": "路标",
+      "unit": "Review Road Helper Day",
+      "ipa": "/rəʊd saɪn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "safety rules",
+      "zh": "安全守则",
+      "unit": "Review Road Helper Day",
+      "ipa": "/ˈseɪfti ruːlz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "say “excuse me”",
+      "zh": "说“不好意思”",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/seɪ ɪkˈskjuːs mi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "say nice words",
+      "zh": "用语得体",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/seɪ naɪs wɜːdz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Science",
+      "zh": "科学",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/ˈsaɪəns/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "seven forty",
+      "zh": "七点四十分",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/ˈsevn ˈfɔːti/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "six fifty",
+      "zh": "六点五十分",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/sɪks ˈfɪfti/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "stop on red",
+      "zh": "红灯停",
+      "unit": "Review Road Helper Day",
+      "ipa": "/stɒp ɒn red/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "sure",
+      "zh": "当然",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/ʃʊə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take turns to speak",
+      "zh": "轮流说话",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/teɪk tɜːnz tə spiːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "teacher helper",
+      "zh": "老师小帮手",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/ˈtiːtʃə ˈhelpə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "team",
+      "zh": "团队",
+      "unit": "Review Road Helper Day",
+      "ipa": "/tiːm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "ten o'clock",
+      "zh": "十点整",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/ten əˈklɒk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "ten thirty",
+      "zh": "十点三十分",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/ten ˈθɜːti/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "turn on the lights",
+      "zh": "开灯",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/tɜːn ɒn ðə laɪts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "use the computer with care",
+      "zh": "小心使用电脑",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/juːz ðə kəmˈpjuːtə wɪð ˈkeə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "wash my face",
+      "zh": "洗脸",
+      "unit": "Unit 1 Get Up",
+      "ipa": "/wɒʃ maɪ feɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "wash your hands",
+      "zh": "洗手",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/wɒʃ jɔː hændz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "watch TV",
+      "zh": "看电视",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/wɒtʃ ˌtiːˈviː/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ],
+  "chunks": [
+    {
+      "en": "I ...",
+      "zh": "我……",
+      "unit": "Unit 1 Get Up",
+      "ipa": "/aɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Then, I ...",
+      "zh": "然后，我……",
+      "unit": "Unit 1 Get Up",
+      "ipa": "/ðen aɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "After that, I ...",
+      "zh": "那之后，我……",
+      "unit": "Unit 1 Get Up",
+      "ipa": "/ˈɑːftə ðət aɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Don't forget to ...",
+      "zh": "别忘了……",
+      "unit": "Unit 1 Get Up",
+      "ipa": "/dəʊnt fəˈɡet tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What time is it?",
+      "zh": "现在几点了？",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/wɒt taɪm ɪz ɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It's ...",
+      "zh": "现在……了。",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/ɪts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It's time to ...",
+      "zh": "是该……的时候了。",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/ɪts taɪm tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'm late!",
+      "zh": "我起晚了！",
+      "unit": "Unit 2 What a Day!",
+      "ipa": "/aɪm leɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What time do you ...?",
+      "zh": "你一般几点……？",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/wɒt taɪm du juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I ... at ...",
+      "zh": "我一般……的时候……",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/aɪ æt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I ... from ... to ...",
+      "zh": "我一般从……到……之间……",
+      "unit": "Unit 3 Plan My Day",
+      "ipa": "/aɪ frəm tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Do you want to join us?",
+      "zh": "你想加入我们吗？",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/duː ju wɒnt tə dʒɔɪn əs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Do you want to try?",
+      "zh": "你想试试吗？",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/duː ju wɒnt tə traɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Can I join you?",
+      "zh": "我能加入你们吗？",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/kæn aɪ dʒɔɪn juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "You're up next!",
+      "zh": "下一个该你了！",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/jʊə ʌp nekst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Come and play!",
+      "zh": "来玩吧！",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/kʌm ənd pleɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'd love to!",
+      "zh": "我很愿意！",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/aɪd lʌv tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "No, thanks! ... is just not my thing.",
+      "zh": "不了，谢谢！我不是很喜欢……",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/nəʊ θæŋks ɪz dʒʌst nɒt maɪ θɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "That looks like fun.",
+      "zh": "看起来真有趣。",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/ðət lʊks laɪk fʌn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Can I have a turn?",
+      "zh": "我能玩一次吗？",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/kæn aɪ həv ə tɜːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "You can go first.",
+      "zh": "你先来。",
+      "unit": "Unit 4 Come and Join Us!",
+      "ipa": "/ju kən ɡəʊ fɜːst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What rules do you like?",
+      "zh": "你喜欢哪些规则？",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/wɒt ruːlz du ju laɪk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I like “...” .",
+      "zh": "我喜欢“……”。",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/aɪ laɪk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What are the rules in your class?",
+      "zh": "你们班有什么班规？",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/wɒt ə ðə ruːlz ɪn jɔː klɑːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "They are “...” , “...” and “...” .",
+      "zh": "我们的班规有“……”“……”和“……”。",
+      "unit": "Unit 5 Our Classroom, Our Call",
+      "ipa": "/ðeɪ ə ænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What do you want to be?",
+      "zh": "你想当什么？",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/wɒt du ju wɒnt tə biː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I want to be a/an ...",
+      "zh": "我想当一个……",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/aɪ wɒnt tə bi ə / ən/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What do you want to do?",
+      "zh": "你想做什么？",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/wɒt du ju wɒnt tə duː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I want to ...",
+      "zh": "我想做……",
+      "unit": "Unit 6 I'm on Duty!",
+      "ipa": "/aɪ wɒnt tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hold the door",
+      "zh": "扶住门",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/həʊld ðə dɔː/",
+      "ipa_source": "dictionary",
+      "star": false,
+      "note": "仅出现在 Chunks & Sentence Stems（Unit 7），未列入字母序 Vocabulary。"
+    },
+    {
+      "en": "What should we do at school?",
+      "zh": "我们在学校里应该怎么做？",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/wɒt ʃʊd wi du ət skuːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "We should ... and ...",
+      "zh": "我们应该……和……",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/wi ʃʊd ænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Oh, sorry!",
+      "zh": "噢，抱歉！",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/əʊ ˈsɒri/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It's okay.",
+      "zh": "没关系。",
+      "unit": "Unit 7 School Rules",
+      "ipa": "/ɪts əʊˈkeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What do you do in ...?",
+      "zh": "你在……的时候会怎么做？",
+      "unit": "Unit 8 A Polite Way",
+      "ipa": "/wɒt du ju du ɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What would you like to do?",
+      "zh": "你想做什么工作？",
+      "unit": "Review Road Helper Day",
+      "ipa": "/wɒt wʊd ju laɪk tə duː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'd like to ...",
+      "zh": "我想做……",
+      "unit": "Review Road Helper Day",
+      "ipa": "/aɪd laɪk tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ]
+}

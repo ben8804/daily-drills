@@ -1,0 +1,1887 @@
+{
+  "edition": "教科版（广州版）小学英语（三年级起点）2024 新课标，五年级上册 2026秋。词表透录自该书书后附录 Word List（按单元排列）及 Chunks and Sentence Stems。课本未印音标；ipa 为英式 DJ/IPA，来源词典。黑体词为《义务教育英语课程标准（2022 年版）》中的二级词汇（star=false）；白体词为非该二级词汇（star=true）。仅 7 个 Unit。",
+  "volume": {
+    "grade": "5",
+    "term": "上",
+    "code": "5A",
+    "name": "五年级上册",
+    "year": "2026秋",
+    "curriculum": "2024新课标"
+  },
+  "count": 99,
+  "chunk_count": 128,
+  "ipa_source_default": "dictionary",
+  "textbook_has_ipa": false,
+  "words": [
+    {
+      "en": "read",
+      "zh": "朗读；阅读",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/riːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "loud",
+      "zh": "大声的；喧闹的",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/laʊd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "sentence",
+      "zh": "句子",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/ˈsentəns/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "anything",
+      "zh": "任何事",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/ˈenɪθɪŋ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "fall",
+      "zh": "掉落；秋天",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/fɔːl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "something",
+      "zh": "某事；某物",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/ˈsʌmθɪŋ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "kid",
+      "zh": "小孩",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/kɪd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "bedroom",
+      "zh": "卧室",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/ˈbedruːm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "worry",
+      "zh": "担心",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/ˈwʌri/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "few",
+      "zh": "有些；很少",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/fjuː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "find",
+      "zh": "找到；发现",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/faɪnd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "science",
+      "zh": "科学",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ˈsaɪəns/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fair",
+      "zh": "（活动）集市；公平的",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/feə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "skill",
+      "zh": "技能",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/skɪl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "chance",
+      "zh": "机会",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/tʃɑːns/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "become",
+      "zh": "成为；变得",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/bɪˈkʌm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "robot",
+      "zh": "机器人",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ˈrəʊbɒt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "mind",
+      "zh": "头脑",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/maɪnd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "wear",
+      "zh": "穿",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/weə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "advice",
+      "zh": "建议",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ədˈvaɪs/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "besides",
+      "zh": "此外",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/bɪˈsaɪdz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "interesting",
+      "zh": "有趣的",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ˈɪntrəstɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "seem",
+      "zh": "似乎，好像",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/siːm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "front",
+      "zh": "前面；正面",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/frʌnt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "win",
+      "zh": "赢得；获胜",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/wɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "ill",
+      "zh": "生病的",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ɪl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "bad",
+      "zh": "糟糕的；坏的",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/bæd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "pet",
+      "zh": "宠物",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/pet/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "wrong",
+      "zh": "错误的",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/rɒŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "miss",
+      "zh": "想念；错过",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/mɪs/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "hometown",
+      "zh": "家乡",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ˈhəʊmtaʊn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "sad",
+      "zh": "悲伤的；难过的",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/sæd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "lose",
+      "zh": "输掉",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/luːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "believe",
+      "zh": "相信；认为",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/bɪˈliːv/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "grade",
+      "zh": "成绩；年级",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ɡreɪd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "difficult",
+      "zh": "困难的",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ˈdɪfɪkəlt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "study",
+      "zh": "学习",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ˈstʌdi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "understanding",
+      "zh": "理解",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ˌʌndəˈstændɪŋ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "space",
+      "zh": "空间；太空",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/speɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hurt",
+      "zh": "伤害；受伤",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/hɜːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "very",
+      "zh": "非常",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ˈveri/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "heavy",
+      "zh": "严重的；沉的",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/ˈhevi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "bring",
+      "zh": "带来",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/brɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "inside",
+      "zh": "在里面",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/ɪnˈsaɪd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "report",
+      "zh": "报道",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/rɪˈpɔːt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "follow",
+      "zh": "遵循；跟随",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/ˈfɒləʊ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "happen",
+      "zh": "碰巧；发生",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/ˈhæpən/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "outside",
+      "zh": "在外面",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/ˈaʊtˈsaɪd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "safe",
+      "zh": "安全的",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/seɪf/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "usually",
+      "zh": "通常",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/ˈjuːʒʊəli/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "land",
+      "zh": "登陆；土地",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/lænd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "low",
+      "zh": "低的",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/ləʊ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "high",
+      "zh": "高的",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/haɪ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "degree",
+      "zh": "度数",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/dɪˈɡriː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "below",
+      "zh": "低于；在……下面",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/bɪˈləʊ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "cap",
+      "zh": "帽子",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/kæp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "skirt",
+      "zh": "裙子",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/skɜːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "pair",
+      "zh": "条；双",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/peə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "shorts",
+      "zh": "短裤",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/ʃɔːts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cloudy",
+      "zh": "多云的",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/ˈklaʊdi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "temperature",
+      "zh": "温度",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/ˈtemprətʃə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "hat",
+      "zh": "帽子",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/hæt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "scarf",
+      "zh": "围巾",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/skɑːf/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "sunny",
+      "zh": "晴朗的",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/ˈsʌni/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "may",
+      "zh": "可以；可能",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/meɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "astronaut",
+      "zh": "航天员",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ˈæstrənɔːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "farm",
+      "zh": "农场",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/fɑːm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "travel",
+      "zh": "旅行",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ˈtrævl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "country",
+      "zh": "国家",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ˈkʌntri/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "future",
+      "zh": "将来的；未来",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ˈfjuːtʃə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "bag",
+      "zh": "包；袋",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/bæɡ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "moon",
+      "zh": "月亮；月球",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/muːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "life",
+      "zh": "生活；生命",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/laɪf/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "Earth",
+      "zh": "地球",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ɜːθ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hotel",
+      "zh": "酒店",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/həʊˈtel/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "photo",
+      "zh": "照片",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ˈfəʊtəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "ride",
+      "zh": "旅途；骑",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/raɪd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "draw",
+      "zh": "画",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/drɔː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cut",
+      "zh": "切；割",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/kʌt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "along",
+      "zh": "沿着",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/əˈlɒŋ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "feeder",
+      "zh": "喂食器",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/ˈfiːdə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "bottle",
+      "zh": "瓶子",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/ˈbɒtl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "plastic",
+      "zh": "塑料的",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/ˈplæstɪk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "hole",
+      "zh": "洞",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/həʊl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "dry",
+      "zh": "干燥的",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/draɪ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "windy",
+      "zh": "多风的",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/ˈwɪndi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "glue",
+      "zh": "黏合；胶水",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/ɡluː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "plate",
+      "zh": "盘子",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/pleɪt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "camp",
+      "zh": "露营",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/kæmp/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "hike",
+      "zh": "远足",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/haɪk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "hill",
+      "zh": "小山",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/hɪl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "local",
+      "zh": "当地的",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/ˈləʊkəl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "river",
+      "zh": "河",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/ˈrɪvə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "forest",
+      "zh": "森林",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/ˈfɒrɪst/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "deep",
+      "zh": "深的",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/diːp/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "bowl",
+      "zh": "碗；盆",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/bəʊl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "rope",
+      "zh": "绳子",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/rəʊp/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "pen",
+      "zh": "钢笔",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/pen/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "glass",
+      "zh": "玻璃",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/ɡlɑːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ],
+  "chunks": [
+    {
+      "en": "learn words in chunks",
+      "zh": "用语块学习单词",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/lɜːn wɜːdz ɪn tʃʌŋks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "use pictures",
+      "zh": "用图片",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/juːz ˈpɪktʃəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "look them up in the dictionary",
+      "zh": "查字典",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/lʊk ðəm ʌp ɪn ðə ˈdɪkʃənəri/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "make stories/jokes",
+      "zh": "编故事/笑话",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/meɪk ˈstɔːriz / dʒəʊks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "practise with others",
+      "zh": "和其他人一起练习",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/ˈpræktɪs wɪð ˈʌðəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "read them out loud",
+      "zh": "大声朗读",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/riːd ðəm aʊt laʊd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "make word cards with pictures",
+      "zh": "制作有图片的单词卡",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/meɪk wɜːd kɑːdz wɪð ˈpɪktʃəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "put chunks together",
+      "zh": "把语块放在一起",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/pʊt tʃʌŋks təˈɡeðə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "keep in mind",
+      "zh": "记住",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/kiːp ɪn maɪnd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How do you learn English words?",
+      "zh": "你是如何学习英文单词的？",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/haʊ du ju lɜːn ˈɪŋɡlɪʃ wɜːdz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I like to learn words in chunks.",
+      "zh": "我喜欢用语块学习单词。",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/aɪ laɪk tə lɜːn wɜːdz ɪn tʃʌŋks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Every time I ...",
+      "zh": "每次我……",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/ˈevri taɪm aɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I find it useful to ...",
+      "zh": "我发现……很有用。",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/aɪ faɪnd ɪt ˈjuːsful tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What should I do?",
+      "zh": "我应该怎么做？",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/wɒt ʃʊd aɪ duː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It helps me to ...",
+      "zh": "它帮助我……",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/ɪt helps mi tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What do you mean?",
+      "zh": "你说的是什么意思？",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/wɒt du ju miːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What is a ...?",
+      "zh": "……是什么？",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/wɒt ɪz ə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What does ... mean?",
+      "zh": "……是什么意思？",
+      "unit": "Unit 1 Learn Words in Chunks",
+      "ipa": "/wɒt dʌz miːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a science club",
+      "zh": "一个科学社团",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ə ˈsaɪəns klʌb/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a dance club",
+      "zh": "一个舞蹈社团",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ə dɑːns klʌb/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a football club",
+      "zh": "一个足球社团",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ə ˈfutbɔːl klʌb/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a speech club",
+      "zh": "一个演讲社团",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ə spiːtʃ klʌb/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have better writing and speaking skills",
+      "zh": "掌握更好的写作和表达技巧",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/hæv ˈbetə ˈraɪtɪŋ ənd ˈspiːkɪŋ skɪls/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "try new things",
+      "zh": "尝试新事物",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/traɪ njuː θɪŋz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "make more friends",
+      "zh": "交更多的朋友",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/meɪk mɔː frends/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "share my ideas",
+      "zh": "分享我的观点",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ʃeə maɪ aɪˈdɪəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "grow taller and stronger",
+      "zh": "长得更高更壮",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ɡrəʊ tɔːlə ənd strɒŋə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a chance to ...",
+      "zh": "一个……的机会",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ə tʃɑːns tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "make you look cool",
+      "zh": "让你看起来很酷",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/meɪk ju lʊk kuːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "as well",
+      "zh": "也",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/əz wel/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "be good at it",
+      "zh": "很擅长这件事",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/bi ɡʊd ət ɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Any advice?",
+      "zh": "有什么建议吗？",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ˈeni ədˈvaɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Are you going to ...?",
+      "zh": "你要去……吗？",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/ɑː ju ˈɡəʊɪŋ tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Yes, I am.",
+      "zh": "是的，我要去。",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/jes aɪ æm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Which club are you going to join?",
+      "zh": "你要参加哪个社团？",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/wɪtʃ klʌb ə ju ˈɡəʊɪŋ tə dʒɔɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'm going to join ...",
+      "zh": "我要加入……",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/aɪm ˈɡəʊɪŋ tə dʒɔɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What about you?",
+      "zh": "你呢？",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/wɒt əˈbaʊt juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "... club can help you ...",
+      "zh": "……社团可以帮助你……",
+      "unit": "Unit 2 It's for Everybody",
+      "ipa": "/klʌb kən help juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "lose the game",
+      "zh": "输了比赛",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/luːz ðə ɡeɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "so difficult",
+      "zh": "太难了",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/səʊ ˈdɪfɪkəlt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "give up",
+      "zh": "放弃",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ɡɪv ʌp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "study together",
+      "zh": "一起学习",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ˈstʌdi təˈɡeðə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "get some food",
+      "zh": "吃点东西",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ɡet səm fuːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "sorry to hear that",
+      "zh": "听到这个消息很难过",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ˈsɒri tə hɪə ðət/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "from time to time",
+      "zh": "时不时地",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/frəm taɪm tə taɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hang out",
+      "zh": "闲逛",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/hæŋ aʊt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "That must be hard.",
+      "zh": "那一定很难。",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ðət mʌst bi hɑːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'm here if you want to talk.",
+      "zh": "你想聊聊的话，我就在这里。",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/aɪm hɪə ɪf ju wɒnt tə tɔːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I know how you feel.",
+      "zh": "我明白你的感受。",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/aɪ nəʊ haʊ ju fiːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It's okay to feel sad.",
+      "zh": "感到悲伤是正常的。",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ɪts əʊˈkeɪ tə fiːl sæd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What's wrong?",
+      "zh": "怎么了？",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/wɒts rɒŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Do you want to talk about it?",
+      "zh": "你想聊聊吗？",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/duː ju wɒnt tə tɔːk əˈbaʊt ɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How are you feeling now?",
+      "zh": "你现在感觉怎么样？",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/haʊ ə ju ˈfiːlɪŋ naʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Is everything all right?",
+      "zh": "一切都好吗？",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/ɪz ˈevrɪθɪŋ ɔːl raɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Thanks for asking.",
+      "zh": "谢谢关心。",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/θæŋks fə ˈɑːskɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I feel better now.",
+      "zh": "我现在感觉好多了。",
+      "unit": "Unit 3 Best Friends Forever",
+      "ipa": "/aɪ fiːl ˈbetə naʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "heavy rain",
+      "zh": "大雨",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/ˈhevi reɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "stay away from trees",
+      "zh": "远离树木",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/steɪ əˈweɪ frəm triːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "turn off the lights",
+      "zh": "关灯",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/tɜːn ɒf ðə laɪts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "wear a colourful raincoat",
+      "zh": "穿彩色的雨衣",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/weə ə ˈkʌləfl ˈreɪnkəʊt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "bring everything inside",
+      "zh": "把所有东西都拿到室内",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/brɪŋ ˈevrɪθɪŋ ɪnˈsaɪd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "watch your step",
+      "zh": "注意脚下",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/wɒtʃ jɔː step/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "stay indoors",
+      "zh": "待在室内",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/steɪ ˌɪnˈdɔːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "keep safe",
+      "zh": "保持安全",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/kiːp seɪf/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What will you do?",
+      "zh": "你会做什么？",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/wɒt wɪl ju duː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I will ...",
+      "zh": "我会……",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/aɪ wɪl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What should we do to keep safe at home?",
+      "zh": "我们在家要怎么做才能保证安全？",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/wɒt ʃʊd wi du tə kiːp seɪf ət həʊm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What about outdoors?",
+      "zh": "在户外该怎么办呢？",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/wɒt əˈbaʊt ˌaʊtˈdɔːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "A typhoon is coming/landing.",
+      "zh": "台风即将来临/登陆。",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/ə taɪˈfuːn ɪz ˈkʌmɪŋ / ˈlændɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Please remember to ...",
+      "zh": "请记得……（做某事）。",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/pliːz rɪˈmembə tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "... is better than ...",
+      "zh": "……比……好。",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/ɪz ˈbetə ðən/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Make sure ...",
+      "zh": "确保……",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/meɪk ʃʊə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "If you happen to ...",
+      "zh": "如果你碰巧……",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/ɪf ju ˈhæpən tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "You'll need/want to ...",
+      "zh": "你将需要……",
+      "unit": "Unit 4 Here Comes a Typhoon!",
+      "ipa": "/juːl niːd / wɒnt tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "ten degrees below zero",
+      "zh": "零下10摄氏度",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/ten dɪˈɡriːz bɪˈləʊ ˈzɪərəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a lot of clothes",
+      "zh": "许多衣服",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/ə lɒt əv kləʊðz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a pair of warm shoes",
+      "zh": "一双保暖的鞋",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/ə peə əv wɔːm ˈʃuːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It will be ... degree(s) on Friday.",
+      "zh": "周五的气温会是……摄氏度。",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/ɪt wɪl bi dɪˈɡriː ɒn ˈfraɪdeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'll need warm clothes, such as ...",
+      "zh": "我需要保暖的衣服，比如……",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/aɪl niːd wɔːm kləʊðz sʌtʃ əz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "You'd better take ... with you.",
+      "zh": "你最好带上……",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/juːd ˈbetə teɪk wɪð juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Will I need ...?",
+      "zh": "我需要……吗？",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/wɪl aɪ niːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Yes, you will. / No, you won't.",
+      "zh": "是的，你需要。／不，你不需要。",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/jes ju wɪl / nəʊ ju wəʊnt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Hello, this is ... May I speak to ...?",
+      "zh": "你好，我是……。我能和……通话吗？",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/həˈləʊ ðɪs ɪz meɪ aɪ spiːk tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Hey, it's ...",
+      "zh": "你好，我是……",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/heɪ ɪts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Hey, ... How are you?",
+      "zh": "嘿，……（人名）。你还好吗？",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/heɪ haʊ ə juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'm calling to ask ...",
+      "zh": "我打电话来是想问……",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/aɪm ˈkɔːlɪŋ tə ɑːsk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'm good. Oh, for that ...",
+      "zh": "我很好。哦，那件事……",
+      "unit": "Unit 5 A Trip to Harbin",
+      "ipa": "/aɪm ɡʊd əʊ fə ðət/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go on a spacewalk",
+      "zh": "太空行走",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ɡəʊ ɒn ə ˈspeɪswɔːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "watch the sunrise",
+      "zh": "看日出",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/wɒtʃ ðə ˈsʌnraɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "work with a space robot",
+      "zh": "与太空机器人一起工作",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/wɜːk wɪð ə speɪs ˈrəʊbɒt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "talk to astronauts",
+      "zh": "与航天员交谈",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/tɔːk tə ˈæstrənɔːts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "try space food and drinks",
+      "zh": "品尝太空食品和饮料",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/traɪ speɪs fuːd ənd drɪŋks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "visit the space farm",
+      "zh": "参观太空农场",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ˈvɪzɪt ðə speɪs fɑːm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a space trip",
+      "zh": "一次太空之旅",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ə speɪs trɪp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "the moon and the stars",
+      "zh": "月亮和繁星",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ðə muːn ənd ðə stɑːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "the difference between ... and ...",
+      "zh": "……和……的区别",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ðə ˈdɪfərəns bɪˈtwiːn ænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "check in",
+      "zh": "登记入住",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/tʃek ɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take photos of Earth",
+      "zh": "拍摄地球的照片",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/teɪk ˈfəʊtəʊz əv ɜːθ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take a ride on a spaceship",
+      "zh": "乘坐宇宙飞船",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/teɪk ə raɪd ɒn ə ˈspeɪsʃɪp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "live like an astronaut",
+      "zh": "像航天员一样生活",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/lɪv laɪk ən ˈæstrənɔːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "You'll see ...",
+      "zh": "你将看到……",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/juːl siː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "You'll get to ...",
+      "zh": "你将可以……",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/juːl ɡet tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "You can ...",
+      "zh": "你可以……",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/ju kæn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "We can ... (in) ... However, we can't do that (in) ...",
+      "zh": "我们可以在……（地点）……（做某事）。然而，我们不能在……（地点）那么做。",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/wi kən ɪn haʊˈevə wi kɑːnt du ðət ɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "We can ... both (in) ... and (in) ...",
+      "zh": "我们在……和……都可以……（做某事）。",
+      "unit": "Unit 6 Space Travel",
+      "ipa": "/wi kən bəʊθ ɪn ənd ɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "make a bird feeder",
+      "zh": "做一个喂鸟器",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/meɪk ə bɜːd ˈfiːdə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "draw cutting lines",
+      "zh": "绘制切割线",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/drɔː ˈkʌtɪŋ laɪnz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "put food inside",
+      "zh": "把食物放进去",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/pʊt fuːd ɪnˈsaɪd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "place it in a tree",
+      "zh": "把它放在树上",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/pleɪs ɪt ɪn ə triː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cut along the lines",
+      "zh": "沿着线剪切",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/kʌt əˈlɒŋ ðə laɪnz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a used plastic bottle",
+      "zh": "一个用过的塑料瓶",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/ə juːst ˈplæstɪk ˈbɒtl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "keep food dry",
+      "zh": "保持食物干燥",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/kiːp fuːd draɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "stay still on windy days",
+      "zh": "在大风天保持不动",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/steɪ stɪl ɒn ˈwɪndi deɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "last for weeks",
+      "zh": "持续数周",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/lɑːst fə wiːks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I will first ...",
+      "zh": "我将首先……",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/aɪ wɪl fɜːst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Next, I will need to ...",
+      "zh": "接下来，我将需要……",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/nekst aɪ wɪl niːd tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Then, I'll just ...",
+      "zh": "然后，我将……",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/ðen aɪl dʒʌst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Finally, ...",
+      "zh": "最后，……",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/ˈfaɪnəli/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What do you think of this bird feeder?",
+      "zh": "你觉得这个喂鸟器怎么样？",
+      "unit": "Unit 7 Make a Bird Feeder",
+      "ipa": "/wɒt du ju θɪŋk əv ðɪs bɜːd ˈfiːdə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "watch out for ...",
+      "zh": "小心……",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/wɒtʃ aʊt fɔː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "find an old potato",
+      "zh": "找一个老土豆",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/faɪnd ən əʊld pəˈteɪtəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "put it into the soil",
+      "zh": "放进土里",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/pʊt ɪt ˈɪntuː ðə sɒɪl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "water the plant",
+      "zh": "给植物浇水",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/ˈwɔːtə ðə plɑːnt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "put it under the sunlight",
+      "zh": "把它放在阳光下",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/pʊt ɪt ˈʌndə ðə ˈsʌnlaɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cut it in half",
+      "zh": "把它对半切开",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/kʌt ɪt ɪn hɑːf/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "look for the eyes",
+      "zh": "找到出芽点",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/lʊk fə ðə ˈaɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a plastic bag",
+      "zh": "一个塑料袋",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/ə ˈplæstɪk bæɡ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a glass bottle",
+      "zh": "一个玻璃瓶",
+      "unit": "Review Let's Go Camping!",
+      "ipa": "/ə ɡlɑːs ˈbɒtl/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ]
+}
