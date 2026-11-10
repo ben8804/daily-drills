@@ -1,0 +1,2062 @@
+{
+  "edition": "教科版（广州版）小学英语（三年级起点）2024 新课标，四年级下册 2026春。词表透录自该书书后附录 Word List（按单元排列）及 Chunks and Sentence Stems。课本未印音标；ipa 为英式 DJ/IPA，来源词典。黑体词为《义务教育英语课程标准（2022 年版）》中的二级词汇（star=false）；白体词为非该二级词汇（star=true）。",
+  "volume": {
+    "grade": "4",
+    "term": "下",
+    "code": "4B",
+    "name": "四年级下册",
+    "year": "2026春",
+    "curriculum": "2024新课标"
+  },
+  "count": 134,
+  "chunk_count": 115,
+  "ipa_source_default": "dictionary",
+  "textbook_has_ipa": false,
+  "words": [
+    {
+      "en": "sun",
+      "zh": "太阳",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/sʌn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "strong",
+      "zh": "强烈的；强壮的",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/strɒŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "wind",
+      "zh": "风",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/wɪnd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "fruit",
+      "zh": "水果",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/fruːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "thin",
+      "zh": "薄的；瘦的",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/θɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "tall",
+      "zh": "高大的",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/tɔːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "grass",
+      "zh": "草",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ɡrɑːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "vegetable",
+      "zh": "蔬菜",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ˈvedʒtəbl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "grow",
+      "zh": "种植；生长",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ɡrəʊ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "carrot",
+      "zh": "胡萝卜",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ˈkærət/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "fresh",
+      "zh": "新鲜的；清新的",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/freʃ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "bamboo",
+      "zh": "竹子",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/bæmˈbuː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "winter",
+      "zh": "冬季",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ˈwɪntə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "summer",
+      "zh": "夏季",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ˈsʌmə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "apple",
+      "zh": "苹果",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ˈæpl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "umbrella",
+      "zh": "雨伞",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ʌmˈbrelə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "delicious",
+      "zh": "美味的",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/dɪˈlɪʃəs/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "live",
+      "zh": "存活；居住",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/lɪv/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "easy",
+      "zh": "容易的，轻松的",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ˈiːzi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "star",
+      "zh": "星星",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/stɑː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "rose",
+      "zh": "玫瑰",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/rəʊz/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "those",
+      "zh": "那些",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ðəʊz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "clever",
+      "zh": "聪明的",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ˈklevə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "as",
+      "zh": "如同；作为",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/æz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fox",
+      "zh": "狐狸",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/fɔːks/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "mouse",
+      "zh": "老鼠",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/maʊs/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "busy",
+      "zh": "忙碌的",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ˈbɪzi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "bee",
+      "zh": "蜜蜂",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/biː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "slow",
+      "zh": "使……慢，慢的",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/sləʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "honey",
+      "zh": "蜂蜜",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ˈhʌni/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "someone",
+      "zh": "某人",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ˈsʌmwʌn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "brother",
+      "zh": "兄弟",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ˈbrʌðə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "room",
+      "zh": "房间；空间",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ruːm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "say",
+      "zh": "说",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/seɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fast",
+      "zh": "快的，迅速的",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/fɑːst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "still",
+      "zh": "仍然",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/stɪl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "hungry",
+      "zh": "饥饿的",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ˈhʌŋri/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "rain",
+      "zh": "下雨；雨",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/reɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cat",
+      "zh": "猫",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/kæt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "dog",
+      "zh": "狗",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/dɒɡ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "black",
+      "zh": "黑色的",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/blæk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "sheep",
+      "zh": "羊",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ʃiːp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "dark",
+      "zh": "深色的；黑暗的",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/dɑːk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "duck",
+      "zh": "鸭子",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/dʌk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cute",
+      "zh": "可爱的",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/kjuːt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "pig",
+      "zh": "猪",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/pɪɡ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "milk",
+      "zh": "牛奶",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/mɪlk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "meat",
+      "zh": "肉",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/miːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "egg",
+      "zh": "鸡蛋",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/eɡ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "chicken",
+      "zh": "鸡肉",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ˈtʃɪkɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "healthy",
+      "zh": "健康的",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ˈhelθi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "enough",
+      "zh": "足够的，充足的",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ɪˈnʌf/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "parent",
+      "zh": "父亲（或母亲）",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ˈpeərənt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "often",
+      "zh": "经常，常常",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ˈɒfn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "short",
+      "zh": "矮的；短的",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ʃɔːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "candy",
+      "zh": "糖果",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ˈkændi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "ice cream",
+      "zh": "冰淇淋",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/aɪs kriːm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "banana",
+      "zh": "香蕉",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/bəˈnɑːnə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "second",
+      "zh": "第二；秒",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ˈsekənd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "third",
+      "zh": "第三",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/θɜːd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "basketball",
+      "zh": "篮球；篮球运动",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ˈbɑːskɪtbɔːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "ping-pong",
+      "zh": "乒乓",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ˈpɪŋpɒŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "month",
+      "zh": "月；月份",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/mʌnθ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Tuesday",
+      "zh": "星期二",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ˈtjuːzdeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Wednesday",
+      "zh": "星期三",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ˈwenzdeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Thursday",
+      "zh": "星期四",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ˈθɜːzdeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Friday",
+      "zh": "星期五",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ˈfraɪdeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "start",
+      "zh": "开始",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/stɑːt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "by",
+      "zh": "通过；在旁边",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/baɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "train",
+      "zh": "训练；火车",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/treɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "catch",
+      "zh": "赶上；抓住",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/kætʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "tired",
+      "zh": "疲倦的",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ˈtaɪəd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "everything",
+      "zh": "一切，所有事物",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ˈevrɪθɪŋ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "less",
+      "zh": "更少，较少",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/les/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "windy",
+      "zh": "多风的，风大的",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/ˈwɪndi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "town",
+      "zh": "城镇；城区",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/taʊn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "spring",
+      "zh": "春天",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/sprɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "kite",
+      "zh": "风筝",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/kaɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "autumn",
+      "zh": "秋季",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/ˈɔːtəm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "beach",
+      "zh": "海滩，沙滩",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/biːtʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "season",
+      "zh": "季节",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/ˈsiːzn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Australia",
+      "zh": "澳大利亚",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/ɒˈstreɪliə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "September",
+      "zh": "九月",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/sepˈtembə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "December",
+      "zh": "十二月",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/dɪˈsembə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "February",
+      "zh": "二月",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/ˈfebruəri/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "March",
+      "zh": "三月",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/mɑːtʃ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "June",
+      "zh": "六月",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/dʒuːn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "August",
+      "zh": "八月",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/ˈɔːɡəst/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "China",
+      "zh": "中国",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/ˈtʃaɪnə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "London",
+      "zh": "伦敦",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/ˈlʌndən/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "which",
+      "zh": "哪些；哪一个",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/wɪtʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "shirt",
+      "zh": "衬衫",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ʃɜːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "jacket",
+      "zh": "夹克，短外套",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ˈdʒækɪt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "hang",
+      "zh": "悬挂",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/hæŋ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "trousers",
+      "zh": "裤子，长裤",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ˈtraʊzəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "sweater",
+      "zh": "毛衣",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ˈswetə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "coat",
+      "zh": "外套，大衣",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/kəʊt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "pink",
+      "zh": "粉色的",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/pɪŋk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "clothes",
+      "zh": "衣服",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/kləʊðz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "group",
+      "zh": "组，群",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ɡruːp/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "tidy",
+      "zh": "整理；整洁的，整齐的",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ˈtaɪdi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "sock",
+      "zh": "袜子",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/sɒk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "shoe",
+      "zh": "鞋子",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ʃuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "box",
+      "zh": "盒子，箱子",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/bɒks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "behind",
+      "zh": "在……后面",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/bɪˈhaɪnd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "same",
+      "zh": "相同的",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/seɪm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "city",
+      "zh": "城市",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/ˈsɪti/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cousin",
+      "zh": "堂兄弟 / 姐妹；表兄弟 / 姐妹",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/ˈkʌzn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "world",
+      "zh": "世界",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/wɜːld/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "both",
+      "zh": "两者，双方",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/bəʊθ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "tomorrow",
+      "zh": "明天",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/təˈmɒrəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "video",
+      "zh": "视频",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/ˈvɪdɪəʊ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "later",
+      "zh": "稍后；后来",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/ˈleɪtə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "shop",
+      "zh": "购物；商店",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/ʃɒp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "mall",
+      "zh": "商场",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/mɔːl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "park",
+      "zh": "公园",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/pɑːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cinema",
+      "zh": "电影院",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/ˈsɪnɪmə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "film",
+      "zh": "电影",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/fɪlm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "zoo",
+      "zh": "动物园",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/zuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "market",
+      "zh": "市场",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/ˈmɑːkɪt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "supermarket",
+      "zh": "超市",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/ˈsuːpəmɑːkɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "than",
+      "zh": "比；比较",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/ðæn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "bye (goodbye)",
+      "zh": "再见，拜拜",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/baɪ (ˌɡʊdˈbaɪ)/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "choice",
+      "zh": "选择",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/tʃɒɪs/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "hear",
+      "zh": "听说；听到",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/hɪə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "tour",
+      "zh": "游览；旅行",
+      "unit": "Review A Happy Trip",
+      "ipa": "/tʊə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "trip",
+      "zh": "旅行",
+      "unit": "Review A Happy Trip",
+      "ipa": "/trɪp/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "tennis",
+      "zh": "网球",
+      "unit": "Review A Happy Trip",
+      "ipa": "/ˈtenɪs/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "ball",
+      "zh": "球",
+      "unit": "Review A Happy Trip",
+      "ipa": "/bɔːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "climb",
+      "zh": "爬",
+      "unit": "Review A Happy Trip",
+      "ipa": "/klaɪm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "sandwich",
+      "zh": "三明治",
+      "unit": "Review A Happy Trip",
+      "ipa": "/ˈsænwɪtʃ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "salt",
+      "zh": "盐",
+      "unit": "Review A Happy Trip",
+      "ipa": "/sɔːlt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "oil",
+      "zh": "油",
+      "unit": "Review A Happy Trip",
+      "ipa": "/ɒɪl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "juice",
+      "zh": "汁液；果汁",
+      "unit": "Review A Happy Trip",
+      "ipa": "/dʒuːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ],
+  "chunks": [
+    {
+      "en": "a fruit tree",
+      "zh": "一棵果树",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ə fruːt triː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "strong wind",
+      "zh": "强风",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/strɒŋ wɪnd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "beautiful flowers",
+      "zh": "美丽的花",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ˈbjuːtɪfl ˈflaʊəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "green grass",
+      "zh": "绿色的草",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ɡriːn ɡrɑːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "green vegetables",
+      "zh": "绿色蔬菜",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ɡriːn ˈvedʒɪtəblz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "an apple tree",
+      "zh": "一棵苹果树",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ən ˈæpl triː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "easy to grow",
+      "zh": "好种，易活",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/ˈiːzi tə ɡrəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I like ... because ...",
+      "zh": "我喜欢……，因为……",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/aɪ laɪk bɪˈkɒz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I want to grow ... because ...",
+      "zh": "我想种……，因为……",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/aɪ wɒnt tə ɡrəʊ bɪˈkɒz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Can you tell me about them?",
+      "zh": "你能给我讲讲它们吗？",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/kæn ju tel mi əˈbaʊt ðəm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What are these/those?",
+      "zh": "这些／那些是什么？",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/wɒt ə ðiːz / ðəʊz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I can't wait to ...",
+      "zh": "我等不及……了。",
+      "unit": "Unit 1 The School Garden",
+      "ipa": "/aɪ kɑːnt weɪt tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hold your horses",
+      "zh": "且慢，别着急",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/həʊld jɔː ˈhɔːsɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "clever as a fox",
+      "zh": "非常聪明",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ˈklevə əz ə fɔːks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "quiet as a mouse",
+      "zh": "非常安静",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ˈkwaɪət əz ə maʊs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "busy as a bee",
+      "zh": "非常忙碌",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ˈbɪzi əz ə biː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "for example",
+      "zh": "例如",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/fə ɪɡˈzɑːmpl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "slow down",
+      "zh": "慢下来",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/sləʊ daʊn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "like a duck to water",
+      "zh": "学东西很快",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/laɪk ə dʌk tə ˈwɔːtə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "eat a horse",
+      "zh": "非常饿",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/iːt ə hɔːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "rain cats and dogs",
+      "zh": "倾盆大雨",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/reɪn kæts ənd dɒɡz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a black sheep",
+      "zh": "害群之马",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ə blæk ʃiːp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a home bird",
+      "zh": "恋家的人",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ə həʊm bɜːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a dark horse",
+      "zh": "一匹黑马",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ə dɑːk hɔːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "an elephant in the room",
+      "zh": "不愿提及的事",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ən ˈelɪfənt ɪn ðə ruːm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "lovely weather for ducks",
+      "zh": "雨量很多",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ˈlʌvli ˈweðə fə dʌks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What does ... mean?",
+      "zh": "……是什么意思？",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/wɒt dʌz miːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It means ...",
+      "zh": "它的意思是……",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/ɪt miːnz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Can you give an example?",
+      "zh": "你能举个例子吗？",
+      "unit": "Unit 2 Busy as a Bee",
+      "ipa": "/kæn ju ɡɪv ən ɪɡˈzɑːmpl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "eat healthy foods",
+      "zh": "吃健康的食物",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/iːt ˈhelθi fuːdz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "get enough sleep",
+      "zh": "睡眠充足",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ɡet ɪˈnʌf sliːp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "play sports",
+      "zh": "做运动",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/pleɪ spɔːts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "grow taller",
+      "zh": "长高",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ɡrəʊ tɔːlə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How about ...?",
+      "zh": "……怎么样？",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/haʊ əˈbaʊt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It helps you to ...",
+      "zh": "它能帮助你……",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ɪt helps ju tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Also, try to ...",
+      "zh": "此外，尝试……",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/ˈɔːlsəʊ traɪ tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What's more, ...",
+      "zh": "另外，……",
+      "unit": "Unit 3 Grow Taller",
+      "ipa": "/wɒts mɔː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "play basketball",
+      "zh": "打篮球",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/pleɪ ˈbɑːskɪtbɔːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "play football",
+      "zh": "踢足球",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/pleɪ ˈfutbɔːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go running",
+      "zh": "跑步",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ɡəʊ ˈrʌnɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go swimming",
+      "zh": "去游泳",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ɡəʊ ˈswɪmɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "play ping-pong",
+      "zh": "打乒乓球",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/pleɪ ˈpɪŋpɒŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "once a day",
+      "zh": "每天一次",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/wʌns ə deɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "twice a week",
+      "zh": "每周两次",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/twaɪs ə wiːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "twice a month",
+      "zh": "每月两次",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/twaɪs ə mʌnθ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "three times a month",
+      "zh": "每月三次",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/θriː taɪmz ə mʌnθ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "every Sunday",
+      "zh": "每周日",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ˈevri ˈsʌndeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "try it out",
+      "zh": "试试",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/traɪ ɪt aʊt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "catch up",
+      "zh": "赶上",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/kætʃ ʌp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take breaks",
+      "zh": "休息",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/teɪk breɪks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "try your best",
+      "zh": "尽最大努力",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/traɪ jɔː best/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What sports do you play?",
+      "zh": "你做什么运动？",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/wɒt spɔːts du ju pleɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How often do you play?",
+      "zh": "你多久运动一次？",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/haʊ ˈɒfn du ju pleɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'd like to ...",
+      "zh": "我想……（做某事）。",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/aɪd laɪk tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I want to ...",
+      "zh": "我想……（做某事）。",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/aɪ wɒnt tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Remember to ...",
+      "zh": "记得……（做某事）。",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/rɪˈmembə tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It's better not to ...",
+      "zh": "最好不要……（做某事）。",
+      "unit": "Unit 4 Let's Do It!",
+      "ipa": "/ɪts ˈbetə nɒt tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "warm and windy",
+      "zh": "温暖有风",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/wɔːm ənd ˈwɪndi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hot and sunny",
+      "zh": "炎热晴朗",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/hɒt ənd ˈsʌni/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cold and snowy",
+      "zh": "寒冷多雪",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/kəʊld ənd ˈsnəʊɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cool and rainy",
+      "zh": "凉爽有雨",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/kuːl ənd ˈreɪni/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fly a kite",
+      "zh": "放风筝",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/flaɪ ə kaɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go to the beach",
+      "zh": "去海滩",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/ɡəʊ tə ðə biːtʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "make a snowman",
+      "zh": "堆雪人",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/meɪk ə ˈsnəʊmæn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What's the weather like today?",
+      "zh": "今天的天气怎么样？",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/wɒts ðə ˈweðə laɪk təˈdeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How's the weather ?",
+      "zh": "天气怎么样？",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/haʊz ðə ˈweðə/",
+      "ipa_source": "dictionary",
+      "star": false,
+      "note": "英文问号前按原页留有空格。"
+    },
+    {
+      "en": "It is ...",
+      "zh": "天气……",
+      "unit": "Unit 5 How's the Weather?",
+      "ipa": "/ɪt ɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a light jacket",
+      "zh": "一件薄夹克衫",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ə laɪt ˈdʒækɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a pair of shorts",
+      "zh": "一条短裤",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ə peə əv ʃɔːts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a pair of trousers",
+      "zh": "一条裤子",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ə peə əv ˈtraʊzəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a red dress",
+      "zh": "一条红色连衣裙",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/ə red dres/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take out a T-shirt",
+      "zh": "拿出一件T恤",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/teɪk aʊt ə ˈtiːʃɜːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hang up",
+      "zh": "挂起来",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/hæŋ ʌp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "put away the sweaters",
+      "zh": "把毛衣收起来",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/pʊt əˈweɪ ðə ˈswetəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fold a sweater",
+      "zh": "叠起一件毛衣",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/fəʊld ə ˈswetə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "put them into a drawer",
+      "zh": "把它们放进一个抽屉里",
+      "unit": "Unit 6 Tidy Up My Closet",
+      "ipa": "/pʊt ðəm ˈɪntuː ə drɔː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Beijing time",
+      "zh": "北京时间",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/beɪˈdʒɪŋ taɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cook dinner",
+      "zh": "做晚饭",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/kʊk ˈdɪnə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have lunch",
+      "zh": "吃午饭",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/hæv lʌntʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have class",
+      "zh": "上课",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/hæv klɑːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "time difference",
+      "zh": "时差",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/taɪm ˈdɪfərəns/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have tea",
+      "zh": "喝茶",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/hæv tiː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have a video call",
+      "zh": "打视频电话",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/hæv ə ˈvɪdɪəʊ kɔːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What time is it in ...?",
+      "zh": "……（地点）现在是几点？",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/wɒt taɪm ɪz ɪt ɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It's 7:00 a.m. in Beijing.",
+      "zh": "现在是北京时间早上七点。",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/ɪts ˈsevn ˌeɪˈem ɪn beɪˈdʒɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Are you ...?",
+      "zh": "你在……吗？",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/ɑː juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Yes. / No, I'm ...",
+      "zh": "是。／不，我正在……",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/jes / nəʊ aɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What are you doing?",
+      "zh": "你在做什么？",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/wɒt ə ju ˈduːɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I am ...",
+      "zh": "我在……",
+      "unit": "Unit 7 Let's Make a Call!",
+      "ipa": "/aɪ æm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "shopping mall",
+      "zh": "购物中心",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/ˈʃɒpɪŋ mɔːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "farmers' market",
+      "zh": "农贸市场",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/ˈfɑːməz ˈmɑːkɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take a walk",
+      "zh": "散步",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/teɪk ə wɔːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "watch a film",
+      "zh": "看电影",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/wɒtʃ ə fɪlm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have a meal",
+      "zh": "吃饭",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/hæv ə miːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "see a doctor",
+      "zh": "看医生",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/siː ə ˈdɒktə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go shopping",
+      "zh": "购物",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/ɡəʊ ˈʃɒpɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Is there ...?",
+      "zh": "那里有……吗？",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/ɪz ðeə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Yes, there is. / No, there isn't.",
+      "zh": "是，那里有。／不，那里没有。",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/jes ðeə ɪz / nəʊ ðeə ˈɪznt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I think ... is the best place for ..., because there is ... nearby.",
+      "zh": "我觉得……是最适合……的地方，因为那附近有……",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/aɪ θɪŋk ɪz ðə best pleɪs fə bɪˈkɒz ðeə ɪz ˈnɪəbaɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I think the best place for ... to stay is ..., because ...",
+      "zh": "我觉得对……来说最好的居住地是……，因为……",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/aɪ θɪŋk ðə best pleɪs fə tə steɪ ɪz bɪˈkɒz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "... wants to ... So ... would also be a nice choice.",
+      "zh": "……想要……所以……也是一个不错的选择。",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/wɒnts tə səʊ wʊd ˈɔːlsəʊ bi ə naɪs tʃɒɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Why do you think so / feel this way?",
+      "zh": "你为什么这样认为？",
+      "unit": "Unit 8 The Best Place to Live",
+      "ipa": "/waɪ du ju θɪŋk səʊ / fiːl ðɪs weɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a dinner party",
+      "zh": "一次晚宴",
+      "unit": "Review A Happy Trip",
+      "ipa": "/ə ˈdɪnə ˈpɑːti/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "grow flowers",
+      "zh": "养花",
+      "unit": "Review A Happy Trip",
+      "ipa": "/ɡrəʊ ˈflaʊəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "eat hamburgers",
+      "zh": "吃汉堡",
+      "unit": "Review A Happy Trip",
+      "ipa": "/iːt ˈhæmbɜːɡəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "learn kung fu",
+      "zh": "学习功夫",
+      "unit": "Review A Happy Trip",
+      "ipa": "/lɜːn kʌŋ fuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "play tennis",
+      "zh": "打网球",
+      "unit": "Review A Happy Trip",
+      "ipa": "/pleɪ ˈtenɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "draw pictures",
+      "zh": "画画",
+      "unit": "Review A Happy Trip",
+      "ipa": "/drɔː ˈpɪktʃəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "as round as a ball",
+      "zh": "像球一样圆",
+      "unit": "Review A Happy Trip",
+      "ipa": "/əz raʊnd əz ə bɔːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "funny and cute",
+      "zh": "有趣又可爱",
+      "unit": "Review A Happy Trip",
+      "ipa": "/ˈfʌni ənd kjuːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "good at climbing",
+      "zh": "擅长攀爬",
+      "unit": "Review A Happy Trip",
+      "ipa": "/ɡʊd ət ˈklaɪmɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "sit on the trees",
+      "zh": "坐在树上",
+      "unit": "Review A Happy Trip",
+      "ipa": "/sɪt ɒn ðə triːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a box of eggs",
+      "zh": "一盒鸡蛋",
+      "unit": "Review A Happy Trip",
+      "ipa": "/ə bɒks əv eɡz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "orange juice",
+      "zh": "橙汁",
+      "unit": "Review A Happy Trip",
+      "ipa": "/ˈɒrɪndʒ dʒuːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "There's a ... just in front of / next to / behind it.",
+      "zh": "有一个……在它前面／旁边／后面。",
+      "unit": "Review A Happy Trip",
+      "ipa": "/ðeəz ə dʒʌst ɪn frʌnt əv / nekst tə / bɪˈhaɪnd ɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ]
+}

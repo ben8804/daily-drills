@@ -1,0 +1,1632 @@
+{
+  "edition": "教科版（广州版）小学英语（三年级起点）2024 新课标，六年级上册 2026秋。词表透录自该书书后附录 Word List（按单元排列）及 Chunks and Sentence Stems。课本未印音标；ipa 为英式 DJ/IPA，来源词典。黑体词为《义务教育英语课程标准（2022 年版）》中的二级词汇（star=false）；白体词为非该二级词汇（star=true）。仅 7 个 Unit。",
+  "volume": {
+    "grade": "6",
+    "term": "上",
+    "code": "6A",
+    "name": "六年级上册",
+    "year": "2026秋",
+    "curriculum": "2024新课标"
+  },
+  "count": 79,
+  "chunk_count": 117,
+  "ipa_source_default": "dictionary",
+  "textbook_has_ipa": false,
+  "words": [
+    {
+      "en": "breath",
+      "zh": "呼吸",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/breθ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "throw",
+      "zh": "扔，抛",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/θrəʊ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "count",
+      "zh": "数，计数",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/kaʊnt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "will",
+      "zh": "将要；会",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/wɪl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "music",
+      "zh": "音乐",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/ˈmjuːzɪk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "try",
+      "zh": "尝试",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/traɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "with",
+      "zh": "和……一起",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/wɪð/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "why",
+      "zh": "为什么",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/waɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "lion",
+      "zh": "狮子",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/ˈlaɪən/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "call",
+      "zh": "称呼；喊",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/kɔːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "stop",
+      "zh": "停止",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/stɒp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "joke",
+      "zh": "玩笑",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/dʒəʊk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "worse",
+      "zh": "更糟糕的，更差的",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/wɜːs/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "mad",
+      "zh": "生气的",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/mæd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "also",
+      "zh": "也；此外",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/ˈɔːlsəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "make",
+      "zh": "制作",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/meɪk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "proud",
+      "zh": "骄傲的，自豪的",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/praʊd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "bring",
+      "zh": "提出；带来",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/brɪŋ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "might",
+      "zh": "可能",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/maɪt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "cup",
+      "zh": "杯子",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/kʌp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "dangerous",
+      "zh": "危险的",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ˈdeɪndʒərəs/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "homework",
+      "zh": "作业",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ˈhəʊmwɜːk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "lie",
+      "zh": "欺骗，撒谎",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/laɪ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "finish",
+      "zh": "完成",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ˈfɪnɪʃ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "record",
+      "zh": "录制；记录",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ˈrekɔːd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "choose",
+      "zh": "选择",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/tʃuːz/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "their",
+      "zh": "他们的",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ðeə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "play",
+      "zh": "玩",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/pleɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "stay",
+      "zh": "停留；保持",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/steɪ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "toy",
+      "zh": "玩具",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/tɒɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "dig",
+      "zh": "挖掘",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/dɪɡ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "least",
+      "zh": "至少，最少",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/liːst/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "habit",
+      "zh": "习性，习惯",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ˈhæbɪt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "between",
+      "zh": "在……之间",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/bɪˈtwiːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "building",
+      "zh": "建筑物",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ˈbɪldɪŋ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "much",
+      "zh": "许多，大量",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/mʌtʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "orange",
+      "zh": "橙色的；橙子",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ˈɒrɪndʒ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "push",
+      "zh": "推",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/pʊʃ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "wait",
+      "zh": "等待",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/weɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "learn",
+      "zh": "学习",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/lɜːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "bike",
+      "zh": "自行车",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/baɪk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "money",
+      "zh": "钱",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/ˈmʌni/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "online",
+      "zh": "在线的，网上的",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/ˌɒnˈlaɪn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "free",
+      "zh": "免费的；空闲的；自由的",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/friː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "clock",
+      "zh": "钟表",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/klɒk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "notebook",
+      "zh": "笔记本",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/ˈnəʊtbuk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "cost",
+      "zh": "花费",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/kɒst/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "cheap",
+      "zh": "便宜",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/tʃiːp/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "glove",
+      "zh": "手套",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/ɡlʌv/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "sometimes",
+      "zh": "有时候",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/ˈsʌmtaɪmz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "little",
+      "zh": "少量的；小的",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/ˈlɪtl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "please",
+      "zh": "请",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/pliːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "waste",
+      "zh": "垃圾；浪费",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/weɪst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "snack",
+      "zh": "零食，小吃",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/snæk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "noon",
+      "zh": "中午",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/nuːn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "change",
+      "zh": "改变",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/tʃeɪndʒ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "menu",
+      "zh": "菜单",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/ˈmenjuː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "classmate",
+      "zh": "同学",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/ˈklɑːsmeɪt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "helpful",
+      "zh": "有帮助的，有益的",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/ˈhelpful/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fourth",
+      "zh": "第四",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/fɔːθ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "fifth",
+      "zh": "第五",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/fɪfθ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "difference",
+      "zh": "不同",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/ˈdɪfərəns/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "break",
+      "zh": "休息，间歇；打破",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/breɪk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "right",
+      "zh": "恰当的；对的；右边的",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/raɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "playground",
+      "zh": "操场",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/ˈpleɪɡraʊnd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "yesterday",
+      "zh": "昨天",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/ˈjestədeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "important",
+      "zh": "重要的",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/ɪmˈpɔːtənt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "without",
+      "zh": "没有",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/wɪðˈaʊt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "hospital",
+      "zh": "医院",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/ˈhɒspɪtl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "rest",
+      "zh": "休息",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/rest/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "another",
+      "zh": "另一个",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/əˈnʌðə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "team",
+      "zh": "团队",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/tiːm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "watch",
+      "zh": "观察；看",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/wɒtʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "lonely",
+      "zh": "孤单的",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/ˈləʊnli/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "garden",
+      "zh": "花园",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/ˈɡɑːdn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "tool",
+      "zh": "工具",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/tuːl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "basket",
+      "zh": "篮子",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/bɑːskɪt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "potato",
+      "zh": "土豆",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/pəˈteɪtəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "either",
+      "zh": "也；（两者中的）任何一个",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/ˈaɪðə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    }
+  ],
+  "chunks": [
+    {
+      "en": "yell and cry",
+      "zh": "边哭边喊",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/jel ənd kraɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go for a walk",
+      "zh": "出去走走",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/ɡəʊ fə ə wɔːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "shout bad words",
+      "zh": "大声骂人",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/ʃaʊt bæd wɜːdz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take a deep breath",
+      "zh": "深呼吸",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/teɪk ə diːp breθ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "throw things",
+      "zh": "扔东西",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/θrəʊ θɪŋz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "count to ten",
+      "zh": "数到十",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/kaʊnt tə ten/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "very angry",
+      "zh": "非常生气",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/ˈveri ˈæŋri/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "eat a lot",
+      "zh": "吃很多",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/iːt ə lɒt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "listen to some music",
+      "zh": "听一点音乐",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/ˈlɪsn tə səm ˈmjuːzɪk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "yell out loud",
+      "zh": "大声喊叫",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/jel aʊt laʊd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "talk with friends on the phone",
+      "zh": "与朋友通电话",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/tɔːk wɪð frends ɒn ðə fəʊn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "calm down",
+      "zh": "冷静，平静下来",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/kɑːm daʊn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "solve the problem",
+      "zh": "解决问题",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/sɒlv ðə ˈprɒbləm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I feel ...",
+      "zh": "我觉得……",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/aɪ fiːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I don't like it because ...",
+      "zh": "我不喜欢它，因为……",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/aɪ dəʊnt laɪk ɪt bɪˈkɒz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I get ... when ...",
+      "zh": "每当……时，我就会……",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/aɪ ɡet wen/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I got really ... because ...",
+      "zh": "我真的很……，因为……",
+      "unit": "Unit 1 I Am Angry",
+      "ipa": "/aɪ ɡɒt ˈrɪəli bɪˈkɒz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "talk it out",
+      "zh": "谈话和解",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/tɔːk ɪt aʊt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have a new haircut",
+      "zh": "剪了个新发型",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/hæv ə njuː ˈheəkʌt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "make fun of ...",
+      "zh": "开某人的玩笑",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/meɪk fʌn ɒv/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "call ... names",
+      "zh": "给……起外号",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/kɔːl neɪmz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "yell at ...",
+      "zh": "对……喊叫",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/jel æt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fight with each other",
+      "zh": "双方争吵",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/faɪt wɪð iːtʃ ˈʌðə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I feel ... when you ...",
+      "zh": "当你……时，我觉得……",
+      "unit": "Unit 2 Talk It Out",
+      "ipa": "/aɪ fiːl wen juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "bring up the problem",
+      "zh": "提出问题",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/brɪŋ ʌp ðə ˈprɒbləm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "listen to each other",
+      "zh": "倾听彼此",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ˈlɪsn tə iːtʃ ˈʌðə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take turns to talk",
+      "zh": "轮流交谈",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/teɪk tɜːnz tə tɔːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "come up with ideas",
+      "zh": "提出想法",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/kʌm ʌp wɪð aɪˈdɪəz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "work it out together",
+      "zh": "一起想办法解决",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/wɜːk ɪt aʊt təˈɡeðə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "finish homework",
+      "zh": "完成作业",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ˈfɪnɪʃ ˈhəʊmwɜːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Can I talk to you?",
+      "zh": "我可以和你谈谈吗？",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/kæn aɪ tɔːk tə juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I understand.",
+      "zh": "我明白。",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/aɪ ʌndəˈstænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "But it will help me ...",
+      "zh": "但它会帮我……",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/bət ɪt wɪl help mi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Maybe I can ... first?",
+      "zh": "也许我可以先……？",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ˈmeɪbi aɪ kən fɜːst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Good idea!",
+      "zh": "好主意！",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ɡʊd aɪˈdɪə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Do you have a minute?",
+      "zh": "你有时间吗？",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/duː ju həv ə ˈmɪnɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I understand your worries, but ...",
+      "zh": "我理解你的担心，但是……",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/aɪ ʌndəˈstænd jɔː ˈwʌrɪs bət/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "That makes sense.",
+      "zh": "有道理。",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ðət meɪks sens/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Maybe we can ...",
+      "zh": "或许我们可以……",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ˈmeɪbi wi kæn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Or ... Is that okay?",
+      "zh": "或许……可以吗？",
+      "unit": "Unit 3 Work It Out Together",
+      "ipa": "/ɔː ɪz ðət əʊˈkeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "play during the night",
+      "zh": "在夜间玩耍",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/pleɪ ˈdjʊərɪŋ ðə naɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "stay inside",
+      "zh": "待在室内",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/steɪ ɪnˈsaɪd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "sleep during the day",
+      "zh": "白天睡觉",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/sliːp ˈdjʊərɪŋ ðə deɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "don't like to be alone",
+      "zh": "不喜欢独处",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/dəʊnt laɪk tə bi əˈləʊn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "lose hair",
+      "zh": "掉毛",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/luːz heə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "love playing with toys",
+      "zh": "喜欢玩玩具",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/lʌv ˈpleɪɪŋ wɪð ˈtɔɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "very busy at work",
+      "zh": "工作很忙",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ˈveri ˈbɪzi ət wɜːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "an animal lover",
+      "zh": "一个动物爱好者",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ən ˈænɪməl ˈlʌvə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a light sleeper",
+      "zh": "一个睡得浅的人",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ə laɪt ˈsliːpə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "like to go to the park",
+      "zh": "喜欢去公园",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/laɪk tə ɡəʊ tə ðə pɑːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go to school early",
+      "zh": "上学很早",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ɡəʊ tə skuːl ˈɜːli/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "far away",
+      "zh": "很远",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/fɑː əˈweɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "... and ... are different because ...",
+      "zh": "……和……不同，因为……",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ənd ə ˈdɪfrənt bɪˈkɒz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Good point!",
+      "zh": "说得对！",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ɡʊd pɒɪnt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "They both love ...",
+      "zh": "他们都喜欢……",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ðeɪ bəʊθ lʌv/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "They are both ...",
+      "zh": "他们都……",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ðeɪ ə bəʊθ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "... are ..., while ... are ...",
+      "zh": "……是……的，但……却是……的。",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/ə waɪl ə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I agree.",
+      "zh": "我同意。",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/aɪ əˈɡriː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I don't agree because ...",
+      "zh": "我不同意，因为……",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/aɪ dəʊnt əˈɡriː bɪˈkɒz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I think it's better to ...",
+      "zh": "我认为……更好。",
+      "unit": "Unit 4 Cat or Dog?",
+      "ipa": "/aɪ θɪŋk ɪts ˈbetə tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "shop smart",
+      "zh": "理智购物",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/ʃɒp smɑːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "think about it more",
+      "zh": "多考虑一下",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/θɪŋk əˈbaʊt ɪt mɔː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "wait a few days",
+      "zh": "等几天",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/weɪt ə fjuː deɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "learn about it",
+      "zh": "了解它",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/lɜːn əˈbaʊt ɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "look for a better deal",
+      "zh": "寻找更划算的交易",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/lʊk fə ə ˈbetə diːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "give it a try",
+      "zh": "试一试",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/ɡɪv ɪt ə traɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "compare and choose",
+      "zh": "比较并选择",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/kəmˈpeə ənd tʃuːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "buy one get one free",
+      "zh": "买一送一",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/baɪ wʌn ɡet wʌn friː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a jump rope",
+      "zh": "一个跳绳",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/ə dʒʌmp rəʊp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Wait a minute.",
+      "zh": "等一下。",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/weɪt ə ˈmɪnɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Do I really need it?",
+      "zh": "我真的需要它吗？",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/duː aɪ ˈrɪəli niːd ɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Do I just want it?",
+      "zh": "我是否只是想要它？",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/duː aɪ dʒʌst wɒnt ɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Do I need that thing right now?",
+      "zh": "我现在需要那个东西吗？",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/duː aɪ niːd ðət θɪŋ raɪt naʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Is it the best deal?",
+      "zh": "这是最好的交易吗？",
+      "unit": "Unit 5 Shop Smart",
+      "ipa": "/ɪz ɪt ðə best diːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "give too much food",
+      "zh": "给太多食物",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/ɡɪv tuː mʌtʃ fuːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "food waste",
+      "zh": "厨余垃圾",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/fuːd weɪst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take too much food",
+      "zh": "拿太多食物",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/teɪk tuː mʌtʃ fuːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "be picky about food",
+      "zh": "挑食",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/bi ˈpɪki əˈbaʊt fuːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "eat snacks",
+      "zh": "吃零食",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/iːt snæks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "rush out to play",
+      "zh": "冲出去玩",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/rʌʃ aʊt tə pleɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "canteen staff",
+      "zh": "食堂员工",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/kænˈtiːn stɑːf/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have a good breakfast",
+      "zh": "早餐吃得好",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/hæv ə ɡʊd ˈbrekfəst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take less food",
+      "zh": "少拿点食物",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/teɪk les fuːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "change the menu",
+      "zh": "更换菜单",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/tʃeɪndʒ ðə ˈmenjuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "try all kinds of foods",
+      "zh": "尝试各种食物",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/traɪ ɔːl kaɪndz əv fuːdz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "save food for later",
+      "zh": "留些食物下次吃",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/seɪv fuːd fə ˈleɪtə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It's not good to ...",
+      "zh": "……是很不好的。",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/ɪts nɒt ɡʊd tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "We found that ...",
+      "zh": "我们发现……",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/wi faʊnd ðət/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "The reason is ...",
+      "zh": "原因是……",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/ðə ˈriːzn ɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "This happens because ...",
+      "zh": "发生这种情况是因为……",
+      "unit": "Unit 6 Keep It Green",
+      "ipa": "/ðɪs ˈhæpənz bɪˈkɒz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "drink enough water",
+      "zh": "喝足量的水",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/drɪŋk ɪˈnʌf ˈwɔːtə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take water breaks",
+      "zh": "休息下，喝点水",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/teɪk ˈwɔːtə breɪks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "warm up",
+      "zh": "热身",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/wɔːm ʌp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "wear the right shoes",
+      "zh": "穿合适的鞋子",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/weə ðə raɪt ˈʃuːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "work with your teammates",
+      "zh": "和队友合作",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/wɜːk wɪð jɔː ˈtiːmmeɪts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "watch out for others on the playground",
+      "zh": "在操场上注意他人",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/wɒtʃ aʊt fə ˈʌðəz ɒn ðə ˈpleɪɡraʊnd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "don't play if you are hurt",
+      "zh": "受伤了就别运动",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/dəʊnt pleɪ ɪf ju ə hɜːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "follow the rules",
+      "zh": "遵守规则",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/ˈfɒləʊ ðə ruːlz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "learn a lesson",
+      "zh": "得到教训；获得经验",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/lɜːn ə ˈlesn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "We should ... before ...",
+      "zh": "在……之前，我们应该……",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/wi ʃʊd bɪˈfɔː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Tell me what happened.",
+      "zh": "告诉我发生了什么。",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/tel mi wɒt ˈhæpənd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "First things first, make sure to ...",
+      "zh": "首先，一定确保……",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/fɜːst θɪŋz fɜːst meɪk ʃʊə tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Also, don't forget to ...",
+      "zh": "还有，别忘了……",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/ˈɔːlsəʊ dəʊnt fəˈɡet tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What's more, it's a good idea to ...",
+      "zh": "另外，……也是个好办法。",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/wɒts mɔː ɪts ə ɡʊd aɪˈdɪə tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "One last thing, ...",
+      "zh": "最后一件事，……",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/wʌn lɑːst θɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How are you feeling?",
+      "zh": "你感觉怎么样？",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/haʊ ə ju ˈfiːlɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How did this happen?",
+      "zh": "这是怎么发生的？",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/haʊ dɪd ðɪs ˈhæpən/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Does it hurt?",
+      "zh": "疼吗？",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/dʌz ɪt hɜːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Don't worry.",
+      "zh": "别担心。",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/dəʊnt ˈwʌri/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Let me see.",
+      "zh": "让我看看。",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/let mi siː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Let me take a closer look.",
+      "zh": "让我仔细看看。",
+      "unit": "Unit 7 Play It Safe",
+      "ipa": "/let mi teɪk ə ˈkləʊzə lʊk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "stay healthy",
+      "zh": "保持健康",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/steɪ ˈhelθi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have a sweet tooth",
+      "zh": "爱吃甜食",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/hæv ə swiːt tuːθ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "build good habits",
+      "zh": "养成好习惯",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/bɪld ɡʊd ˈhæbɪts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "get some sunshine",
+      "zh": "晒晒太阳",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/ɡet səm ˈsʌnʃaɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "If you ask me, I'd say ...",
+      "zh": "如果你问我，我会说……",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/ɪf ju ɑːsk mi aɪd seɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How's it going?",
+      "zh": "最近怎么样？",
+      "unit": "Review A Gift for Grandpa",
+      "ipa": "/haʊz ɪt ˈɡəʊɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ]
+}

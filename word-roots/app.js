@@ -4,21 +4,42 @@
   const KEY = "word-roots-progress-v1";
   let speechOK = typeof window.speechSynthesis !== "undefined" && typeof window.SpeechSynthesisUtterance === "function";
 
-  const families = parseFamilies();
+  let families = [];
   let progress = loadProgress();
   let lastFamilyId = null;
   let shelf = "4";
   let volume = "a";
+  let booksReady = false;
+  const starLegends = {};
   const gradeName = { "3": "三年级", "4": "四年级", "5": "五年级", "6": "六年级" };
+  const BOOK_CODES = ["3A", "3B", "4A", "4B", "5A", "6A"];
+  const EXPECTED = {
+    "3A": [144, 46],
+    "3B": [82, 37],
+    "4A": [102, 47],
+    "4B": [134, 115],
+    "5A": [99, 128],
+    "6A": [79, 117]
+  };
 
-  try {
-    init();
-  } catch (err) {
-    document.documentElement.classList.remove("js");
+  loadBooks().then(function (books) {
+    const seen = new Set();
+    books.forEach(function (book) { mountBook(book, seen); });
+    booksReady = true;
+  }).catch(function (err) {
     console.error(err);
-  }
+    booksReady = false;
+  }).then(function () {
+    try {
+      init();
+    } catch (err) {
+      document.documentElement.classList.remove("js");
+      console.error(err);
+    }
+  });
 
   function init() {
+    families = parseFamilies();
     if (!families.length) throw new Error("no families");
     updateProgressUI();
     document.querySelectorAll("[data-tab]").forEach(bindTab);
@@ -51,6 +72,9 @@
           unit: li.dataset.unit || "",
           note: li.dataset.note || "",
           pos: li.dataset.pos || "",
+          ipa: li.dataset.ipa || "",
+          star: li.dataset.star === "true",
+          item: li.dataset.item || "word",
           li: li
         };
       });
@@ -207,24 +231,42 @@
       const on = matchesShelf(plant.dataset.shelf || "review", plant.dataset.volume || "review");
       plant.classList.toggle("is-shelf-off", !on);
     });
-    document.querySelectorAll("[data-book-empty]").forEach(function (el) {
-      if (shown === 0) el.removeAttribute("hidden");
-      else el.setAttribute("hidden", "");
-    });
     const volumeLabel = volume === "b" ? "下册" : "上册";
     const grade = gradeName[shelf] || "";
+    const unpublished = (shelf === "5" || shelf === "6") && volume === "b";
+    document.querySelectorAll("[data-book-empty]").forEach(function (el) {
+      const listSection = el.classList.contains("home-only");
+      if (shown === 0 && unpublished && listSection) {
+        el.setAttribute("hidden", "");
+        return;
+      }
+      if (shown === 0) {
+        el.removeAttribute("hidden");
+        if (!booksReady) el.textContent = "词表没有载入。刷新一下再试。";
+        else if (unpublished) el.textContent = "五下、六下新版还没有出版，这里没有收录。";
+        else el.textContent = "这一册的词还没放上来。";
+      } else el.setAttribute("hidden", "");
+    });
     document.querySelectorAll("[data-shelf-title]").forEach(function (el) {
       el.textContent = shelf === "review" ? "8 个词族" : grade + volumeLabel;
     });
     document.querySelectorAll("[data-shelf-lead]").forEach(function (el) {
       if (shelf === "review") el.textContent = "点进去拼一拼。星星留在这台浏览器里。";
-      else if (shown === 0) el.textContent = "教科版（广州版）" + grade + volumeLabel + "。官方词表放进来之后，可以听、看意思、做小测验。";
-      else el.textContent = "教科版（广州版）" + grade + volumeLabel + "。点进去认一认。星星留在这台浏览器里。";
+      else if (shown === 0 && !booksReady) el.textContent = "词表没有载入。刷新一下再试。";
+      else if (unpublished) el.textContent = "五下、六下新版还没有出版，这里没有收录。";
+      else if (shown === 0) el.textContent = "这一册的词还没放上来。";
+      else el.textContent = "教科版（广州版）" + grade + volumeLabel + "。点进去认单词和语块。星星留在这台浏览器里。";
     });
     document.querySelectorAll("[data-shelf-note]").forEach(function (el) {
       el.textContent = shelf === "review"
         ? "这 8 个词族是人教 PEP 四年级上册，留着复习。"
         : "教科版（广州版）" + grade + volumeLabel + "。";
+    });
+    document.querySelectorAll("[data-star-legend]").forEach(function (el) {
+      const text = shelf === "review" || shown === 0 ? "" : (starLegends[shelf + volume] || "");
+      el.textContent = text;
+      if (text) el.removeAttribute("hidden");
+      else el.setAttribute("hidden", "");
     });
     updateStartLink();
   }
@@ -471,6 +513,7 @@
     marked.lang = "en";
     marked.textContent = member.en;
     word.append(marked);
+    appendIpa(word, member.ipa);
     row.append(word);
     const spoken = speakButton(member.en);
     if (spoken) row.append(spoken);
@@ -791,19 +834,21 @@
     const prompt = document.createElement("div");
     prompt.className = "q-prompt";
     if (question.type === "zh-to-en") {
-      prompt.append(promptLine(member.zh, false), helpLine("选出对应的英文。"));
+      prompt.append(promptLine(member.zh, false), helpLine(member.item === "chunk" ? "选出对应的语块。" : "选出对应的英文。"));
     } else if (question.type === "en-to-zh") {
       const word = document.createElement("p");
       word.className = "prompt-zh";
       word.lang = "en";
-      word.innerHTML = markedHTML(member.en, family.pattern);
+      if (family.pattern) word.innerHTML = markedHTML(member.en, family.pattern);
+      else word.textContent = member.en;
       if (member.pos) {
         const pos = document.createElement("span");
         pos.className = "pos";
         pos.textContent = " " + member.pos;
         word.append(pos);
       }
-      prompt.append(word, helpLine("这个词是什么意思？"));
+      appendIpa(word, member.ipa);
+      prompt.append(word, helpLine(member.item === "chunk" ? "这个语块是什么意思？" : "这个词是什么意思？"));
     } else if (question.type === "listen-zh") {
       prompt.append(promptLine("听一听", false), helpLine("选出听到的意思。"));
       const again = speakButton(member.en);
@@ -834,9 +879,16 @@
       const button = document.createElement("button");
       button.type = "button";
       button.className = "press choice";
-      button.textContent = item[key];
       button.dataset.value = item[key];
-      if (key === "en") button.lang = "en";
+      if (key === "en") {
+        button.lang = "en";
+        const label = document.createElement("span");
+        label.textContent = item[key];
+        button.append(label);
+        appendIpa(button, item.ipa);
+      } else {
+        button.textContent = item[key];
+      }
       button.addEventListener("click", function () {
         const right = button.dataset.value === correctLabel;
         if (right) state.correct += 1;
@@ -844,8 +896,9 @@
           el.disabled = true;
           if (el.dataset.value === correctLabel) el.classList.add("is-answer");
         });
-        feedback.textContent = choiceMessage(question, family, member, right);
-        announce(feedback.textContent);
+        const message = choiceMessage(question, family, member, right);
+        fillFeedback(feedback, message, member.ipa);
+        announce(message + (member.ipa ? " " + member.ipa : ""));
         speak(member.en);
         board.append(nextButton(family, state));
       });
@@ -864,10 +917,11 @@
       once: true,
       onJudge: function (correct) {
         if (correct) state.correct += 1;
-        feedback.textContent = correct
+        const message = correct
           ? "对了。" + member.en + "，" + member.zh + "。"
           : "这一题是 " + member.en + "，" + member.zh + "。";
-        announce(feedback.textContent);
+        fillFeedback(feedback, message, member.ipa);
+        announce(message + (member.ipa ? " " + member.ipa : ""));
         speak(member.en);
         board.append(nextButton(family, state));
       }
@@ -1109,5 +1163,267 @@
     if (!live) return;
     live.textContent = "";
     requestAnimationFrame(function () { live.textContent = message; });
+  }
+
+  function appendIpa(parent, ipa) {
+    if (!ipa) return;
+    const span = document.createElement("span");
+    span.className = "ipa";
+    span.textContent = ipa;
+    parent.append(span);
+  }
+
+  function fillFeedback(el, message, ipa) {
+    el.replaceChildren(document.createTextNode(message));
+    appendIpa(el, ipa);
+  }
+
+  function loadBooks() {
+    return Promise.all(BOOK_CODES.map(function (code) {
+      return fetch("data/" + code + ".json").then(function (res) {
+        if (!res.ok) throw new Error(code + " " + res.status);
+        return res.json();
+      }).then(function (book) {
+        checkBook(code, book);
+        return book;
+      });
+    }));
+  }
+
+  function checkBook(code, book) {
+    const words = book.words || [];
+    const chunks = book.chunks || [];
+    const expect = EXPECTED[code];
+    if (!book.volume || book.volume.code !== code) throw new Error("volume " + code);
+    if (book.volume.term !== "上" && book.volume.term !== "下") throw new Error("term " + code);
+    if (words.length !== expect[0] || chunks.length !== expect[1]) throw new Error("count " + code);
+    words.concat(chunks).forEach(function (item) {
+      if (!item || typeof item.en !== "string" || !item.en || typeof item.zh !== "string" || !item.unit || !item.ipa || typeof item.star !== "boolean") {
+        throw new Error("item " + code + " " + (item && item.en));
+      }
+    });
+  }
+
+  function legendFrom(edition) {
+    const text = edition || "";
+    if (text.indexOf("只要求了解词义") !== -1) return "标☆白体的只要求了解词义。没标的是黑体，要求理解运用。";
+    if (text.indexOf("二级词汇") !== -1) return "标☆白体的不是课标二级词汇。没标的是黑体，是课标二级词汇。";
+    return "标☆的是书上的白体。没标的是黑体。";
+  }
+
+  function mountBook(book, seen) {
+    const grade = String(book.volume.grade);
+    const vol = book.volume.term === "上" ? "a" : "b";
+    const legend = legendFrom(book.edition || "");
+    starLegends[grade + vol] = legend;
+    const grid = document.querySelector(".family-grid");
+    const plants = document.querySelector(".plants");
+    if (!grid || !plants) throw new Error("missing mount point");
+    groupUnits(book).forEach(function (unit) {
+      const id = familyId(grade, vol, unit.title);
+      if (seen.has(id) || document.getElementById(id)) throw new Error("duplicate " + id);
+      seen.add(id);
+      grid.append(renderFamily(unit, grade, vol, id, legend));
+      plants.append(renderPlant(unit, grade, vol, id));
+    });
+  }
+
+  function groupUnits(book) {
+    const map = new Map();
+    function bucket(unit) {
+      if (!map.has(unit)) map.set(unit, { title: unit, words: [], chunks: [] });
+      return map.get(unit);
+    }
+    (book.words || []).forEach(function (item) { bucket(item.unit).words.push(item); });
+    (book.chunks || []).forEach(function (item) { bucket(item.unit).chunks.push(item); });
+    return Array.from(map.values()).sort(function (a, b) {
+      return unitRank(a.title) - unitRank(b.title);
+    });
+  }
+
+  function unitRank(title) {
+    const numbered = /^Unit (\d+)\b/.exec(title);
+    if (numbered) return Number(numbered[1]);
+    if (title.indexOf("Review") === 0) return 1000;
+    return 900;
+  }
+
+  function familyId(grade, vol, title) {
+    const numbered = /^Unit (\d+)\b/.exec(title);
+    if (numbered) return "gz-" + grade + vol + "-u" + numbered[1];
+    if (title.indexOf("Review") === 0) return "gz-" + grade + vol + "-review";
+    return "gz-" + grade + vol + "-x-" + encodeURIComponent(title);
+  }
+
+  function renderFamily(unit, grade, vol, id, legend) {
+    const article = document.createElement("article");
+    article.className = "family";
+    article.id = id;
+    article.dataset.shelf = grade;
+    article.dataset.volume = vol;
+    article.dataset.kind = "bank";
+    article.dataset.pattern = "";
+    article.dataset.sound = "";
+
+    const header = document.createElement("header");
+    header.className = "family-head";
+    const back = document.createElement("a");
+    back.className = "back";
+    back.href = "#families";
+    back.textContent = "回到词表";
+    const heading = document.createElement("h2");
+    heading.tabIndex = -1;
+    heading.textContent = unit.title;
+    const hook = document.createElement("p");
+    hook.className = "hook";
+    hook.textContent = unit.words.length + " 个词，" + unit.chunks.length + " 个语块。";
+    const gloss = document.createElement("p");
+    gloss.className = "gloss";
+    gloss.textContent = legend;
+    header.append(back, heading, hook, gloss, growthBlock(), enterLink(id));
+
+    const study = document.createElement("div");
+    study.className = "study";
+    if (unit.words.length) study.append(studyHead("这一课的词", false), studyList(unit.words, "word"));
+    if (unit.chunks.length) study.append(studyHead("这一课的语块", true), studyList(unit.chunks, "chunk"));
+    article.append(header, modeTabs(), emptyBoard(), study);
+    return article;
+  }
+
+  function growthBlock() {
+    const growth = document.createElement("p");
+    growth.className = "growth";
+    growth.dataset.growth = "";
+    const mark = document.createElement("span");
+    mark.className = "grown-mark";
+    mark.textContent = "长成了";
+    const text = document.createElement("span");
+    text.className = "growth-text";
+    text.textContent = "进度记在这台设备上。";
+    growth.append(mark, text);
+    return growth;
+  }
+
+  function enterLink(id) {
+    const link = document.createElement("a");
+    link.className = "press enter";
+    link.href = "#" + id;
+    link.textContent = "认这一课";
+    return link;
+  }
+
+  function modeTabs() {
+    const tabs = document.createElement("div");
+    tabs.className = "tabs";
+    tabs.setAttribute("role", "tablist");
+    tabs.setAttribute("aria-label", "玩法");
+    ["review", "quiz"].forEach(function (mode) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "press";
+      button.setAttribute("role", "tab");
+      button.dataset.tab = mode;
+      button.setAttribute("aria-selected", "false");
+      button.textContent = mode === "quiz" ? "小测验" : "认一认";
+      tabs.append(button);
+    });
+    return tabs;
+  }
+
+  function emptyBoard() {
+    const board = document.createElement("div");
+    board.className = "board";
+    board.dataset.board = "";
+    return board;
+  }
+
+  function studyHead(text, chunks) {
+    const heading = document.createElement("h3");
+    if (chunks) heading.className = "chunk-head";
+    heading.textContent = text;
+    return heading;
+  }
+
+  function studyList(items, kind) {
+    const list = document.createElement("ol");
+    items.forEach(function (item) { list.append(renderItem(item, kind)); });
+    return list;
+  }
+
+  function renderItem(item, kind) {
+    const li = document.createElement("li");
+    li.dataset.en = item.en;
+    li.dataset.zh = item.zh;
+    li.dataset.parts = "";
+    li.dataset.partzh = "";
+    li.dataset.unit = item.unit;
+    li.dataset.note = item.note || "";
+    li.dataset.pos = "";
+    li.dataset.ipa = item.ipa;
+    li.dataset.star = item.star ? "true" : "false";
+    li.dataset.item = kind;
+
+    const line = document.createElement("span");
+    line.className = "wordline";
+    const en = document.createElement("span");
+    en.className = "en";
+    en.lang = "en";
+    en.textContent = item.en;
+    line.append(en);
+    appendIpa(line, item.ipa);
+    const zh = document.createElement("span");
+    zh.className = "zh";
+    zh.textContent = item.zh;
+    li.append(line, zh);
+    if (item.star) {
+      const flag = document.createElement("span");
+      flag.className = "flag";
+      flag.textContent = "☆ 白体";
+      li.append(flag);
+    }
+    const unit = document.createElement("span");
+    unit.className = "unit";
+    unit.textContent = item.unit;
+    li.append(unit);
+    if (item.note) {
+      const note = document.createElement("span");
+      note.className = "note";
+      note.textContent = item.note;
+      li.append(note);
+    }
+    return li;
+  }
+
+  function renderPlant(unit, grade, vol, id) {
+    const numbered = /^Unit (\d+)\b/.exec(unit.title);
+    const link = document.createElement("a");
+    link.className = "plant stage-0";
+    link.href = "#" + id;
+    link.dataset.plant = id;
+    link.dataset.shelf = grade;
+    link.dataset.volume = vol;
+    link.setAttribute("aria-label", unit.title);
+    const sprout = document.createElement("span");
+    sprout.className = "sprout";
+    sprout.setAttribute("aria-hidden", "true");
+    const left = document.createElement("span");
+    left.className = "leaf leaf-l";
+    left.textContent = "(";
+    const head = document.createElement("span");
+    head.className = numbered ? "head num" : "head";
+    if (numbered) head.lang = "en";
+    head.textContent = numbered ? numbered[1] : "复";
+    const right = document.createElement("span");
+    right.className = "leaf leaf-r";
+    right.textContent = ")";
+    const stem = document.createElement("span");
+    stem.className = "stem";
+    stem.textContent = "l";
+    sprout.append(left, head, right, stem);
+    const name = document.createElement("span");
+    name.className = "plant-name";
+    name.textContent = numbered ? "U" + numbered[1] : "复习";
+    link.append(sprout, name);
+    return link;
   }
 })();

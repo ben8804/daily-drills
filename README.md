@@ -4,6 +4,6 @@
 - **历史目录**：https://ben8804.github.io/daily-drills/history.html
 - **某一天**：https://ben8804.github.io/daily-drills/d/YYYY-MM-DD.html  
   例：https://ben8804.github.io/daily-drills/d/2026-10-26.html
-- **词族小桌**（教科版三至六年级词表，复习为人教四年级上册词族）：https://ben8804.github.io/daily-drills/word-roots/
+- **词族小桌**（2024 新课标教科版词表：三上至六上，复习为人教四年级上册词族）：https://ben8804.github.io/daily-drills/word-roots/
 
 每天 19:00 会更新首页为最新卷，并在 `d/` 留下当日归档。

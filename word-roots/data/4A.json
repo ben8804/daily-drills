@@ -1,0 +1,1247 @@
+{
+  "edition": "教科版（广州版）小学英语（三年级起点）2024 新课标，四年级上册 2025秋。词表透录自该书书后附录 Words & Expressions（按字母序，对应目录 Words & Expressions / 电子课本网所称 Word List）及 Words, Chunks & Sentence Stems（按单元序）。课本未印音标；ipa 为英式 DJ/IPA，来源词典。黑体词要求理解运用（star=false）；白体词只要求了解词义（star=true）。",
+  "volume": {
+    "grade": "4",
+    "term": "上",
+    "code": "4A",
+    "name": "四年级上册",
+    "year": "2025秋",
+    "curriculum": "2024新课标"
+  },
+  "count": 102,
+  "chunk_count": 47,
+  "ipa_source_default": "dictionary",
+  "textbook_has_ipa": false,
+  "words": [
+    {
+      "en": "a baby elephant",
+      "zh": "一个大象宝宝",
+      "unit": "Review Happy New Year!",
+      "ipa": "/ə ˈbeɪbi ˈelɪfənt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a big playground",
+      "zh": "一个大操场",
+      "unit": "Review Happy New Year!",
+      "ipa": "/ə bɪɡ ˈpleɪɡraʊnd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cup of tea",
+      "zh": "一杯茶",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/kʌp əv tiː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）；书后 Words & Expressions 印作 cup of tea；按单元序词表印作 a cup of tea。en 按字母序词表录入。"
+    },
+    {
+      "en": "add seasoning",
+      "zh": "添加调料",
+      "unit": "Review Happy New Year!",
+      "ipa": "/æd ˈsiːznɪŋ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "add some water",
+      "zh": "加水",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/æd səm ˈwɔːtə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "add the greens",
+      "zh": "加入蔬菜",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/æd ðə ɡriːnz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "add the noodles",
+      "zh": "加入面条",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/æd ðə ˈnuːdlz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "also",
+      "zh": "也",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/ˈɔːlsəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "ask others to join in",
+      "zh": "邀请他人加入",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/ɑːsk ˈʌðəz tə dʒɔɪn ɪn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "at the end of dinner",
+      "zh": "在晚餐结束时",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/ət ði end əv ˈdɪnə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "baby sister",
+      "zh": "小妹妹",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/ˈbeɪbi ˈsɪstə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "be careful with fire",
+      "zh": "小心用火",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/bi ˈkeəfl wɪð ˈfaɪə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "be ready to help",
+      "zh": "准备好帮忙",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/bi ˈredi tə help/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "best wishes",
+      "zh": "最好的祝愿",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/best ˈwɪʃɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "brother",
+      "zh": "哥哥，弟弟",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/ˈbrʌðə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "buy a birthday cake",
+      "zh": "买一个生日蛋糕",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/baɪ ə ˈbɜːθdeɪ keɪk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cheer up a friend",
+      "zh": "让朋友高兴起来",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/tʃɪə ʌp ə frend/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "chef",
+      "zh": "厨师",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/ʃef/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Christmas",
+      "zh": "圣诞节",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/ˈkrɪsməs/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "clean the table",
+      "zh": "擦桌子",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/kliːn ðə ˈteɪbl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "clean up",
+      "zh": "打扫",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/kliːn ʌp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cleaner",
+      "zh": "清洁工",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈkliːnə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "clear the table",
+      "zh": "收拾桌子",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/klɪə ðə ˈteɪbl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "come home",
+      "zh": "回家",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/kʌm həʊm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "come up to the top",
+      "zh": "浮到表面",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/kʌm ʌp tə ðə tɒp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cook",
+      "zh": "厨师",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/kʊk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cook birthday noodles",
+      "zh": "煮生日面",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/kʊk ˈbɜːθdeɪ ˈnuːdlz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cook together",
+      "zh": "一起做饭",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/kʊk təˈɡeðə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "do chores",
+      "zh": "做家务",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/duː tʃɔːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "doctor",
+      "zh": "医生",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈdɒktə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Dragon Boat Festival",
+      "zh": "端午节",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/ˈdræɡən bəʊt ˈfestɪvl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "eat mooncakes",
+      "zh": "吃月饼",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/iːt ˈmuːnkeɪks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "enjoy",
+      "zh": "享受",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/ɪnˈdʒɔɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "exercise together",
+      "zh": "一起锻炼",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈeksəsaɪz təˈɡeðə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "farmer",
+      "zh": "农民",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈfɑːmə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "fine",
+      "zh": "很好的",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/faɪn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "gardener",
+      "zh": "园丁",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈɡɑːdnə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "give a gift",
+      "zh": "送礼物",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/ɡɪv ə ɡɪft/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "give a helping hand",
+      "zh": "帮助",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/ɡɪv ə ˈhelpɪŋ hænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "give out gifts",
+      "zh": "分发礼物",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/ɡɪv aʊt ɡɪfts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Go ahead.",
+      "zh": "请自便。",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/ɡəʊ əˈhed/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "go for a walk",
+      "zh": "外出散步",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ɡəʊ fər ə wɔːk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "go to work/school",
+      "zh": "去上班 / 上学",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ɡəʊ tə wɜːk / skuːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "guest",
+      "zh": "客人",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/ɡest/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "have a big meal",
+      "zh": "吃大餐",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/hæv ə bɪɡ miːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have a look",
+      "zh": "看一看",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/hæv ə lʊk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "have some rice",
+      "zh": "盛些米饭",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/hæv səm raɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "help out",
+      "zh": "帮忙",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/help aʊt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "him",
+      "zh": "他",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/hɪm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "host",
+      "zh": "主人",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/həʊst/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "in the afternoon",
+      "zh": "在下午",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ɪn ði ˌɑːftəˈnuːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "in the evening",
+      "zh": "在晚上",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ɪn ði ˈiːvnɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "in the morning",
+      "zh": "在早晨",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ɪn ðə ˈmɔːnɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "IT worker",
+      "zh": "信息技术工作者",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/aɪ ˈtiː ˈwɜːkə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "kitchen",
+      "zh": "厨房",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/ˈkɪtʃɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Lantern Festival",
+      "zh": "元宵节",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/ˈlæntən ˈfestɪvl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "look dirty",
+      "zh": "看起来脏",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/lʊk ˈdɜːti/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "lovely",
+      "zh": "可爱的，愉快的",
+      "unit": "Review Happy New Year!",
+      "ipa": "/ˈlʌvli/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "make rice dumplings",
+      "zh": "包粽子",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/meɪk raɪs ˈdʌmplɪŋz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Mid-Autumn Festival",
+      "zh": "中秋节",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/mɪd ˈɔːtəm ˈfestɪvl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "New Year",
+      "zh": "新年",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/njuː jɪə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "next",
+      "zh": "下一步，接下来",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/nekst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "nurse",
+      "zh": "护士",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/nɜːs/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "over there",
+      "zh": "在那边",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/ˈəʊvə ðeə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "photographer",
+      "zh": "摄影师",
+      "unit": "Review Happy New Year!",
+      "ipa": "/fəˈtɒɡrəfə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "pick it up",
+      "zh": "把它捡起来",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/pɪk ɪt ʌp/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "play a game",
+      "zh": "玩游戏",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/pleɪ ə ɡeɪm/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "policeman/policewoman",
+      "zh": "警官",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/pəˈliːsmən / pəˈliːswʊmən/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "pot",
+      "zh": "锅",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/pɒt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "put away the dishes",
+      "zh": "收盘子",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/pʊt əˈweɪ ðə ˈdɪʃɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "put away the leftovers",
+      "zh": "收拾剩菜",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/pʊt əˈweɪ ðə ˈleftəʊvəz/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "read a book",
+      "zh": "读一本书",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/riːd ə bʊk/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "say nice words",
+      "zh": "说赞美的语言",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/seɪ naɪs wɜːdz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "scientist",
+      "zh": "科学家",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈsaɪəntɪst/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "she",
+      "zh": "她",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/ʃiː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "show you around",
+      "zh": "带你参观",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/ʃəʊ ju əˈraʊnd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "sing a song",
+      "zh": "唱歌",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/sɪŋ ə sɒŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "smile and say hi to others",
+      "zh": "微笑着和别人打招呼",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/smaɪl ənd seɪ haɪ tu ˈʌðəz/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "sometimes",
+      "zh": "有时",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/ˈsʌmtaɪmz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "soup",
+      "zh": "汤",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/suːp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "spend one-on-one time",
+      "zh": "花时间单独相处",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/spend wʌn ɒn wʌn taɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "spoon",
+      "zh": "勺子",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/spuːn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "Spring Festival",
+      "zh": "春节",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/sprɪŋ ˈfestɪvl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "stir the noodles",
+      "zh": "搅拌面条",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/stɜː ðə ˈnuːdlz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "student",
+      "zh": "学生",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈstjuːdnt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "surprise",
+      "zh": "惊喜",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/səˈpraɪz/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "sweep the floor",
+      "zh": "扫地",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/swiːp ðə flɔː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take a walk",
+      "zh": "散步",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/teɪk ə wɔːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take out the rubbish",
+      "zh": "倒垃圾",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/teɪk aʊt ðə ˈrʌbɪʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "take photos of animals",
+      "zh": "给动物摄影",
+      "unit": "Review Happy New Year!",
+      "ipa": "/teɪk ˈfəʊtəʊz əv ˈænɪmlz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "taxi driver",
+      "zh": "出租车司机",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈtæksi ˈdraɪvə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "teacher",
+      "zh": "教师",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈtiːtʃə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "tissue",
+      "zh": "纸巾",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/ˈtɪʃuː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "try some fish",
+      "zh": "尝尝鱼肉",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/traɪ səm fɪʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "visit family and friends",
+      "zh": "拜访家人和朋友",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/ˈvɪzɪt ˈfæməli ənd frendz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "waiter",
+      "zh": "服务员",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈweɪtə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "wash the dishes",
+      "zh": "洗碗",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/wɒʃ ðə ˈdɪʃɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "wash the greens",
+      "zh": "洗菜",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/wɒʃ ðə ɡriːnz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "watch fireworks",
+      "zh": "看烟花",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/wɒtʃ ˈfaɪəwɜːks/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Water Festival",
+      "zh": "泼水节",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/ˈwɔːtə ˈfestɪvl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "只要求了解词义（白体词）"
+    },
+    {
+      "en": "work hard",
+      "zh": "努力学习",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/wɜːk hɑːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "worker",
+      "zh": "工人",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/ˈwɜːkə/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ],
+  "chunks": [
+    {
+      "en": "Come on in, please.",
+      "zh": "请进。",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/kʌm ɒn ɪn pliːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Have a seat, please.",
+      "zh": "请坐。",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/hæv ə siːt pliːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "These are for you.",
+      "zh": "这些是给你的。",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/ðiːz ə fə juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Can I get you a drink?",
+      "zh": "要喝点什么吗？",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/kæn aɪ ɡet ju ə drɪŋk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Thanks. Water is fine.",
+      "zh": "谢谢。我喝水就可以。",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/θæŋks ˈwɔːtər ɪz faɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Can I use the bathroom?",
+      "zh": "我能用一下卫生间吗？",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/kæn aɪ juːz ðə ˈbɑːθruːm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Sure! The bathroom is over there.",
+      "zh": "没问题。卫生间在那边。",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/ʃʊə ðə ˈbɑːθruːm ɪz ˈəʊvə ðeə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "May I have a look?",
+      "zh": "我能看看吗？",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/meɪ aɪ hæv ə lʊk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Go ahead.",
+      "zh": "请自便。",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/ɡəʊ əˈhed/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Goodbye! / Bye-bye!",
+      "zh": "再见！",
+      "unit": "Unit 1 Come on In!",
+      "ipa": "/ɡʊdˈbaɪ / ˈbaɪbaɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Help yourself.",
+      "zh": "请自便。",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/help jɔːˈself/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Would you like some rice?",
+      "zh": "你想来点米饭吗？",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/wʊd ju laɪk səm raɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "No, thanks. I'm good.",
+      "zh": "不了，谢谢。我吃饱了。",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/nəʊ θæŋks aɪm ɡʊd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Can I have some more soup, please?",
+      "zh": "请问能再给我盛些汤吗？",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/kæn aɪ hæv səm mɔː suːp pliːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "The food is so good.",
+      "zh": "食物真美味。",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/ðə fuːd ɪz səʊ ɡʊd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'm glad you like it.",
+      "zh": "很高兴你喜欢它。",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/aɪm ɡlæd ju laɪk ɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Could you please pass me the tissues?",
+      "zh": "能请你把纸巾递给我吗？",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/kʊd ju pliːz pɑːs miː ðə ˈtɪʃuːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Here you are.",
+      "zh": "给你。",
+      "unit": "Unit 2 Help Yourself",
+      "ipa": "/hɪə ju ɑː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How do you cook noodles?",
+      "zh": "你怎么煮面条？",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/haʊ dʊ ju kʊk ˈnuːdlz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "First, ...",
+      "zh": "首先，……",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/fɜːst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Next, ...",
+      "zh": "接下来，……",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/nekst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Then, ...",
+      "zh": "然后，……",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/ðen/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Last, ...",
+      "zh": "最后，……",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/lɑːst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What else?",
+      "zh": "还有别的吗？",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/wɒt els/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How do we do this?",
+      "zh": "我们该怎么做呢？",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/haʊ dʊ wi duː ðɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Let me show you.",
+      "zh": "看我怎么做。",
+      "unit": "Unit 3 I'm the Chef Today!",
+      "ipa": "/let mi ʃəʊ ju/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How can we clean ... up?",
+      "zh": "我们如何把……清理干净？",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/haʊ kən wi kliːn ʌp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Maybe we can ... first, and then ...",
+      "zh": "也许我们可以先……，然后再……",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/ˈmeɪbi wi kən fɜːst ənd ðen/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How about ...?",
+      "zh": "……如何？",
+      "unit": "Unit 4 Help Out in the Kitchen",
+      "ipa": "/haʊ əˈbaʊt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "He/She likes to ...",
+      "zh": "他／她喜欢……",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/hiː / ʃiː laɪks tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "He/She is always ready to ...",
+      "zh": "他／她总是准备好去……",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/hiː / ʃiː ɪz ˈɔːlweɪz ˈredi tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I think ... is so kind.",
+      "zh": "我觉得……很善良。",
+      "unit": "Unit 5 She Helps Me a Lot",
+      "ipa": "/aɪ θɪŋk ɪz səʊ kaɪnd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "say “Happy Birthday!”",
+      "zh": "说“生日快乐！”",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/seɪ ˈhæpi ˈbɜːθdeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What can I do?",
+      "zh": "我可以做什么呢？",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/wɒt kæn aɪ duː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Why don't you ...?",
+      "zh": "为什么不……？",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/waɪ dəʊnt ju/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I think you can ...",
+      "zh": "我觉得你可以……",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/aɪ θɪŋk ju kæn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Maybe you ...",
+      "zh": "也许你可以……",
+      "unit": "Unit 6 I Love My Family",
+      "ipa": "/ˈmeɪbi ju/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What does ... do?",
+      "zh": "……（谁）是做什么工作的？",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/wɒt dʌz duː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "He/She is ...",
+      "zh": "他／她是……（职业）",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/hiː / ʃiː ɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "When does he/she ...?",
+      "zh": "他／她什么时候……（活动）？",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/wen dʌz hiː / ʃiː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "He/She ... at ...",
+      "zh": "她在……（时间）……（活动）",
+      "unit": "Unit 7 Family Time",
+      "ipa": "/hiː / ʃiː æt/",
+      "ipa_source": "dictionary",
+      "star": false,
+      "note": "按单元序附录中文只印「她在……（时间）……（活动）」，英文为 He/She ... at ..."
+    },
+    {
+      "en": "Happy New Year!",
+      "zh": "新年快乐！",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/ˈhæpi njuː jɪə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Wish you all the best!",
+      "zh": "祝你一切顺利！",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/wɪʃ ju ɔːl ðə best/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "My favourite festival is ... On that day, we ...",
+      "zh": "我最喜欢的节日是……那一天，我们……",
+      "unit": "Unit 8 Joy in the Air",
+      "ipa": "/maɪ ˈfeɪvərɪt ˈfestɪvl ɪz ɒn ðæt deɪ wi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What classes do you have?",
+      "zh": "你们有什么课？",
+      "unit": "Review Happy New Year!",
+      "ipa": "/wɒt ˈklɑːsɪz dʊ ju hæv/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What's your favourite subject?",
+      "zh": "你最喜欢的科目是什么？",
+      "unit": "Review Happy New Year!",
+      "ipa": "/wɒts jɔː ˈfeɪvərɪt ˈsʌbdʒɪkt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I like ... the most.",
+      "zh": "我最喜欢……",
+      "unit": "Review Happy New Year!",
+      "ipa": "/aɪ laɪk ðə məʊst/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ]
+}

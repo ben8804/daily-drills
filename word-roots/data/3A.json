@@ -1,0 +1,1566 @@
+{
+  "edition": "教科版（广州版）小学英语（三年级起点）2024 新课标，三年级上册 2024秋。词表透录自该书书后附录 Word List（按单元排列）及 Chunks and Sentence Stems。课本未印音标；ipa 为英式 DJ/IPA，来源词典。黑体词为《义务教育英语课程标准（2022 年版）》中的二级词汇（star=false）；白体词为非该二级词汇（star=true）。",
+  "volume": {
+    "grade": "3",
+    "term": "上",
+    "code": "3A",
+    "name": "三年级上册",
+    "year": "2024秋",
+    "curriculum": "2024新课标"
+  },
+  "count": 144,
+  "chunk_count": 46,
+  "ipa_source_default": "dictionary",
+  "textbook_has_ipa": false,
+  "words": [
+    {
+      "en": "me",
+      "zh": "我",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/miː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "it",
+      "zh": "它",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/ɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "be (am/is/are)",
+      "zh": "是",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/biː (æm / ɪz / ɑː)/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "on",
+      "zh": "在……上面",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/ɒn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "this",
+      "zh": "这，这个",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/ðɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "ruler",
+      "zh": "尺子",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/ˈruːlə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "you",
+      "zh": "你，你们",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I",
+      "zh": "我",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/aɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "thank",
+      "zh": "感谢，向……表示感谢",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/θæŋk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "nice",
+      "zh": "令人愉快的",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/naɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "to",
+      "zh": "到，向，往",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "meet",
+      "zh": "结识；遇见",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/miːt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "too",
+      "zh": "也",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/tuː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hi",
+      "zh": "嗨，喂，你好",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/haɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "but",
+      "zh": "但，但是",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/bʌt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "chocolate",
+      "zh": "巧克力",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ˈtʃɒklət/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "coffee",
+      "zh": "咖啡",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ˈkɒfi/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "Chinese",
+      "zh": "中文",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ˌtʃaɪˈniːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "sofa",
+      "zh": "沙发",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ˈsəʊfə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "hamburger",
+      "zh": "汉堡",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ˈhæmbɜːɡə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "cookie",
+      "zh": "饼干",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ˈkʊki/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "salad",
+      "zh": "沙拉",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ˈsæləd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "what",
+      "zh": "什么",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/wɒt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "in",
+      "zh": "在……里面",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ɪn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "English",
+      "zh": "英语",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ˈɪŋɡlɪʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "know",
+      "zh": "知道；认识",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/nəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "yes",
+      "zh": "是，对",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/jes/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "can",
+      "zh": "能，可以",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/kæn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "get",
+      "zh": "得到",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ɡet/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a (an)",
+      "zh": "一，一个",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ə (ən)/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "word",
+      "zh": "单词",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/wɜːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "guess",
+      "zh": "猜，猜测",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ɡes/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "one",
+      "zh": "一",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/wʌn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "like",
+      "zh": "喜欢",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/laɪk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "how",
+      "zh": "多少；怎样，如何",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/haʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "last",
+      "zh": "最后",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/lɑːst/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "of",
+      "zh": "……的",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ɒv/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "for",
+      "zh": "为了",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/fɔː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Ms",
+      "zh": "女士",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/mɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Miss",
+      "zh": "小姐",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/mɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Mrs",
+      "zh": "女士，夫人",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ˈmɪsɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "good",
+      "zh": "好的",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/ɡʊd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "morning",
+      "zh": "早晨；上午",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/ˈmɔːnɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "your",
+      "zh": "你的；你们的",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/jɔː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "name",
+      "zh": "名字",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/neɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "my",
+      "zh": "我的",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/maɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Mr",
+      "zh": "先生",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/ˈmɪstə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "boy",
+      "zh": "男孩",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/bɒɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "and",
+      "zh": "和",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/ænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "girl",
+      "zh": "女孩",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/ɡɜːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hello",
+      "zh": "你好",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/həˈləʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "everyone",
+      "zh": "每个人，人人",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/ˈevrɪwʌn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "card",
+      "zh": "卡片",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/kɑːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "student",
+      "zh": "学生",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/ˈstjuːdənt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "want",
+      "zh": "想要",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/wɒnt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "help",
+      "zh": "帮助，帮忙",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/help/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "red",
+      "zh": "红色",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/red/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "yellow",
+      "zh": "黄色",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/ˈjeləʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "green",
+      "zh": "绿色",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/ɡriːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "blue",
+      "zh": "蓝色",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/bluː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "white",
+      "zh": "白色",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/waɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "colour",
+      "zh": "颜色",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/ˈkʌlə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "pencil",
+      "zh": "铅笔",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/ˈpensl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "left",
+      "zh": "左边",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/left/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hand",
+      "zh": "手",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/hænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "right",
+      "zh": "右边",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/raɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "finger",
+      "zh": "手指",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/ˈfɪŋə/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "do",
+      "zh": "做",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/duː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "spell",
+      "zh": "拼写",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/spel/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "that",
+      "zh": "那，那个",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/ðæt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "look",
+      "zh": "看，瞧，望",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/lʊk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "cool",
+      "zh": "酷的，帅的",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/kuːl/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "teach",
+      "zh": "教",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/tiːtʃ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "first",
+      "zh": "第一的；首先；最初",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/fɜːst/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "OK",
+      "zh": "好，可以",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/ˌəʊˈkeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "letter",
+      "zh": "字母",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/ˈletə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "from",
+      "zh": "从",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/frɒm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "each",
+      "zh": "每个",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/iːtʃ/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "put",
+      "zh": "放",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/pʊt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "them",
+      "zh": "它们",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/ðem/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "two",
+      "zh": "二",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/tuː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "three",
+      "zh": "三",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/θriː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "four",
+      "zh": "四",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/fɔː/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "five",
+      "zh": "五",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/faɪv/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "six",
+      "zh": "六",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/sɪks/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "seven",
+      "zh": "七",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/ˈsevn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "nine",
+      "zh": "九",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/naɪn/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "the",
+      "zh": "这，那",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/ðə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "again",
+      "zh": "再，再次",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/əˈɡen/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "step",
+      "zh": "步骤",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/step/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "face",
+      "zh": "脸，面部",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/feɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "ear",
+      "zh": "耳朵",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/ɪə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "eye",
+      "zh": "眼睛",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/aɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "nose",
+      "zh": "鼻子",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/nəʊz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "mouth",
+      "zh": "嘴巴",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/maʊθ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "its",
+      "zh": "它的",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/ɪts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "these",
+      "zh": "这些",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/ðiːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "hair",
+      "zh": "头发",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/heə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "write",
+      "zh": "写",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/raɪt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "big",
+      "zh": "大的",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/bɪɡ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "under",
+      "zh": "在……下面",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/ˈʌndə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "his",
+      "zh": "他的",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/hɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "now",
+      "zh": "现在",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/naʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "head",
+      "zh": "头",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/hed/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "see",
+      "zh": "看见；明白",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/siː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "nod",
+      "zh": "点头",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/nɒd/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "keep",
+      "zh": "保持",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/kiːp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "quiet",
+      "zh": "安静",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/ˈkwaɪət/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "listen",
+      "zh": "听",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/ˈlɪsn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "teacher",
+      "zh": "老师",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/ˈtiːtʃə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "have",
+      "zh": "有，拥有",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/hæv/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "up",
+      "zh": "向上",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/ʌp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "they",
+      "zh": "他们",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/ðeɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "body",
+      "zh": "身体",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/ˈbɒdi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "friend",
+      "zh": "朋友",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/frend/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "myself",
+      "zh": "我自己",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/maɪˈself/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "heart",
+      "zh": "心，心脏；内心",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/hɑːt/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "bird",
+      "zh": "鸟",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/bɜːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "horse",
+      "zh": "马",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/hɔːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "monkey",
+      "zh": "猴子",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/ˈmʌŋki/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fish",
+      "zh": "鱼",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/fɪʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "bear",
+      "zh": "熊",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/beə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "swim",
+      "zh": "游泳",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/swɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "walk",
+      "zh": "走，走路",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/wɔːk/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fly",
+      "zh": "飞，飞翔",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/flaɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "jump",
+      "zh": "跳，跳跃",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/dʒʌmp/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "arm",
+      "zh": "手臂",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/ɑːm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "leg",
+      "zh": "腿",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/leɡ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "tiger",
+      "zh": "老虎",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/ˈtaɪɡə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "then",
+      "zh": "然后，接下来",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/ðen/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "let",
+      "zh": "让",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/let/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "us",
+      "zh": "我们",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/ʌs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "move",
+      "zh": "移动",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/muːv/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "our",
+      "zh": "我们的",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/aʊə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "foot",
+      "zh": "脚",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/fʊt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "their",
+      "zh": "他们的",
+      "unit": "Review A Music Show",
+      "ipa": "/ðeə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "mum",
+      "zh": "妈妈",
+      "unit": "Review A Music Show",
+      "ipa": "/mʌm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "dad",
+      "zh": "爸爸",
+      "unit": "Review A Music Show",
+      "ipa": "/dæd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "family",
+      "zh": "家庭",
+      "unit": "Review A Music Show",
+      "ipa": "/ˈfæməli/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "where",
+      "zh": "哪里",
+      "unit": "Review A Music Show",
+      "ipa": "/weə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "when",
+      "zh": "什么时候",
+      "unit": "Review A Music Show",
+      "ipa": "/wen/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "class",
+      "zh": "班级",
+      "unit": "Review A Music Show",
+      "ipa": "/klɑːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "not",
+      "zh": "不",
+      "unit": "Review A Music Show",
+      "ipa": "/nɒt/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "she",
+      "zh": "她",
+      "unit": "Review A Music Show",
+      "ipa": "/ʃiː/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ],
+  "chunks": [
+    {
+      "en": "Show me ..., please.",
+      "zh": "请让我看看……",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/ʃəʊ mi pliːz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I am ...",
+      "zh": "我是……（姓名）",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/aɪ æm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "You're ...",
+      "zh": "你的座位是……（座位号）",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/jʊə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I'm ...",
+      "zh": "我的座位是……（座位号）",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/aɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Nice to meet you!",
+      "zh": "很高兴认识你！",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/naɪs tə miːt juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What's your name?",
+      "zh": "你叫什么名字？",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/wɒts jɔː neɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "My name is ... / I'm ...",
+      "zh": "我叫……",
+      "unit": "Unit 1 Letters in Our Life",
+      "ipa": "/maɪ neɪm ɪz / aɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What's this?",
+      "zh": "这是什么？",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/wɒts ðɪs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It's ...",
+      "zh": "这是……",
+      "unit": "Unit 2 English and Chinese",
+      "ipa": "/ɪts/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "last name",
+      "zh": "姓氏",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/lɑːst neɪm/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Good morning!",
+      "zh": "早上好！",
+      "unit": "Unit 3 Who's Who?",
+      "ipa": "/ɡʊd ˈmɔːnɪŋ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "coloured pencil",
+      "zh": "彩色铅笔",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/ˈkʌləd ˈpensl/",
+      "ipa_source": "dictionary",
+      "star": true,
+      "note": "非《义务教育英语课程标准（2022 年版）》二级词汇（白体词）"
+    },
+    {
+      "en": "left hand",
+      "zh": "左手",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/left hænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "right hand",
+      "zh": "右手",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/raɪt hænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How do you spell ...?",
+      "zh": "……要怎么拼写？",
+      "unit": "Unit 4 Colour a Keyboard",
+      "ipa": "/haʊ du ju spel/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What's the ...?",
+      "zh": "……是什么？",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/wɒts ðə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Can you say that again?",
+      "zh": "你能再说一遍吗？",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/kæn ju seɪ ðət əˈɡen/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Sure! ...",
+      "zh": "当然！……",
+      "unit": "Unit 5 Set a Password",
+      "ipa": "/ʃʊə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Draw a ...",
+      "zh": "画一个……",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/drɔː ə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "This is ...",
+      "zh": "这是……",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/ðɪs ɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "These are ...",
+      "zh": "这些是……",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/ðiːz ə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "What colour is ...?",
+      "zh": "……是什么颜色？",
+      "unit": "Unit 6 I Can Draw",
+      "ipa": "/wɒt ˈkʌlə ɪz/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "face the speaker",
+      "zh": "面向说话者",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/feɪs ðə ˈspiːkə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "nod my head",
+      "zh": "点头",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/nɒd maɪ hed/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "keep quiet",
+      "zh": "保持安静",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/kiːp ˈkwaɪət/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "listen to my teacher",
+      "zh": "听老师的话",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/ˈlɪsn tə maɪ ˈtiːtʃə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "put up my hand",
+      "zh": "举手",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/pʊt ʌp maɪ hænd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "wait your turn",
+      "zh": "等着轮到你",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/weɪt jɔː tɜːn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "How can you be a good listener?",
+      "zh": "你要怎样才能做一个好的倾听者？",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/haʊ kən ju bi ə ɡʊd ˈlɪsnə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I see.",
+      "zh": "我明白了。",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/aɪ siː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "I have a question.",
+      "zh": "我有一个问题。",
+      "unit": "Unit 7 Be a Good Listener",
+      "ipa": "/aɪ həv ə ˈkwestʃən/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "fly like a bird",
+      "zh": "像小鸟一样飞翔",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/flaɪ laɪk ə bɜːd/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "run like a horse",
+      "zh": "像马一样奔跑",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/rʌn laɪk ə hɔːs/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "swim like a fish",
+      "zh": "像鱼一样游泳",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/swɪm laɪk ə fɪʃ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "jump like a monkey",
+      "zh": "像猴子一样跳",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/dʒʌmp laɪk ə ˈmʌŋki/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "walk like a bear",
+      "zh": "像熊一样走路",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/wɔːk laɪk ə beə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Let's ...",
+      "zh": "让我们……",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/lets/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Are you ready?",
+      "zh": "你准备好了吗？",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/ɑː ju ˈredi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Follow me!",
+      "zh": "跟我做！",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/ˈfɒləʊ mi/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Come on!",
+      "zh": "加把劲！",
+      "unit": "Unit 8 It's Time to Exercise!",
+      "ipa": "/kʌm ɒn/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "a music show",
+      "zh": "一场音乐表演",
+      "unit": "Review A Music Show",
+      "ipa": "/ə ˈmjuːzɪk ʃəʊ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "This is my ...",
+      "zh": "这是我的……",
+      "unit": "Review A Music Show",
+      "ipa": "/ðɪs ɪz maɪ/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "It's good to see you!",
+      "zh": "很高兴见到你！",
+      "unit": "Review A Music Show",
+      "ipa": "/ɪts ɡʊd tə siː juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "You are here.",
+      "zh": "你坐这里。",
+      "unit": "Review A Music Show",
+      "ipa": "/ju ə hɪə/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "Thanks! / Thank you!",
+      "zh": "谢谢！",
+      "unit": "Review A Music Show",
+      "ipa": "/θæŋks / θæŋk juː/",
+      "ipa_source": "dictionary",
+      "star": false
+    },
+    {
+      "en": "You're welcome.",
+      "zh": "不用谢。",
+      "unit": "Review A Music Show",
+      "ipa": "/jʊə ˈwelkəm/",
+      "ipa_source": "dictionary",
+      "star": false
+    }
+  ]
+}
