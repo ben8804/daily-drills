@@ -62,6 +62,29 @@
     gap: 10px;
     margin: 12px 0 4px;
   }
+  .practice-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 14px;
+    margin: 8px 0 2px;
+    font-size: 0.84rem;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+  .practice-links .practice-kicker {
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .practice-links a {
+    color: #3d5270;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .practice-links a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
   .btn {
     appearance: none;
     border: none;
@@ -383,6 +406,12 @@
     <button class="btn btn-ghost" type="button" onclick="document.querySelectorAll('details.answer').forEach(d=>d.open=false)">收起全部答案</button>
     <a class="btn btn-ghost" href="history.html">历史日练</a>
   </div>
+  <nav class="practice-links no-print print-hide" aria-label="专项练习">
+    <span class="practice-kicker">专项练习</span>
+    <a href="practice/chinese-special-2026-11.html">语文：字音字形·词语病句·阅读</a>
+    <a href="practice/math-dongdian-2026.html">数学：动点应用题（含相遇、追及）</a>
+    <a href="practice/english-unit4-reading-2026.html">英语：Unit 4 My Favourite Subject 阅读</a>
+  </nav>
   <div class="tip-box print-hide">
     <strong>给家长：</strong>先让孩子独立完成，再展开下方「家长对答案」。打印时提示和全部家长对答案会自动隐藏；页眉只留日期和建议用时。古诗只印半句和横线，答案不要抄到学生卷上。今日小四门为历史·春秋战国。
   </div>
