@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>词族小桌</title>
-  <meta name="description" content="人教版 PEP 四年级上册词族小游戏。拼合成词，看简单词缀，认 a-e、i-e、o-e。">
+  <meta name="description" content="词族小桌。复习是人教 PEP 四年级上册的 8 个词族。三至六年级留给教科版（广州版）。">
   <link rel="preload" href="fonts/chillax-500.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/chillax-600.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
@@ -27,7 +27,7 @@
       <div class="wrap hero-grid">
         <div class="hero-copy">
           <h1>拼一个词。<br>记住一族。</h1>
-          <p class="lede">人教版四年级上册的词族，点词块就能拼起来。</p>
+          <p class="lede">人教四年级上册的 8 个词族在「复习」。三到六年级留给教科版（广州版），一册一册放。</p>
           <div class="actions">
             <a class="press btn--primary" id="start" href="#room">开始拼词</a>
             <a class="press" href="#families">看看这些词族</a>
@@ -67,8 +67,20 @@
         <div class="wrap">
           <h2>进度</h2>
           <p class="garden-lead">拼过的词，会在这台设备上长出来。</p>
+          <div class="shelf-switch" role="tablist" aria-label="年级">
+            <button type="button" class="press is-chosen" role="tab" data-shelf-pick="review" aria-selected="true">复习</button>
+            <button type="button" class="press" role="tab" data-shelf-pick="3" aria-selected="false" tabindex="-1">三年级</button>
+            <button type="button" class="press" role="tab" data-shelf-pick="4" aria-selected="false" tabindex="-1">四年级</button>
+            <button type="button" class="press" role="tab" data-shelf-pick="5" aria-selected="false" tabindex="-1">五年级</button>
+            <button type="button" class="press" role="tab" data-shelf-pick="6" aria-selected="false" tabindex="-1">六年级</button>
+          </div>
+          <div class="volume-switch" role="tablist" aria-label="册次" hidden>
+            <button type="button" class="press is-chosen" role="tab" data-volume-pick="a" aria-selected="true">上册</button>
+            <button type="button" class="press" role="tab" data-volume-pick="b" aria-selected="false" tabindex="-1">下册</button>
+          </div>
+          <p class="shelf-note" data-shelf-note>这 8 个词族是人教 PEP 四年级上册，留着复习。</p>
           <div class="plants">
-            <a class="plant stage-0" href="#room" data-plant="room" aria-label="room 房间族">
+            <a class="plant stage-0" href="#room" data-plant="room" data-shelf="review" aria-label="room 房间族">
               <span class="sprout" aria-hidden="true">
                 <span class="leaf leaf-l">(</span>
                 <span class="head" lang="en">r</span>
@@ -77,7 +89,7 @@
               </span>
               <span class="plant-name">room</span>
             </a>
-            <a class="plant stage-0" href="#school-book" data-plant="school-book" aria-label="school / book 书包族">
+            <a class="plant stage-0" href="#school-book" data-plant="school-book" data-shelf="review" aria-label="school / book 书包族">
               <span class="sprout" aria-hidden="true">
                 <span class="leaf leaf-l">(</span>
                 <span class="head" lang="en">b</span>
@@ -86,7 +98,7 @@
               </span>
               <span class="plant-name">book</span>
             </a>
-            <a class="plant stage-0" href="#blackboard-football" data-plant="blackboard-football" aria-label="拼在一起的词">
+            <a class="plant stage-0" href="#blackboard-football" data-plant="blackboard-football" data-shelf="review" aria-label="拼在一起的词">
               <span class="sprout" aria-hidden="true">
                 <span class="leaf leaf-l">(</span>
                 <span class="head" lang="en">f</span>
@@ -95,7 +107,7 @@
               </span>
               <span class="plant-name">拼词</span>
             </a>
-            <a class="plant stage-0" href="#er-jobs" data-plant="er-jobs" aria-label="-er 职业族">
+            <a class="plant stage-0" href="#er-jobs" data-plant="er-jobs" data-shelf="review" aria-label="-er 职业族">
               <span class="sprout" aria-hidden="true">
                 <span class="leaf leaf-l">(</span>
                 <span class="head" lang="en">r</span>
@@ -104,7 +116,7 @@
               </span>
               <span class="plant-name">-er</span>
             </a>
-            <a class="plant stage-0" href="#friendly" data-plant="friendly" aria-label="friend → friendly">
+            <a class="plant stage-0" href="#friendly" data-plant="friendly" data-shelf="review" aria-label="friend → friendly">
               <span class="sprout" aria-hidden="true">
                 <span class="leaf leaf-l">(</span>
                 <span class="head" lang="en">y</span>
@@ -113,7 +125,7 @@
               </span>
               <span class="plant-name">-ly</span>
             </a>
-            <a class="plant stage-0" href="#ae-family" data-plant="ae-family" aria-label="a-e 发音族 /eɪ/">
+            <a class="plant stage-0" href="#ae-family" data-plant="ae-family" data-shelf="review" aria-label="a-e 发音族 /eɪ/">
               <span class="sprout" aria-hidden="true">
                 <span class="leaf leaf-l">(</span>
                 <span class="head" lang="en">a</span>
@@ -122,7 +134,7 @@
               </span>
               <span class="plant-name">a-e</span>
             </a>
-            <a class="plant stage-0" href="#ie-family" data-plant="ie-family" aria-label="i-e 发音族 /aɪ/">
+            <a class="plant stage-0" href="#ie-family" data-plant="ie-family" data-shelf="review" aria-label="i-e 发音族 /aɪ/">
               <span class="sprout" aria-hidden="true">
                 <span class="leaf leaf-l">(</span>
                 <span class="head" lang="en">i</span>
@@ -131,7 +143,7 @@
               </span>
               <span class="plant-name">i-e</span>
             </a>
-            <a class="plant stage-0" href="#oe-family" data-plant="oe-family" aria-label="o-e 发音族 /əʊ/">
+            <a class="plant stage-0" href="#oe-family" data-plant="oe-family" data-shelf="review" aria-label="o-e 发音族 /əʊ/">
               <span class="sprout" aria-hidden="true">
                 <span class="leaf leaf-l">(</span>
                 <span class="head" lang="en">o</span>
@@ -141,6 +153,7 @@
               <span class="plant-name">o-e</span>
             </a>
           </div>
+          <p class="book-empty" data-book-empty hidden>这一册的词还没放上来。</p>
         </div>
       </div>
       <div class="ground" aria-hidden="true"></div>
@@ -148,10 +161,23 @@
     </section>
     <section class="families" id="families">
       <div class="wrap">
-        <h2 class="home-only">8 个词族</h2>
-        <p class="home-lead home-only">点进去拼一拼。星星留在这台浏览器里。</p>
+        <h2 class="home-only" data-shelf-title>8 个词族</h2>
+        <p class="home-lead home-only" data-shelf-lead>点进去拼一拼。星星留在这台浏览器里。</p>
+        <div class="shelf-switch home-only" role="tablist" aria-label="年级">
+          <button type="button" class="press is-chosen" role="tab" data-shelf-pick="review" aria-selected="true">复习</button>
+          <button type="button" class="press" role="tab" data-shelf-pick="3" aria-selected="false" tabindex="-1">三年级</button>
+          <button type="button" class="press" role="tab" data-shelf-pick="4" aria-selected="false" tabindex="-1">四年级</button>
+          <button type="button" class="press" role="tab" data-shelf-pick="5" aria-selected="false" tabindex="-1">五年级</button>
+          <button type="button" class="press" role="tab" data-shelf-pick="6" aria-selected="false" tabindex="-1">六年级</button>
+        </div>
+        <div class="volume-switch home-only" role="tablist" aria-label="册次" hidden>
+          <button type="button" class="press is-chosen" role="tab" data-volume-pick="a" aria-selected="true">上册</button>
+          <button type="button" class="press" role="tab" data-volume-pick="b" aria-selected="false" tabindex="-1">下册</button>
+        </div>
+        <p class="shelf-note home-only" data-shelf-note>这 8 个词族是人教 PEP 四年级上册，留着复习。</p>
+        <p class="book-empty home-only" data-book-empty hidden>这一册的词还没放上来。</p>
         <div class="family-grid">
-        <article class="family" id="room" data-kind="compound" data-pattern="" data-sound="">
+        <article class="family" id="room" data-shelf="review" data-volume="review" data-kind="compound" data-pattern="" data-sound="">
           <header class="family-head">
             <a class="back" href="#families">回到词族</a>
             <h2 tabindex="-1">room 房间族</h2>
@@ -200,7 +226,7 @@
             </ol>
           </div>
         </article>
-        <article class="family" id="school-book" data-kind="compound" data-pattern="" data-sound="">
+        <article class="family" id="school-book" data-shelf="review" data-volume="review" data-kind="compound" data-pattern="" data-sound="">
           <header class="family-head">
             <a class="back" href="#families">回到词族</a>
             <h2 tabindex="-1">school / book 书包族</h2>
@@ -260,7 +286,7 @@
             </ol>
           </div>
         </article>
-        <article class="family" id="blackboard-football" data-kind="compound" data-pattern="" data-sound="">
+        <article class="family" id="blackboard-football" data-shelf="review" data-volume="review" data-kind="compound" data-pattern="" data-sound="">
           <header class="family-head">
             <a class="back" href="#families">回到词族</a>
             <h2 tabindex="-1">拼在一起的词</h2>
@@ -296,7 +322,7 @@
             </ol>
           </div>
         </article>
-        <article class="family" id="er-jobs" data-kind="suffix" data-pattern="" data-sound="">
+        <article class="family" id="er-jobs" data-shelf="review" data-volume="review" data-kind="suffix" data-pattern="" data-sound="">
           <header class="family-head">
             <a class="back" href="#families">回到词族</a>
             <h2 tabindex="-1">-er 职业族</h2>
@@ -346,7 +372,7 @@
             </ol>
           </div>
         </article>
-        <article class="family" id="friendly" data-kind="suffix" data-pattern="" data-sound="">
+        <article class="family" id="friendly" data-shelf="review" data-volume="review" data-kind="suffix" data-pattern="" data-sound="">
           <header class="family-head">
             <a class="back" href="#families">回到词族</a>
             <h2 tabindex="-1">friend → friendly</h2>
@@ -382,7 +408,7 @@
             </ol>
           </div>
         </article>
-        <article class="family" id="ae-family" data-kind="phonics" data-pattern="a-e" data-sound="/eɪ/">
+        <article class="family" id="ae-family" data-shelf="review" data-volume="review" data-kind="phonics" data-pattern="a-e" data-sound="/eɪ/">
           <header class="family-head">
             <a class="back" href="#families">回到词族</a>
             <h2 tabindex="-1">a-e 发音族 /eɪ/</h2>
@@ -425,7 +451,7 @@
             </ol>
           </div>
         </article>
-        <article class="family" id="ie-family" data-kind="phonics" data-pattern="i-e" data-sound="/aɪ/">
+        <article class="family" id="ie-family" data-shelf="review" data-volume="review" data-kind="phonics" data-pattern="i-e" data-sound="/aɪ/">
           <header class="family-head">
             <a class="back" href="#families">回到词族</a>
             <h2 tabindex="-1">i-e 发音族 /aɪ/</h2>
@@ -468,7 +494,7 @@
             </ol>
           </div>
         </article>
-        <article class="family" id="oe-family" data-kind="phonics" data-pattern="o-e" data-sound="/əʊ/">
+        <article class="family" id="oe-family" data-shelf="review" data-volume="review" data-kind="phonics" data-pattern="o-e" data-sound="/əʊ/">
           <header class="family-head">
             <a class="back" href="#families">回到词族</a>
             <h2 tabindex="-1">o-e 发音族 /əʊ/</h2>
@@ -512,7 +538,7 @@
   </main>
   <footer class="site-footer">
     <div class="wrap">
-      <p>词汇按人教版 PEP 四年级上册（2013 起经典版）整理；若课本是 2024 改版，单元名可能不同。</p>
+      <p>复习里的 8 个词族按人教版 PEP 四年级上册（2013 经典版）整理。三至六年级会按教科版（广州版，龚亚夫、鲁宗干）的官方词表放进来；那套书和人教 PEP、2024 改版不是同一套词表。</p>
       <p>星星只记在这台设备的浏览器里。</p>
     </div>
   </footer>
