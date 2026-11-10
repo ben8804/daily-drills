@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-CN" translate="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>词族小桌</title>
+  <meta name="description" content="人教版 PEP 四年级上册词族小游戏。拼合成词，看简单词缀，认 a-e、i-e、o-e。">
+  <link rel="preload" href="fonts/chillax-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/chillax-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip press" href="#content">跳到内容</a>
+  <p id="live" class="live" role="status" aria-live="polite"></p>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#home">词族小桌</a>
+      <nav class="nav" aria-label="页内">
+        <a class="press" href="#families" data-nav="families">词族</a>
+        <a class="press" href="#garden" data-nav="garden">进度</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content">
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>拼一个词。<br>记住一族。</h1>
+          <p class="lede">人教版四年级上册的词族，点词块就能拼起来。</p>
+          <div class="actions">
+            <a class="press btn--primary" id="start" href="#room">开始拼词</a>
+            <a class="press" href="#families">看看这些词族</a>
+          </div>
+        </div>
+        <div class="hero-stage">
+          <div class="sheet hero-sheet">
+            <div class="sheet-shadow" aria-hidden="true">
+              <span class="sheet-fringe"></span>
+              <span class="sheet-shape"></span>
+            </div>
+            <div class="sheet-body">
+              <div class="strip">
+                <span class="strip-shape" aria-hidden="true"></span>
+                <div class="strip-row">
+                  <span class="press tile" lang="en">class</span>
+                  <span class="press tile is-popped" lang="en">room</span>
+                </div>
+              </div>
+              <p class="hero-word"><mark lang="en">classroom</mark></p>
+              <p class="hero-mean">教室</p>
+              <p class="hero-bits">class 是班级，room 是房间。</p>
+              <div class="hero-actions">
+                <a class="press" href="#room">去拼这一族</a>
+                <span data-hero-speak="classroom"></span>
+              </div>
+            </div>
+          </div>
+          <p class="sticker">8 个<br>词族</p>
+        </div>
+      </div>
+    </section>
+    <section class="garden" id="garden">
+      <div class="hill hill-a" aria-hidden="true"></div>
+      <div class="hill hill-b" aria-hidden="true"></div>
+      <div class="soil">
+        <div class="wrap">
+          <h2>进度</h2>
+          <p class="garden-lead">拼过的词，会在这台设备上长出来。</p>
+          <div class="plants">
+            <a class="plant stage-0" href="#room" data-plant="room" aria-label="room 房间族">
+              <span class="sprout" aria-hidden="true">
+                <span class="leaf leaf-l">(</span>
+                <span class="head" lang="en">r</span>
+                <span class="leaf leaf-r">)</span>
+                <span class="stem">l</span>
+              </span>
+              <span class="plant-name">room</span>
+            </a>
+            <a class="plant stage-0" href="#school-book" data-plant="school-book" aria-label="school / book 书包族">
+              <span class="sprout" aria-hidden="true">
+                <span class="leaf leaf-l">(</span>
+                <span class="head" lang="en">b</span>
+                <span class="leaf leaf-r">)</span>
+                <span class="stem">l</span>
+              </span>
+              <span class="plant-name">book</span>
+            </a>
+            <a class="plant stage-0" href="#blackboard-football" data-plant="blackboard-football" aria-label="拼在一起的词">
+              <span class="sprout" aria-hidden="true">
+                <span class="leaf leaf-l">(</span>
+                <span class="head" lang="en">f</span>
+                <span class="leaf leaf-r">)</span>
+                <span class="stem">l</span>
+              </span>
+              <span class="plant-name">拼词</span>
+            </a>
+            <a class="plant stage-0" href="#er-jobs" data-plant="er-jobs" aria-label="-er 职业族">
+              <span class="sprout" aria-hidden="true">
+                <span class="leaf leaf-l">(</span>
+                <span class="head" lang="en">r</span>
+                <span class="leaf leaf-r">)</span>
+                <span class="stem">l</span>
+              </span>
+              <span class="plant-name">-er</span>
+            </a>
+            <a class="plant stage-0" href="#friendly" data-plant="friendly" aria-label="friend → friendly">
+              <span class="sprout" aria-hidden="true">
+                <span class="leaf leaf-l">(</span>
+                <span class="head" lang="en">y</span>
+                <span class="leaf leaf-r">)</span>
+                <span class="stem">l</span>
+              </span>
+              <span class="plant-name">-ly</span>
+            </a>
+            <a class="plant stage-0" href="#ae-family" data-plant="ae-family" aria-label="a-e 发音族 /eɪ/">
+              <span class="sprout" aria-hidden="true">
+                <span class="leaf leaf-l">(</span>
+                <span class="head" lang="en">a</span>
+                <span class="leaf leaf-r">)</span>
+                <span class="stem">l</span>
+              </span>
+              <span class="plant-name">a-e</span>
+            </a>
+            <a class="plant stage-0" href="#ie-family" data-plant="ie-family" aria-label="i-e 发音族 /aɪ/">
+              <span class="sprout" aria-hidden="true">
+                <span class="leaf leaf-l">(</span>
+                <span class="head" lang="en">i</span>
+                <span class="leaf leaf-r">)</span>
+                <span class="stem">l</span>
+              </span>
+              <span class="plant-name">i-e</span>
+            </a>
+            <a class="plant stage-0" href="#oe-family" data-plant="oe-family" aria-label="o-e 发音族 /əʊ/">
+              <span class="sprout" aria-hidden="true">
+                <span class="leaf leaf-l">(</span>
+                <span class="head" lang="en">o</span>
+                <span class="leaf leaf-r">)</span>
+                <span class="stem">l</span>
+              </span>
+              <span class="plant-name">o-e</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="ground" aria-hidden="true"></div>
+      <div class="kraft-line" aria-hidden="true"></div>
+    </section>
+    <section class="families" id="families">
+      <div class="wrap">
+        <h2 class="home-only">8 个词族</h2>
+        <p class="home-lead home-only">点进去拼一拼。星星留在这台浏览器里。</p>
+        <div class="family-grid">
+        <article class="family" id="room" data-kind="compound" data-pattern="" data-sound="">
+          <header class="family-head">
+            <a class="back" href="#families">回到词族</a>
+            <h2 tabindex="-1">room 房间族</h2>
+            <p class="hook">看见 room，多半是一个房间。</p>
+          <p class="gloss">room，房间、屋子。</p>
+            <p class="growth" data-growth>
+              <span class="grown-mark">长成了</span>
+              <span class="growth-text">进度记在这台设备上。</span>
+            </p>
+            <a class="press enter" href="#room">拼这一族</a>
+          </header>
+          <div class="tabs" role="tablist" aria-label="玩法">
+          <button type="button" class="press" role="tab" data-tab="build" aria-selected="false">拼一拼</button>
+          <button type="button" class="press" role="tab" data-tab="review" aria-selected="false">翻一翻</button>
+          <button type="button" class="press" role="tab" data-tab="quiz" aria-selected="false">小测验</button>
+          </div>
+          <div class="board" data-board></div>
+          <div class="study">
+            <h3>这一族的词</h3>
+            <ol>
+          <li data-en="classroom" data-zh="教室" data-parts="class|room" data-partzh="班级|房间" data-unit="U1" data-note="">
+            <span class="en" lang="en">classroom</span>
+            <span class="zh">教室</span>
+            <span class="bits">class 班级，room 房间</span>
+            <span class="unit">U1</span>
+          </li>
+          <li data-en="bedroom" data-zh="卧室" data-parts="bed|room" data-partzh="床|房间" data-unit="U4" data-note="">
+            <span class="en" lang="en">bedroom</span>
+            <span class="zh">卧室</span>
+            <span class="bits">bed 床，room 房间</span>
+            <span class="unit">U4</span>
+          </li>
+          <li data-en="bathroom" data-zh="卫生间" data-parts="bath|room" data-partzh="洗澡|房间" data-unit="U4" data-note="">
+            <span class="en" lang="en">bathroom</span>
+            <span class="zh">卫生间</span>
+            <span class="bits">bath 洗澡，room 房间</span>
+            <span class="unit">U4</span>
+          </li>
+          <li data-en="living room" data-zh="客厅" data-parts="living|room" data-partzh="起居|房间" data-unit="U4" data-note="两个词，中间有空格">
+            <span class="en" lang="en">living room</span>
+            <span class="zh">客厅</span>
+            <span class="bits">living 起居，room 房间</span>
+            <span class="unit">U4</span>
+            <span class="note">两个词，中间有空格</span>
+          </li>
+            </ol>
+          </div>
+        </article>
+        <article class="family" id="school-book" data-kind="compound" data-pattern="" data-sound="">
+          <header class="family-head">
+            <a class="back" href="#families">回到词族</a>
+            <h2 tabindex="-1">school / book 书包族</h2>
+            <p class="hook">school 是学校，book 是书，拼在一起就变成书包里的东西。</p>
+          <p class="gloss">book，书。</p>
+            <p class="growth" data-growth>
+              <span class="grown-mark">长成了</span>
+              <span class="growth-text">进度记在这台设备上。</span>
+            </p>
+            <a class="press enter" href="#school-book">拼这一族</a>
+          </header>
+          <div class="tabs" role="tablist" aria-label="玩法">
+          <button type="button" class="press" role="tab" data-tab="build" aria-selected="false">拼一拼</button>
+          <button type="button" class="press" role="tab" data-tab="review" aria-selected="false">翻一翻</button>
+          <button type="button" class="press" role="tab" data-tab="quiz" aria-selected="false">小测验</button>
+          </div>
+          <div class="board" data-board></div>
+          <div class="study">
+            <h3>这一族的词</h3>
+            <ol>
+          <li data-en="schoolbag" data-zh="书包" data-parts="school|bag" data-partzh="学校|包" data-unit="U2" data-note="">
+            <span class="en" lang="en">schoolbag</span>
+            <span class="zh">书包</span>
+            <span class="bits">school 学校，bag 包</span>
+            <span class="unit">U2</span>
+          </li>
+          <li data-en="storybook" data-zh="故事书" data-parts="story|book" data-partzh="故事|书" data-unit="U2" data-note="">
+            <span class="en" lang="en">storybook</span>
+            <span class="zh">故事书</span>
+            <span class="bits">story 故事，book 书</span>
+            <span class="unit">U2</span>
+          </li>
+          <li data-en="notebook" data-zh="笔记本" data-parts="note|book" data-partzh="笔记|书" data-unit="U2" data-note="">
+            <span class="en" lang="en">notebook</span>
+            <span class="zh">笔记本</span>
+            <span class="bits">note 笔记，book 书</span>
+            <span class="unit">U2</span>
+          </li>
+          <li data-en="English book" data-zh="英语书" data-parts="English|book" data-partzh="英语|书" data-unit="U2" data-note="">
+            <span class="en" lang="en">English book</span>
+            <span class="zh">英语书</span>
+            <span class="bits">English 英语，book 书</span>
+            <span class="unit">U2</span>
+          </li>
+          <li data-en="maths book" data-zh="数学书" data-parts="maths|book" data-partzh="数学|书" data-unit="U2" data-note="">
+            <span class="en" lang="en">maths book</span>
+            <span class="zh">数学书</span>
+            <span class="bits">maths 数学，book 书</span>
+            <span class="unit">U2</span>
+          </li>
+          <li data-en="Chinese book" data-zh="语文书" data-parts="Chinese|book" data-partzh="语文|书" data-unit="U2" data-note="">
+            <span class="en" lang="en">Chinese book</span>
+            <span class="zh">语文书</span>
+            <span class="bits">Chinese 语文，book 书</span>
+            <span class="unit">U2</span>
+          </li>
+            </ol>
+          </div>
+        </article>
+        <article class="family" id="blackboard-football" data-kind="compound" data-pattern="" data-sound="">
+          <header class="family-head">
+            <a class="back" href="#families">回到词族</a>
+            <h2 tabindex="-1">拼在一起的词</h2>
+            <p class="hook">两个小词手拉手，变成一个新词。</p>
+            <p class="growth" data-growth>
+              <span class="grown-mark">长成了</span>
+              <span class="growth-text">进度记在这台设备上。</span>
+            </p>
+            <a class="press enter" href="#blackboard-football">拼这一族</a>
+          </header>
+          <div class="tabs" role="tablist" aria-label="玩法">
+          <button type="button" class="press" role="tab" data-tab="build" aria-selected="false">拼一拼</button>
+          <button type="button" class="press" role="tab" data-tab="review" aria-selected="false">翻一翻</button>
+          <button type="button" class="press" role="tab" data-tab="quiz" aria-selected="false">小测验</button>
+          </div>
+          <div class="board" data-board></div>
+          <div class="study">
+            <h3>这一族的词</h3>
+            <ol>
+          <li data-en="blackboard" data-zh="黑板" data-parts="black|board" data-partzh="黑色的|板" data-unit="U1" data-note="">
+            <span class="en" lang="en">blackboard</span>
+            <span class="zh">黑板</span>
+            <span class="bits">black 黑色的，board 板</span>
+            <span class="unit">U1</span>
+          </li>
+          <li data-en="football" data-zh="足球" data-parts="foot|ball" data-partzh="脚|球" data-unit="U6" data-note="课本里的说法：football player。">
+            <span class="en" lang="en">football</span>
+            <span class="zh">足球</span>
+            <span class="bits">foot 脚，ball 球</span>
+            <span class="unit">U6</span>
+            <span class="note">课本里的说法：football player。</span>
+          </li>
+            </ol>
+          </div>
+        </article>
+        <article class="family" id="er-jobs" data-kind="suffix" data-pattern="" data-sound="">
+          <header class="family-head">
+            <a class="back" href="#families">回到词族</a>
+            <h2 tabindex="-1">-er 职业族</h2>
+            <p class="hook">词尾加上 er，常常变成「做这件事的人」。</p>
+          <p class="gloss">-er，做这件事的人。</p>
+            <p class="growth" data-growth>
+              <span class="grown-mark">长成了</span>
+              <span class="growth-text">进度记在这台设备上。</span>
+            </p>
+            <a class="press enter" href="#er-jobs">拼这一族</a>
+          </header>
+          <div class="tabs" role="tablist" aria-label="玩法">
+          <button type="button" class="press" role="tab" data-tab="build" aria-selected="false">拼一拼</button>
+          <button type="button" class="press" role="tab" data-tab="review" aria-selected="false">翻一翻</button>
+          <button type="button" class="press" role="tab" data-tab="quiz" aria-selected="false">小测验</button>
+          </div>
+          <div class="board" data-board></div>
+          <div class="study">
+            <h3>这一族的词</h3>
+            <ol>
+          <li data-en="teacher" data-zh="教师" data-parts="teach|er" data-partzh="教|的人" data-unit="U6" data-note="teach 教；teacher 教书的人。U1 还有 teacher’s desk 讲台。">
+            <span class="en" lang="en">teacher</span>
+            <span class="zh">教师</span>
+            <span class="bits">teach 教，er 的人</span>
+            <span class="unit">U6</span>
+            <span class="note">teach 教；teacher 教书的人。U1 还有 teacher’s desk 讲台。</span>
+          </li>
+          <li data-en="driver" data-zh="司机" data-parts="drive|er" data-partzh="开车|的人" data-unit="U6" data-note="">
+            <span class="en" lang="en">driver</span>
+            <span class="zh">司机</span>
+            <span class="bits">drive 开车，er 的人</span>
+            <span class="unit">U6</span>
+          </li>
+          <li data-en="farmer" data-zh="农民" data-parts="farm|er" data-partzh="农场|的人" data-unit="U6" data-note="">
+            <span class="en" lang="en">farmer</span>
+            <span class="zh">农民</span>
+            <span class="bits">farm 农场，er 的人</span>
+            <span class="unit">U6</span>
+          </li>
+          <li data-en="player" data-zh="运动员" data-parts="play|er" data-partzh="玩、打球|的人" data-unit="U6" data-note="课本里是 football player 足球运动员">
+            <span class="en" lang="en">player</span>
+            <span class="zh">运动员</span>
+            <span class="bits">play 玩、打球，er 的人</span>
+            <span class="unit">U6</span>
+            <span class="note">课本里是 football player 足球运动员</span>
+          </li>
+            </ol>
+          </div>
+        </article>
+        <article class="family" id="friendly" data-kind="suffix" data-pattern="" data-sound="">
+          <header class="family-head">
+            <a class="back" href="#families">回到词族</a>
+            <h2 tabindex="-1">friend → friendly</h2>
+            <p class="hook">friend 是朋友，加上 -ly 变成「友好的」。</p>
+          <p class="gloss">-ly，……的（形容词）。</p>
+            <p class="growth" data-growth>
+              <span class="grown-mark">长成了</span>
+              <span class="growth-text">进度记在这台设备上。</span>
+            </p>
+            <a class="press enter" href="#friendly">拼这一族</a>
+          </header>
+          <div class="tabs" role="tablist" aria-label="玩法">
+          <button type="button" class="press" role="tab" data-tab="build" aria-selected="false">拼一拼</button>
+          <button type="button" class="press" role="tab" data-tab="review" aria-selected="false">翻一翻</button>
+          <button type="button" class="press" role="tab" data-tab="quiz" aria-selected="false">小测验</button>
+          </div>
+          <div class="board" data-board></div>
+          <div class="study">
+            <h3>这一族的词</h3>
+            <ol>
+          <li data-en="friend" data-zh="朋友" data-parts="friend" data-partzh="朋友" data-unit="U3" data-note="">
+            <span class="en" lang="en">friend</span>
+            <span class="zh">朋友</span>
+            <span class="bits">friend 朋友</span>
+            <span class="unit">U3</span>
+          </li>
+          <li data-en="friendly" data-zh="友好的" data-parts="friend|ly" data-partzh="朋友|……的" data-unit="U3" data-note="">
+            <span class="en" lang="en">friendly</span>
+            <span class="zh">友好的</span>
+            <span class="bits">friend 朋友，ly ……的</span>
+            <span class="unit">U3</span>
+          </li>
+            </ol>
+          </div>
+        </article>
+        <article class="family" id="ae-family" data-kind="phonics" data-pattern="a-e" data-sound="/eɪ/">
+          <header class="family-head">
+            <a class="back" href="#families">回到词族</a>
+            <h2 tabindex="-1">a-e 发音族 /eɪ/</h2>
+            <p class="hook">中间是 a，词尾是哑巴 e，字母 a 常常读它的名字。</p>
+          <p class="gloss">a-e，读作 /eɪ/。</p>
+            <p class="growth" data-growth>
+              <span class="grown-mark">长成了</span>
+              <span class="growth-text">进度记在这台设备上。</span>
+            </p>
+            <a class="press enter" href="#ae-family">看发音</a>
+          </header>
+          <div class="tabs" role="tablist" aria-label="玩法">
+          <button type="button" class="press" role="tab" data-tab="read" aria-selected="false">看发音</button>
+          <button type="button" class="press" role="tab" data-tab="quiz" aria-selected="false">小测验</button>
+          </div>
+          <div class="board" data-board></div>
+          <div class="study">
+            <h3>这一族的词</h3>
+            <ol>
+          <li data-en="cake" data-zh="蛋糕" data-parts="" data-partzh="" data-unit="U1 Let’s spell" data-note="">
+            <span class="en" lang="en">c<mark class="pat">a</mark>k<mark class="pat">e</mark></span>
+            <span class="zh">蛋糕</span>
+            <span class="unit">U1 Let’s spell</span>
+          </li>
+          <li data-en="name" data-zh="名字" data-parts="" data-partzh="" data-unit="U1 Let’s spell" data-note="">
+            <span class="en" lang="en">n<mark class="pat">a</mark>m<mark class="pat">e</mark></span>
+            <span class="zh">名字</span>
+            <span class="unit">U1 Let’s spell</span>
+          </li>
+          <li data-en="make" data-zh="制作" data-parts="" data-partzh="" data-unit="U1 Let’s spell" data-note="">
+            <span class="en" lang="en">m<mark class="pat">a</mark>k<mark class="pat">e</mark></span>
+            <span class="zh">制作</span>
+            <span class="unit">U1 Let’s spell</span>
+          </li>
+          <li data-en="face" data-zh="脸" data-parts="" data-partzh="" data-unit="U1 Let’s spell" data-note="">
+            <span class="en" lang="en">f<mark class="pat">a</mark>c<mark class="pat">e</mark></span>
+            <span class="zh">脸</span>
+            <span class="unit">U1 Let’s spell</span>
+          </li>
+            </ol>
+          </div>
+        </article>
+        <article class="family" id="ie-family" data-kind="phonics" data-pattern="i-e" data-sound="/aɪ/">
+          <header class="family-head">
+            <a class="back" href="#families">回到词族</a>
+            <h2 tabindex="-1">i-e 发音族 /aɪ/</h2>
+            <p class="hook">中间是 i，词尾是哑巴 e，字母 i 常常读它的名字。</p>
+          <p class="gloss">i-e，读作 /aɪ/。</p>
+            <p class="growth" data-growth>
+              <span class="grown-mark">长成了</span>
+              <span class="growth-text">进度记在这台设备上。</span>
+            </p>
+            <a class="press enter" href="#ie-family">看发音</a>
+          </header>
+          <div class="tabs" role="tablist" aria-label="玩法">
+          <button type="button" class="press" role="tab" data-tab="read" aria-selected="false">看发音</button>
+          <button type="button" class="press" role="tab" data-tab="quiz" aria-selected="false">小测验</button>
+          </div>
+          <div class="board" data-board></div>
+          <div class="study">
+            <h3>这一族的词</h3>
+            <ol>
+          <li data-en="like" data-zh="喜欢" data-parts="" data-partzh="" data-unit="U2 Let’s spell" data-note="">
+            <span class="en" lang="en">l<mark class="pat">i</mark>k<mark class="pat">e</mark></span>
+            <span class="zh">喜欢</span>
+            <span class="unit">U2 Let’s spell</span>
+          </li>
+          <li data-en="kite" data-zh="风筝" data-parts="" data-partzh="" data-unit="U2 Let’s spell" data-note="">
+            <span class="en" lang="en">k<mark class="pat">i</mark>t<mark class="pat">e</mark></span>
+            <span class="zh">风筝</span>
+            <span class="unit">U2 Let’s spell</span>
+          </li>
+          <li data-en="five" data-zh="五" data-parts="" data-partzh="" data-unit="U2 Let’s spell" data-note="">
+            <span class="en" lang="en">f<mark class="pat">i</mark>v<mark class="pat">e</mark></span>
+            <span class="zh">五</span>
+            <span class="unit">U2 Let’s spell</span>
+          </li>
+          <li data-en="nine" data-zh="九" data-parts="" data-partzh="" data-unit="U2 Let’s spell" data-note="">
+            <span class="en" lang="en">n<mark class="pat">i</mark>n<mark class="pat">e</mark></span>
+            <span class="zh">九</span>
+            <span class="unit">U2 Let’s spell</span>
+          </li>
+            </ol>
+          </div>
+        </article>
+        <article class="family" id="oe-family" data-kind="phonics" data-pattern="o-e" data-sound="/əʊ/">
+          <header class="family-head">
+            <a class="back" href="#families">回到词族</a>
+            <h2 tabindex="-1">o-e 发音族 /əʊ/</h2>
+            <p class="hook">中间是 o，词尾是哑巴 e，字母 o 常常读它的名字。</p>
+          <p class="gloss">o-e，读作 /əʊ/。</p>
+            <p class="growth" data-growth>
+              <span class="grown-mark">长成了</span>
+              <span class="growth-text">进度记在这台设备上。</span>
+            </p>
+            <a class="press enter" href="#oe-family">看发音</a>
+          </header>
+          <div class="tabs" role="tablist" aria-label="玩法">
+          <button type="button" class="press" role="tab" data-tab="read" aria-selected="false">看发音</button>
+          <button type="button" class="press" role="tab" data-tab="quiz" aria-selected="false">小测验</button>
+          </div>
+          <div class="board" data-board></div>
+          <div class="study">
+            <h3>这一族的词</h3>
+            <ol>
+          <li data-en="nose" data-zh="鼻子" data-parts="" data-partzh="" data-unit="U3 Let’s spell" data-note="">
+            <span class="en" lang="en">n<mark class="pat">o</mark>s<mark class="pat">e</mark></span>
+            <span class="zh">鼻子</span>
+            <span class="unit">U3 Let’s spell</span>
+          </li>
+          <li data-en="note" data-zh="便条、笔记" data-parts="" data-partzh="" data-unit="U3 Let’s spell" data-note="">
+            <span class="en" lang="en">n<mark class="pat">o</mark>t<mark class="pat">e</mark></span>
+            <span class="zh">便条、笔记</span>
+            <span class="unit">U3 Let’s spell</span>
+          </li>
+          <li data-en="home" data-zh="家" data-parts="" data-partzh="" data-unit="U3 Let’s spell / U4" data-note="">
+            <span class="en" lang="en">h<mark class="pat">o</mark>m<mark class="pat">e</mark></span>
+            <span class="zh">家</span>
+            <span class="unit">U3 Let’s spell / U4</span>
+          </li>
+            </ol>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>词汇按人教版 PEP 四年级上册（2013 起经典版）整理；若课本是 2024 改版，单元名可能不同。</p>
+      <p>星星只记在这台设备的浏览器里。</p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
