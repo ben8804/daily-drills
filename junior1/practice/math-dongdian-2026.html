@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>七年级上册数学 · 动点应用题练习卷</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#555; --line:#ccc; }
+  * { box-sizing: border-box; }
+  body { font-family: "PingFang SC","Microsoft YaHei",sans-serif; color:var(--ink); max-width:820px; margin:0 auto; padding:24px 20px 48px; line-height:1.65; font-size:15px; }
+  h1 { font-size:1.35rem; text-align:center; margin:0 0 6px; }
+  .meta { text-align:center; color:var(--muted); font-size:0.92rem; margin-bottom:18px; }
+  .info { display:flex; flex-wrap:wrap; gap:12px 28px; justify-content:center; margin-bottom:20px; font-size:0.95rem; }
+  .info span { border-bottom:1px solid var(--ink); min-width:120px; display:inline-block; }
+  h2 { font-size:1.05rem; margin:22px 0 10px; border-left:4px solid #2563eb; padding-left:10px; }
+  .q { margin:16px 0 22px; }
+  .q .stem { margin-bottom:6px; }
+  .toolbar { display:flex; justify-content:center; gap:10px; margin:0 0 16px; }
+  .btn { appearance:none; border:none; border-radius:10px; padding:10px 20px; font-size:1rem; font-weight:600; cursor:pointer; background:#1f4e79; color:#fff; min-height:44px; }
+  .write { min-height:24mm; border:1.5px dashed var(--line); border-radius:6px; margin:8px 0 4px; padding:6px 8px; background:repeating-linear-gradient(transparent,transparent 27px,#e8ecf1 27px,#e8ecf1 28px); }
+  .write.tall { min-height:36mm; }
+  .tip { font-size:0.85rem; color:var(--muted); margin:4px 0 8px; }
+  .remind { background:#f4f7fb; border-radius:8px; padding:10px 14px; margin:0 0 18px; font-size:0.92rem; }
+  .remind p { margin:4px 0; }
+  .fig { text-align:center; margin:8px 0 10px; }
+  .fig svg { max-width:100%; height:auto; }
+  .footer-note { margin-top:28px; font-size:0.85rem; color:var(--muted); text-align:center; }
+  .answers { margin-top:36px; padding-top:20px; border-top:2px solid var(--ink); }
+  .answers h2 { border-left-color:#16a34a; }
+
+  @page { size: A4; margin: 12mm 14mm; }
+  @media print {
+    html { font-size: 11pt; }
+    body { background:#fff !important; color:#000; padding:0; margin:0; font-size:11pt; line-height:1.45; max-width:none; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    .toolbar, .no-print, .parent-answers, .answer-key { display:none !important; }
+    .note, .words, .remind, .passage, .write, .write-box, .write-line { background:none !important; background-image:none !important; }
+    .remind { border:none; }
+    .write, .write-box { border-color:#666; }
+    .write { min-height:24mm; background-image:repeating-linear-gradient(transparent,transparent 27px,#ccc 27px,#ccc 28px) !important; }
+    .write.tall { min-height:36mm; }
+    h1, h2, h3 { color:#000; break-after:avoid; }
+    .q, .fig, .passage { break-inside:avoid; }
+    .fig svg { break-inside:avoid; }
+    a { text-decoration:none; color:inherit; }
+  }
+
+</style>
+</head>
+<body>
+<div class="toolbar no-print"><button class="btn" type="button" onclick="window.print()">打印</button></div>
+<h1>七年级上册数学 · 动点应用题练习卷</h1>
+<p class="meta">范围：线段 / 长方形 / 三角形上的动点 + 行程（相遇、追及）　｜　用代数式表示，再求值或列方程　｜　广州越秀初一口径</p>
+<div class="info">
+  <div>班级：<span>&nbsp;</span></div>
+  <div>姓名：<span>&nbsp;</span></div>
+  <div>学号：<span>&nbsp;</span></div>
+  <div>得分：<span>&nbsp;</span></div>
+</div>
+<p class="tip">满分 50 分　｜　建议用时 30 分钟　｜　先标明「谁在动、沿哪条路、速度」，再列式；解答要写步骤。</p>
+
+<div class="remind">
+<p><strong>通法</strong>　①看清起点、路径、速度和运动时间；②用字母表示已运动的时间或已走的长度；③写出路程、剩余长度或面积的代数式；④代入求值，或根据「相等」「到达」列方程求解。</p>
+<p><strong>易错</strong>　路程 = 速度 × 时间；剩余长度要减对；面积用「底 × 高 ÷ 2」时，确认高是否不变；追及时间 = 距离差 ÷ 速度差；相向相遇时间 = 总路程 ÷ 速度和。</p>
+</div>
+
+<h2>一、线段上的动点（10 分）</h2>
+
+<div class="q">
+<div class="stem">1. 如图，线段 <em>AB</em> 长 12 cm，点 <em>P</em> 从 <em>A</em> 出发，沿 <em>AB</em> 向 <em>B</em> 以 2 cm/s 的速度匀速运动。</div>
+<div class="fig">
+<svg viewBox="0 0 420 80" width="420" height="80" xmlns="http://www.w3.org/2000/svg" aria-label="线段AB，点P在AB上">
+  <line x1="40" y1="40" x2="380" y2="40" stroke="#111" stroke-width="2"/>
+  <circle cx="40" cy="40" r="3.5" fill="#111"/>
+  <circle cx="150" cy="40" r="3.5" fill="#111"/>
+  <circle cx="380" cy="40" r="3.5" fill="#111"/>
+  <text x="40" y="64" text-anchor="middle" font-size="16">A</text>
+  <text x="150" y="64" text-anchor="middle" font-size="16">P</text>
+  <text x="380" y="64" text-anchor="middle" font-size="16">B</text>
+  <path d="M150 28 L170 28 L165 24 M170 28 L165 32" fill="none" stroke="#2563eb" stroke-width="1.6"/>
+</svg>
+</div>
+<div class="stem">（1）运动 <em>t</em> 秒后（0≤<em>t</em>≤6），用含 <em>t</em> 的式子表示 <em>AP</em> 和 <em>PB</em> 的长；（4 分）</div>
+<div class="write"></div>
+<div class="stem">（2）当 <em>t</em>=4 时，求 <em>AP</em>、<em>PB</em> 的长；（4 分）</div>
+<div class="write"></div>
+<div class="stem">（3）几秒后点 <em>P</em> 正好到达 <em>B</em>？（2 分）</div>
+<div class="write"></div>
+</div>
+
+<h2>二、长方形边上的动点（14 分）</h2>
+
+<div class="q">
+<div class="stem">2. 如图，长方形 <em>ABCD</em> 中，<em>AB</em>=10 cm，<em>AD</em>=6 cm。点 <em>P</em> 从 <em>A</em> 出发，沿边 <em>AB</em> 向 <em>B</em> 运动，设 <em>AP</em>=<em>x</em> cm（0＜<em>x</em>＜10），连接 <em>DP</em>。</div>
+<div class="fig">
+<svg viewBox="0 0 360 230" width="320" height="200" xmlns="http://www.w3.org/2000/svg" aria-label="长方形ABCD，点P在AB上，连接DP">
+  <rect x="50" y="40" width="250" height="140" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="50" y1="180" x2="150" y2="40" stroke="#111" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <circle cx="50" cy="40" r="3" fill="#111"/>
+  <circle cx="300" cy="40" r="3" fill="#111"/>
+  <circle cx="300" cy="180" r="3" fill="#111"/>
+  <circle cx="50" cy="180" r="3" fill="#111"/>
+  <circle cx="150" cy="40" r="3.5" fill="#111"/>
+  <text x="40" y="34" font-size="16">A</text>
+  <text x="308" y="34" font-size="16">B</text>
+  <text x="308" y="200" font-size="16">C</text>
+  <text x="36" y="200" font-size="16">D</text>
+  <text x="150" y="28" text-anchor="middle" font-size="16">P</text>
+  <text x="175" y="32" font-size="12" fill="#555">10 cm</text>
+  <text x="18" y="116" font-size="12" fill="#555">6 cm</text>
+</svg>
+</div>
+<div class="stem">（1）用含 <em>x</em> 的式子表示 △<em>ADP</em> 和 △<em>BDP</em> 的面积；（6 分）</div>
+<div class="write tall"></div>
+<div class="stem">（2）当 <em>x</em>=4 时，求这两个三角形的面积；（4 分）</div>
+<div class="write"></div>
+<div class="stem">（3）当 △<em>ADP</em> 与 △<em>BDP</em> 的面积相等时，求 <em>x</em> 的值。（4 分）</div>
+<div class="write"></div>
+</div>
+
+<h2>三、三角形边上的动点（12 分）</h2>
+
+<div class="q">
+<div class="stem">3. 如图，△<em>ABC</em> 中，<em>BC</em>=8 cm，<em>BC</em> 边上的高 <em>AD</em>=6 cm。点 <em>P</em> 从 <em>B</em> 出发，沿 <em>BC</em> 向 <em>C</em> 以 1 cm/s 的速度匀速运动。设运动时间为 <em>t</em> 秒（0＜<em>t</em>＜8），连接 <em>AP</em>。</div>
+<div class="fig">
+<svg viewBox="0 0 360 230" width="320" height="200" xmlns="http://www.w3.org/2000/svg" aria-label="三角形ABC，高AD，点P在BC上">
+  <polygon points="180,36 40,190 320,190" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="180" y1="36" x2="180" y2="190" stroke="#888" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="180" y1="36" x2="130" y2="190" stroke="#111" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M180 178 L168 178 L168 190" fill="none" stroke="#888" stroke-width="1.2"/>
+  <circle cx="180" cy="36" r="3" fill="#111"/>
+  <circle cx="40" cy="190" r="3" fill="#111"/>
+  <circle cx="320" cy="190" r="3" fill="#111"/>
+  <circle cx="180" cy="190" r="3" fill="#111"/>
+  <circle cx="130" cy="190" r="3.5" fill="#111"/>
+  <text x="188" y="32" font-size="16">A</text>
+  <text x="24" y="206" font-size="16">B</text>
+  <text x="326" y="206" font-size="16">C</text>
+  <text x="186" y="208" font-size="15">D</text>
+  <text x="122" y="208" font-size="16">P</text>
+  <text x="188" y="120" font-size="12" fill="#555">6 cm</text>
+  <text x="170" y="222" font-size="12" fill="#555">8 cm</text>
+</svg>
+</div>
+<div class="stem">（1）用含 <em>t</em> 的式子表示 △<em>ABP</em> 的面积；（4 分）</div>
+<div class="write"></div>
+<div class="stem">（2）当 <em>t</em>=3 时，求 △<em>ABP</em> 的面积；（3 分）</div>
+<div class="write"></div>
+<div class="stem">（3）当 △<em>ABP</em> 的面积等于 △<em>ABC</em> 面积的一半时，求 <em>t</em> 的值。（5 分）</div>
+<div class="write tall"></div>
+</div>
+
+<h2>四、行程中的两个动点（14 分）</h2>
+
+<div class="q">
+<div class="stem">4.（1）<strong>相遇：</strong>甲、乙两地相距 180 m。小明从甲地、小华从乙地同时出发，相向而行。小明速度为 50 m/min，小华速度为 40 m/min。设出发 <em>t</em> 分钟后两人还未相遇（0＜<em>t</em>＜相遇时间）。（7 分）</div>
+<div class="stem">① 用含 <em>t</em> 的式子表示两人还相距多少米；</div>
+<div class="write"></div>
+<div class="stem">② 几分钟后两人相遇？</div>
+<div class="write"></div>
+<div class="stem">（2）<strong>追及：</strong>小华在前面，小明在后面，两人相距 100 m，同时同向而行。小明速度为 60 m/min，小华速度为 40 m/min。设出发 <em>t</em> 分钟后小明还未追上小华。（7 分）</div>
+<div class="stem">① 用含 <em>t</em> 的式子表示两人还相距多少米；</div>
+<div class="write"></div>
+<div class="stem">② 几分钟后小明追上小华？</div>
+<div class="write"></div>
+</div>
+
+<p class="footer-note">命题说明：对准初一「用代数式表示，再求值 / 列一元一次方程」。动点只在一条边上运动，不含沿周界分段分类。打印时「家长对答案」请隐藏。</p>
+
+<section class="answers parent-answers no-print">
+<h2>家长对答案（先让孩子做完）</h2>
+<p><strong>1.</strong>（1）<em>AP</em>=2<em>t</em> cm，<em>PB</em>=(12−2<em>t</em>) cm　（2）<em>AP</em>=8 cm，<em>PB</em>=4 cm　（3）12÷2=6 秒</p>
+<p><strong>2.</strong>（1）<em>S</em><sub>△ADP</sub>=½×<em>x</em>×6=3<em>x</em> cm<sup>2</sup>；<em>S</em><sub>△BDP</sub>=½×(10−<em>x</em>)×6=3(10−<em>x</em>) cm<sup>2</sup>（或 30−3<em>x</em>）<br>
+（2）当 <em>x</em>=4 时，△<em>ADP</em> 面积 12 cm<sup>2</sup>，△<em>BDP</em> 面积 18 cm<sup>2</sup><br>
+（3）3<em>x</em>=3(10−<em>x</em>)，得 <em>x</em>=5</p>
+<p><strong>3.</strong>（1）<em>BP</em>=<em>t</em> cm，高仍为 6 cm，<em>S</em><sub>△ABP</sub>=½×<em>t</em>×6=3<em>t</em> cm<sup>2</sup><br>
+（2）<em>t</em>=3 时，面积为 9 cm<sup>2</sup><br>
+（3）先求 <em>S</em><sub>△ABC</sub>=½×8×6=24 cm<sup>2</sup>，一半是 12 cm<sup>2</sup>。由 3<em>t</em>=12，得 <em>t</em>=4</p>
+<p><strong>4.</strong>（1）① 180−(50+40)<em>t</em>=180−90<em>t</em>　② 180÷(50+40)=2 分钟<br>
+（2）① 100−(60−40)<em>t</em>=100−20<em>t</em>　② 100÷(60−40)=5 分钟</p>
+<p class="tip">踩分：式子带对单位或注明单位；面积公式写对底和高；相遇用速度和，追及用速度差；第 3 题第（3）问要先算出大三角形面积再取一半。</p>
+</section>
+</body>
+</html>
